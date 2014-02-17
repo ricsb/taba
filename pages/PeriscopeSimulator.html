@@ -1,0 +1,386 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>PeriscopeSimulator - Ricardo</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  </head>
+  <body style="background-color: #aaccff;margin: 0px;overflow: hidden;">
+    
+    <script src="js/three/three.js"></script>
+    <script src="js/Camadas.js"></script> 
+    <script src="js/Auxiliares.js"></script>
+    <script src="js/Alvos.js"></script>
+    <script src="js/Principais.js"></script>
+    <script src="js/Eventos.js"></script>
+    <script src="js/loaders/MTLLoader.js"></script>
+    <script src="js/loaders/OBJMTLLoader.js"></script>
+    <script type="text/javascript" src="js/SpriteParticleSystem.js"></script>
+    <script src="js/mixer.js"></script>
+    <script id="vertShaderEnvMap" type="x-shader/x-vertex">
+      attribute vec4 tangent;
+      uniform vec2 uRepeat;
+      uniform vec2 uOffset;
+      varying vec3 vWorldPosition;
+      varying vec3 vViewPosition;
+      varying vec3 vNormal;
+      varying vec2 vUv;
+
+      // Tangent space frame
+      varying vec3 vTangent;
+      varying vec3 vBitangent;
+
+      void main() {
+      vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+      vWorldPosition = (modelMatrix * vec4(position, 1.0)).xyz;
+      vViewPosition = -mvPosition.xyz;
+      // Allow for tiling of the uv coords
+      vUv = uv * uRepeat + uOffset;
+      vNormal = normalize( normalMatrix * normal );
+      vTangent = normalize( normalMatrix * tangent.xyz );
+      vBitangent = normalize( cross( vNormal, vTangent ) * tangent.w );
+      gl_Position = projectionMatrix * mvPosition;
+      }
+
+    </script>
+
+    <script id="fragShaderEnvMap" type="x-shader/x-fragment">
+      /**
+       * Third part script in this block
+       */
+      //
+      // Description : Array and textureless GLSL 2D/3D/4D simplex
+      //               noise functions.
+      //      Author : Ian McEwan, Ashima Arts.
+      //  Maintainer : ijm
+      //     Lastmod : 20110822 (ijm)
+      //     License : Copyright (C) 2011 Ashima Arts. All rights reserved.
+      //               Distributed under the MIT License. See LICENSE file.
+      //               https://github.com/ashima/webgl-noise
+      //
+
+      vec3 mod289(vec3 x) {
+      return x - floor(x * (1.0 / 289.0)) * 289.0;
+      }
+
+      vec4 mod289(vec4 x) {
+      return x - floor(x * (1.0 / 289.0)) * 289.0;
+      }
+
+      vec4 permute(vec4 x) {
+      return mod289(((x*34.0)+1.0)*x);
+      }
+
+      vec4 taylorInvSqrt(vec4 r)
+      {
+      return 1.79284291400159 - 0.85373472095314 * r;
+      }
+
+      float snoise(vec3 v)
+      {
+      const vec2  C = vec2(1.0/6.0, 1.0/3.0) ;
+      const vec4  D = vec4(0.0, 0.5, 1.0, 2.0);
+
+      // First corner
+      vec3 i  = floor(v + dot(v, C.yyy) );
+      vec3 x0 =   v - i + dot(i, C.xxx) ;
+
+      // Other corners
+      vec3 g = step(x0.yzx, x0.xyz);
+      vec3 l = 1.0 - g;
+      vec3 i1 = min( g.xyz, l.zxy );
+      vec3 i2 = max( g.xyz, l.zxy );
+
+      //   x0 = x0 - 0.0 + 0.0 * C.xxx;
+      //   x1 = x0 - i1  + 1.0 * C.xxx;
+      //   x2 = x0 - i2  + 2.0 * C.xxx;
+      //   x3 = x0 - 1.0 + 3.0 * C.xxx;
+      vec3 x1 = x0 - i1 + C.xxx;
+      vec3 x2 = x0 - i2 + C.yyy; // 2.0*C.x = 1/3 = C.y
+      vec3 x3 = x0 - D.yyy;      // -1.0+3.0*C.x = -0.5 = -D.y
+
+      // Permutations
+      i = mod289(i);
+      vec4 p = permute( permute( permute(
+      i.z + vec4(0.0, i1.z, i2.z, 1.0 ))
+      + i.y + vec4(0.0, i1.y, i2.y, 1.0 ))
+      + i.x + vec4(0.0, i1.x, i2.x, 1.0 ));
+
+      // Gradients: 7x7 points over a square, mapped onto an octahedron.
+      // The ring size 17*17 = 289 is close to a multiple of 49 (49*6 = 294)
+      float n_ = 0.142857142857; // 1.0/7.0
+      vec3  ns = n_ * D.wyz - D.xzx;
+
+      vec4 j = p - 49.0 * floor(p * ns.z * ns.z);  //  mod(p,7*7)
+
+      vec4 x_ = floor(j * ns.z);
+      vec4 y_ = floor(j - 7.0 * x_ );    // mod(j,N)
+
+      vec4 x = x_ *ns.x + ns.yyyy;
+      vec4 y = y_ *ns.x + ns.yyyy;
+      vec4 h = 1.0 - abs(x) - abs(y);
+
+      vec4 b0 = vec4( x.xy, y.xy );
+      vec4 b1 = vec4( x.zw, y.zw );
+
+      //vec4 s0 = vec4(lessThan(b0,0.0))*2.0 - 1.0;
+      //vec4 s1 = vec4(lessThan(b1,0.0))*2.0 - 1.0;
+      vec4 s0 = floor(b0)*2.0 + 1.0;
+      vec4 s1 = floor(b1)*2.0 + 1.0;
+      vec4 sh = -step(h, vec4(0.0));
+
+      vec4 a0 = b0.xzyw + s0.xzyw*sh.xxyy ;
+      vec4 a1 = b1.xzyw + s1.xzyw*sh.zzww ;
+
+      vec3 p0 = vec3(a0.xy,h.x);
+      vec3 p1 = vec3(a0.zw,h.y);
+      vec3 p2 = vec3(a1.xy,h.z);
+      vec3 p3 = vec3(a1.zw,h.w);
+
+      //Normalise gradients
+      vec4 norm = taylorInvSqrt(vec4(dot(p0,p0), dot(p1,p1), dot(p2, p2), dot(p3,p3)));
+      p0 *= norm.x;
+      p1 *= norm.y;
+      p2 *= norm.z;
+      p3 *= norm.w;
+
+      // Mix final noise value
+      vec4 m = max(0.6 - vec4(dot(x0,x0), dot(x1,x1), dot(x2,x2), dot(x3,x3)), 0.0);
+      m = m * m;
+      return 42.0 * dot( m*m, vec4( dot(p0,x0), dot(p1,x1),
+      dot(p2,x2), dot(p3,x3) ) );
+      }
+
+      uniform samplerCube tCube;
+      uniform sampler2D tNormal;
+      uniform float time;
+      uniform vec2 uOffset;
+
+      uniform vec3 ambientLightColor;
+      uniform vec3 directionalLightColor[ MAX_DIR_LIGHTS ];
+      uniform vec3 directionalLightDirection[ MAX_DIR_LIGHTS ];
+
+      uniform float fogNear;
+      uniform float fogFar;
+      uniform vec3 fogColor;
+
+      uniform bool useNoisePerturbations;
+
+      varying vec3 vTangent;
+      varying vec3 vBitangent;
+
+      varying vec3 vWorldPosition;
+      varying vec3 vViewPosition;
+      varying vec3 vNormal;
+      varying vec2 vUv;
+
+      void main() {
+
+      // Get the tangent space color/normal from [0, 1] to [-1, 1]
+      vec3 normColor = texture2D(tNormal, vUv).xyz * 2.0 - 1.0;
+
+      // Build the tangent frame
+      mat3 tsb = mat3(normalize(vTangent), normalize(vBitangent), normalize(vNormal));
+
+      // Transform from tangent space to view space
+      vec3 finalNormal = tsb * normColor;
+
+      if (useNoisePerturbations) {
+
+      // Here we use 3d noise with z value effectively being used as speed
+      float lowFrequency = snoise(vec3(vUv.x * 10.0, vUv.y * 100.0, time * 0.25));
+      float highFrequency = snoise(vec3(vUv.x * 5000.0, vUv.y * 5000.0, time));
+
+      // Remap to [-1, 1] and then scale it down (hardcoded intensities)
+      lowFrequency = (lowFrequency * 2.0 - 1.0) * 0.2;
+      highFrequency = (highFrequency * 2.0 - 1.0) * 0.05;
+
+      // Perturb the normal (on the horizontal plane) to introduce more variation
+      finalNormal.x += lowFrequency + highFrequency;
+      finalNormal.z += lowFrequency + highFrequency;
+      }
+
+      finalNormal = normalize(finalNormal);
+
+      // Get the world space reflection vector to lookup into the cubemap
+      vec3 envReflection = normalize(vWorldPosition - cameraPosition);
+      envReflection = reflect(envReflection, normColor.xzy);
+
+      // We're drawing a flat plane the mimicks waves so we prevent reflections that
+      // would reflect downward by making them go upward instead
+      envReflection.y = abs(envReflection.y);
+
+      vec4 reflectionColor = textureCube( tCube, envReflection);
+
+      vec4 lDirection = viewMatrix * vec4( directionalLightDirection[ 0 ], 0.0 );
+      vec3 dirVector = normalize( lDirection.xyz );
+
+      // Use half lambert to avoid unnatural darkening ([-1, 1] ==> [0, 1])
+      // (as opposed to just clamping anything less than 0)
+      float dirDiffuseWeight = (dot( finalNormal, dirVector ) * 0.5) + 0.5;
+
+      // hard coded mixing of the reflection color with a dark blue from the sky
+      vec3 finalColor = mix(reflectionColor.xyz, vec3(0.235, 0.337, 0.475), 0.975) * dirDiffuseWeight;
+
+      // Add fog (fog color should match the horizon on the skybox)
+      float depth = gl_FragCoord.z / gl_FragCoord.w;
+      float fogFactor = smoothstep(fogNear, fogFar, depth);
+
+      finalColor = mix(finalColor, fogColor, fogFactor);
+
+      gl_FragColor = vec4(finalColor, 1.0);
+      }
+
+    </script>
+
+<script type="text/javascript">
+
+/**
+ *@author ricardoSBastos
+ */
+ 
+  //Unbound and Empty
+  var camera, camera1, camera2, camera3;
+  var controles, scene, renderer, mainCanvas;
+  var perOverlay, chartOverlay;
+  var mesh, texture, geometry, skyMaterial, fragata, corveta;
+  var TargetObj, TargetParent;
+  var targetArray = new Array();
+  var testMaterial;
+  var uniforms;
+  var normalTexture;
+  var colisores = new Array();
+  var telaEstadimetro;
+  var canvasContainer;
+  var parlatorium;
+  var psys;
+  var lastMode;
+  var fazOMovimento;
+
+  // Bound
+  var simTime = 0;
+  var ivh = 0;
+  var io1 = 180;
+  var tgt1Time = 0;
+  var io2 = 180;
+  var tgt2Time = 0;
+  var lastRenderTime = 0;
+  var now = 0;
+  var clock = new THREE.Clock();
+  var tBearing = "000.0";
+  var rBearing = "325.0";
+  var distance = "00000.0";
+  var stad = "";
+  var sbHead = 35.0;
+  var periscope = new THREE.Object3D();
+  var periRotVeloc = 5;
+  var estadiVeloc = 0.001;
+  var deltaT = 1;
+  var beaufort = Math.floor(10* Math.random())/3;
+  var quat = new THREE.Quaternion();
+  var elevation = 0;
+  var fov = 40;
+  var corrida = 1;
+  var zoom = "1.5x";
+  var maxDist = 1000;
+  var tgtHeight = 0; // altura em p�s
+  var grauEstadimetro = 0;
+  var tempoIndiscreto = 0;
+  var loadedShips = 0;
+  var subPos = new THREE.Vector3(0,0,0);
+  var points = 50;
+  var centerMsg = "";
+  
+  // Booleans
+  var chartSmall = true;
+  var turnRight = false;
+  var turnLeft = false;
+  var turnUp = false;
+  var turnDown = false;
+  var tudoPronto = false;
+  var modoEstadimetro = false;
+  var mapa = true;
+  var fragPos = false;
+  var corvPos = false;
+  var paused = false;
+  var music = true;
+  var avisando = false;
+  var varredura = false;
+  var tgt1 = false;
+  var primatgt1 = true;
+  var tgt2 = false;
+  var primatgt2 = true;
+  var gameOver = false;
+
+  // Constants
+  var SCREEN_WIDTH = window.innerWidth;
+  var SCREEN_HEIGHT = window.innerHeight;
+  var X_UNIT = new THREE.Vector3(1, 0, 0);
+  var X_UNIT_NEG = new THREE.Vector3(-1, 0, 0);
+  var Y_UNIT = new THREE.Vector3(0, 1, 0);
+  var Y_UNIT_NEG = new THREE.Vector3(0, -1, 0);
+  var Z_UNIT = new THREE.Vector3(0, 0, 1);
+  var Z_UNIT_NEG = new THREE.Vector3(0, 0, -1);
+  var aps = {NAVIGATION:1,PERISCOPE:2,INFO:3, LOADING:5, GAME_OVER:6};
+  var mode = aps.LOADING;
+
+  // Images
+  var carta = new Image();
+  carta.src = "textures/carta.png";
+  var circle = new Image();
+  circle.src = "textures/circle1.png";
+  var subIco = new Image();
+  subIco.src = "textures/U-209icone.gif";
+  var hvuIco = new Image();
+  hvuIco.src = "textures/carrierIcone.gif";
+  var fragIco = new Image();
+  fragIco.src = "textures/carrierIcone.gif";
+  var loadImg = new Image();
+  loadImg.src = "textures/loadImg.png";
+  var infoImg = new Image();
+  infoImg.src = "textures/info.png";
+  var varHor = new Image();
+  varHor.src = "textures/vh.png";
+  var obs1 = new Image();
+  obs1.src = "textures/obs1.png";
+  var obs2 = new Image();
+  obs2.src = "textures/obs2.png";
+  var next = new Image();
+  next.src = "textures/next.png";
+  var previous = new Image();
+  previous.src = "textures/previous.png";
+  var tutor1 = new Image();
+  tutor1.src = "textures/tutor1.png";
+  var tutor2 = new Image();
+  tutor2.src = "textures/tutor2.png";
+  var tutor3 = new Image();
+  tutor3.src = "textures/tutor3.png";
+  var tutor = [tutor1,tutor2,tutor3];
+  var tutorIndex = 0;
+  var gameOver = new Image();
+  gameOver.src = "textures/gameOver.png";
+  
+  // Sounds
+  Mixer.init(10);
+  var snd = MediaLoader.loadSound("music","sounds/Five_Armies.wav");
+  var chan1 = Mixer.play(snd,0.0,true);
+  
+  // Strings
+  // Coming Soon: A version in two idioms!!
+  var port = ["Altura do Alvo (em P�s)", "Estad�metro",
+      "Exposi��o",
+  ];
+  var eng = ["Target Height (feet)", "Stadimeter",
+      "Exposition"
+  ];
+  parlatorium = eng;
+  initLightsCamerasAndScenes();
+  initMaterials();
+  initSkybox();
+  initWater();
+  
+  animate();
+
+</script>
+  </body>
+</html>
