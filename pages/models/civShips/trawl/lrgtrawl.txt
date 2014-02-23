@@ -1,0 +1,4333 @@
+
+Chunk M3DMAGIC (4d4dH) 
+Length is 30326 (7676H) 
+
+|  Chunk M3D_VERSION (2H) 
+|  Length is 10 (aH) 
+|  Version 3
+
+|  Chunk MDATA (3d3dH) 
+|  Length is 27530 (6b8aH) 
+
+|  |  Chunk MESH_VERSION (3d3eH) 
+|  |  Length is 10 (aH) 
+|  |  Version 3
+
+|  |  Chunk MAT_ENTRY (afffH) 
+|  |  Length is 176 (b0H) 
+
+|  |  |  Chunk MAT_NAME (a000H) 
+|  |  |  Length is 23 (17H) 
+|  |  |  Material name Material #14 (su
+
+|  |  |  Chunk MAT_AMBIENT (a010H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 16,G: 16,B: 16
+
+|  |  |  Chunk MAT_DIFFUSE (a020H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 49,G: 49,B: 49
+
+|  |  |  Chunk MAT_SPECULAR (a030H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 229,G: 229,B: 229
+
+|  |  |  Chunk MAT_SHININESS (a040H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 22%
+
+|  |  |  Chunk MAT_SHIN2PCT (a041H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 5%
+
+|  |  |  Chunk MAT_TRANSPARENCY (a050H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_XPFALL (a052H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_REFBLUR (a053H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_SHADING (a100H) 
+|  |  |  Length is 8 (8H) 
+|  |  |  Shading value of 4
+
+|  |  |  Chunk MAT_SELF_ILPCT (a084H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_WIRESIZE (a087H) 
+|  |  |  Length is 10 (aH) 
+|  |  |  Wire frame size of 1.000000
+
+|  |  Chunk MAT_ENTRY (afffH) 
+|  |  Length is 172 (acH) 
+
+|  |  |  Chunk MAT_NAME (a000H) 
+|  |  |  Length is 19 (13H) 
+|  |  |  Material name Material #21
+
+|  |  |  Chunk MAT_AMBIENT (a010H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 39,G: 39,B: 39
+
+|  |  |  Chunk MAT_DIFFUSE (a020H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 65,G: 48,B: 40
+
+|  |  |  Chunk MAT_SPECULAR (a030H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 229,G: 229,B: 229
+
+|  |  |  Chunk MAT_SHININESS (a040H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 22%
+
+|  |  |  Chunk MAT_SHIN2PCT (a041H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 5%
+
+|  |  |  Chunk MAT_TRANSPARENCY (a050H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_XPFALL (a052H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_REFBLUR (a053H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_SHADING (a100H) 
+|  |  |  Length is 8 (8H) 
+|  |  |  Shading value of 3
+
+|  |  |  Chunk MAT_SELF_ILPCT (a084H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_WIRESIZE (a087H) 
+|  |  |  Length is 10 (aH) 
+|  |  |  Wire frame size of 1.000000
+
+|  |  Chunk MAT_ENTRY (afffH) 
+|  |  Length is 174 (aeH) 
+
+|  |  |  Chunk MAT_NAME (a000H) 
+|  |  |  Length is 21 (15H) 
+|  |  |  Material name sqguns01 (sub)
+
+|  |  |  Chunk MAT_AMBIENT (a010H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 122,G: 122,B: 122
+
+|  |  |  Chunk MAT_DIFFUSE (a020H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 96,G: 99,B: 105
+
+|  |  |  Chunk MAT_SPECULAR (a030H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 233,G: 240,B: 255
+
+|  |  |  Chunk MAT_SHININESS (a040H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 83%
+
+|  |  |  Chunk MAT_SHIN2PCT (a041H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 5%
+
+|  |  |  Chunk MAT_TRANSPARENCY (a050H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_XPFALL (a052H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_REFBLUR (a053H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_SHADING (a100H) 
+|  |  |  Length is 8 (8H) 
+|  |  |  Shading value of 4
+
+|  |  |  Chunk MAT_SELF_ILPCT (a084H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_WIRESIZE (a087H) 
+|  |  |  Length is 10 (aH) 
+|  |  |  Wire frame size of 1.000000
+
+|  |  Chunk MAT_ENTRY (afffH) 
+|  |  Length is 176 (b0H) 
+
+|  |  |  Chunk MAT_NAME (a000H) 
+|  |  |  Length is 23 (17H) 
+|  |  |  Material name Material #15 (su
+
+|  |  |  Chunk MAT_AMBIENT (a010H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 16,G: 16,B: 16
+
+|  |  |  Chunk MAT_DIFFUSE (a020H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 118,G: 99,B: 70
+
+|  |  |  Chunk MAT_SPECULAR (a030H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 229,G: 229,B: 229
+
+|  |  |  Chunk MAT_SHININESS (a040H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 22%
+
+|  |  |  Chunk MAT_SHIN2PCT (a041H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 5%
+
+|  |  |  Chunk MAT_TRANSPARENCY (a050H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_XPFALL (a052H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_REFBLUR (a053H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_SHADING (a100H) 
+|  |  |  Length is 8 (8H) 
+|  |  |  Shading value of 4
+
+|  |  |  Chunk MAT_SELF_ILPCT (a084H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_WIRESIZE (a087H) 
+|  |  |  Length is 10 (aH) 
+|  |  |  Wire frame size of 1.000000
+
+|  |  Chunk MAT_ENTRY (afffH) 
+|  |  Length is 176 (b0H) 
+
+|  |  |  Chunk MAT_NAME (a000H) 
+|  |  |  Length is 23 (17H) 
+|  |  |  Material name Material #20 (su
+
+|  |  |  Chunk MAT_AMBIENT (a010H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 0,G: 0,B: 0
+
+|  |  |  Chunk MAT_DIFFUSE (a020H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 203,G: 211,B: 213
+
+|  |  |  Chunk MAT_SPECULAR (a030H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 229,G: 229,B: 229
+
+|  |  |  Chunk MAT_SHININESS (a040H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 22%
+
+|  |  |  Chunk MAT_SHIN2PCT (a041H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 5%
+
+|  |  |  Chunk MAT_TRANSPARENCY (a050H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_XPFALL (a052H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_REFBLUR (a053H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_SHADING (a100H) 
+|  |  |  Length is 8 (8H) 
+|  |  |  Shading value of 4
+
+|  |  |  Chunk MAT_SELF_ILPCT (a084H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_WIRESIZE (a087H) 
+|  |  |  Length is 10 (aH) 
+|  |  |  Wire frame size of 1.000000
+
+|  |  Chunk MAT_ENTRY (afffH) 
+|  |  Length is 222 (deH) 
+
+|  |  |  Chunk MAT_NAME (a000H) 
+|  |  |  Length is 19 (13H) 
+|  |  |  Material name Material #13
+
+|  |  |  Chunk MAT_AMBIENT (a010H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 255,G: 255,B: 255
+
+|  |  |  Chunk MAT_DIFFUSE (a020H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 255,G: 255,B: 255
+
+|  |  |  Chunk MAT_SPECULAR (a030H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 255,G: 255,B: 255
+
+|  |  |  Chunk MAT_SHININESS (a040H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 22%
+
+|  |  |  Chunk MAT_SHIN2PCT (a041H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 5%
+
+|  |  |  Chunk MAT_TRANSPARENCY (a050H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_XPFALL (a052H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_REFBLUR (a053H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_SHADING (a100H) 
+|  |  |  Length is 8 (8H) 
+|  |  |  Shading value of 4
+
+|  |  |  Chunk MAT_SELF_ILPCT (a084H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_WIRESIZE (a087H) 
+|  |  |  Length is 10 (aH) 
+|  |  |  Wire frame size of 1.000000
+
+|  |  |  Chunk MAT_TEXMAP (a200H) 
+|  |  |  Length is 50 (32H) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 100%
+
+|  |  |  |  Chunk MAT_MAPNAME (a300H) 
+|  |  |  |  Length is 18 (12H) 
+|  |  |  |  Map name LRGTRWH.BMP
+
+|  |  |  |  Chunk MAT_MAP_TILING (a351H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Map flags of NONE
+
+|  |  |  |  Chunk MAT_MAP_TEXBLUR (a353H) 
+|  |  |  |  Length is 10 (aH) 
+|  |  |  |  Map bluring of 0.100000
+
+|  |  Chunk MAT_ENTRY (afffH) 
+|  |  Length is 219 (dbH) 
+
+|  |  |  Chunk MAT_NAME (a000H) 
+|  |  |  Length is 15 (fH) 
+|  |  |  Material name sqsups01
+
+|  |  |  Chunk MAT_AMBIENT (a010H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 255,G: 255,B: 255
+
+|  |  |  Chunk MAT_DIFFUSE (a020H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 255,G: 255,B: 255
+
+|  |  |  Chunk MAT_SPECULAR (a030H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 255,G: 255,B: 255
+
+|  |  |  Chunk MAT_SHININESS (a040H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 83%
+
+|  |  |  Chunk MAT_SHIN2PCT (a041H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 5%
+
+|  |  |  Chunk MAT_TRANSPARENCY (a050H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_XPFALL (a052H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_REFBLUR (a053H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_SHADING (a100H) 
+|  |  |  Length is 8 (8H) 
+|  |  |  Shading value of 4
+
+|  |  |  Chunk MAT_SELF_ILPCT (a084H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_WIRESIZE (a087H) 
+|  |  |  Length is 10 (aH) 
+|  |  |  Wire frame size of 1.000000
+
+|  |  |  Chunk MAT_TEXMAP (a200H) 
+|  |  |  Length is 51 (33H) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 100%
+
+|  |  |  |  Chunk MAT_MAPNAME (a300H) 
+|  |  |  |  Length is 19 (13H) 
+|  |  |  |  Map name CTWATSOV.BMP
+
+|  |  |  |  Chunk MAT_MAP_TILING (a351H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Map flags of NONE
+
+|  |  |  |  Chunk MAT_MAP_TEXBLUR (a353H) 
+|  |  |  |  Length is 10 (aH) 
+|  |  |  |  Map bluring of 0.100000
+
+|  |  Chunk MAT_ENTRY (afffH) 
+|  |  Length is 167 (a7H) 
+
+|  |  |  Chunk MAT_NAME (a000H) 
+|  |  |  Length is 14 (eH) 
+|  |  |  Material name sqred01
+
+|  |  |  Chunk MAT_AMBIENT (a010H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 112,G: 0,B: 0
+
+|  |  |  Chunk MAT_DIFFUSE (a020H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 56,G: 0,B: 0
+
+|  |  |  Chunk MAT_SPECULAR (a030H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 255,G: 0,B: 0
+
+|  |  |  Chunk MAT_SHININESS (a040H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 83%
+
+|  |  |  Chunk MAT_SHIN2PCT (a041H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 5%
+
+|  |  |  Chunk MAT_TRANSPARENCY (a050H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_XPFALL (a052H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_REFBLUR (a053H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_SHADING (a100H) 
+|  |  |  Length is 8 (8H) 
+|  |  |  Shading value of 4
+
+|  |  |  Chunk MAT_SELF_ILPCT (a084H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_WIRESIZE (a087H) 
+|  |  |  Length is 10 (aH) 
+|  |  |  Wire frame size of 1.000000
+
+|  |  Chunk MAT_ENTRY (afffH) 
+|  |  Length is 223 (dfH) 
+
+|  |  |  Chunk MAT_NAME (a000H) 
+|  |  |  Length is 19 (13H) 
+|  |  |  Material name Material #23
+
+|  |  |  Chunk MAT_AMBIENT (a010H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 255,G: 255,B: 255
+
+|  |  |  Chunk MAT_DIFFUSE (a020H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 255,G: 255,B: 255
+
+|  |  |  Chunk MAT_SPECULAR (a030H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 255,G: 255,B: 255
+
+|  |  |  Chunk MAT_SHININESS (a040H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 22%
+
+|  |  |  Chunk MAT_SHIN2PCT (a041H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 5%
+
+|  |  |  Chunk MAT_TRANSPARENCY (a050H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_XPFALL (a052H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_REFBLUR (a053H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_SHADING (a100H) 
+|  |  |  Length is 8 (8H) 
+|  |  |  Shading value of 4
+
+|  |  |  Chunk MAT_SELF_ILPCT (a084H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_WIRESIZE (a087H) 
+|  |  |  Length is 10 (aH) 
+|  |  |  Wire frame size of 1.000000
+
+|  |  |  Chunk MAT_TEXMAP (a200H) 
+|  |  |  Length is 51 (33H) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 100%
+
+|  |  |  |  Chunk MAT_MAPNAME (a300H) 
+|  |  |  |  Length is 19 (13H) 
+|  |  |  |  Map name LRGTRAWS.BMP
+
+|  |  |  |  Chunk MAT_MAP_TILING (a351H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Map flags of NONE
+
+|  |  |  |  Chunk MAT_MAP_TEXBLUR (a353H) 
+|  |  |  |  Length is 10 (aH) 
+|  |  |  |  Map bluring of 0.100000
+
+|  |  Chunk MAT_ENTRY (afffH) 
+|  |  Length is 171 (abH) 
+
+|  |  |  Chunk MAT_NAME (a000H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Material name Material #1
+
+|  |  |  Chunk MAT_AMBIENT (a010H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 59,G: 72,B: 72
+
+|  |  |  Chunk MAT_DIFFUSE (a020H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 30,G: 36,B: 36
+
+|  |  |  Chunk MAT_SPECULAR (a030H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 212,G: 255,B: 255
+
+|  |  |  Chunk MAT_SHININESS (a040H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 83%
+
+|  |  |  Chunk MAT_SHIN2PCT (a041H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 5%
+
+|  |  |  Chunk MAT_TRANSPARENCY (a050H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_XPFALL (a052H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_REFBLUR (a053H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_SHADING (a100H) 
+|  |  |  Length is 8 (8H) 
+|  |  |  Shading value of 4
+
+|  |  |  Chunk MAT_SELF_ILPCT (a084H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_WIRESIZE (a087H) 
+|  |  |  Length is 10 (aH) 
+|  |  |  Wire frame size of 1.000000
+
+|  |  Chunk MAT_ENTRY (afffH) 
+|  |  Length is 238 (eeH) 
+
+|  |  |  Chunk MAT_NAME (a000H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Material name StrbrdGreen
+
+|  |  |  Chunk MAT_AMBIENT (a010H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 22,G: 210,B: 13
+
+|  |  |  Chunk MAT_DIFFUSE (a020H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 25,G: 217,B: 25
+
+|  |  |  Chunk MAT_SPECULAR (a030H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 229,G: 229,B: 229
+
+|  |  |  Chunk MAT_SHININESS (a040H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 1%
+
+|  |  |  Chunk MAT_SHIN2PCT (a041H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_TRANSPARENCY (a050H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_XPFALL (a052H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_REFBLUR (a053H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_SHADING (a100H) 
+|  |  |  Length is 8 (8H) 
+|  |  |  Shading value of 3
+
+|  |  |  Chunk MAT_SELF_ILPCT (a084H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 100%
+
+|  |  |  Chunk MAT_WIRESIZE (a087H) 
+|  |  |  Length is 10 (aH) 
+|  |  |  Wire frame size of 1.000000
+
+|  |  |  Chunk MAT_OPACMAP (a210H) 
+|  |  |  Length is 67 (43H) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 100%
+
+|  |  |  |  Chunk MAT_MAPNAME (a300H) 
+|  |  |  |  Length is 15 (fH) 
+|  |  |  |  Map name LENS.BMP
+
+|  |  |  |  Chunk MAT_MAP_TILING (a351H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Map flags of NONE
+
+|  |  |  |  Chunk MAT_MAP_TEXBLUR (a353H) 
+|  |  |  |  Length is 10 (aH) 
+|  |  |  |  Map bluring of 0.000000
+
+|  |  |  |  Chunk MAT_MAP_USCALE (a354H) 
+|  |  |  |  Length is 10 (aH) 
+|  |  |  |  Map U scale of 0.800000
+
+|  |  |  |  Chunk MAT_MAP_VSCALE (a356H) 
+|  |  |  |  Length is 10 (aH) 
+|  |  |  |  Map V scale of 0.900000
+
+|  |  Chunk MAT_ENTRY (afffH) 
+|  |  Length is 242 (f2H) 
+
+|  |  |  Chunk MAT_NAME (a000H) 
+|  |  |  Length is 16 (10H) 
+|  |  |  Material name Red Flare
+
+|  |  |  Chunk MAT_AMBIENT (a010H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 207,G: 27,B: 27
+
+|  |  |  Chunk MAT_DIFFUSE (a020H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 201,G: 20,B: 20
+
+|  |  |  Chunk MAT_SPECULAR (a030H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 229,G: 229,B: 229
+
+|  |  |  Chunk MAT_SHININESS (a040H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 1%
+
+|  |  |  Chunk MAT_SHIN2PCT (a041H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_TRANSPARENCY (a050H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_XPFALL (a052H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_REFBLUR (a053H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_SHADING (a100H) 
+|  |  |  Length is 8 (8H) 
+|  |  |  Shading value of 3
+
+|  |  |  Chunk MAT_SELF_ILPCT (a084H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 100%
+
+|  |  |  Chunk MAT_XPFALLIN (a08aH) 
+|  |  |  Length is 6 (6H) 
+
+|  |  |  Chunk MAT_WIRESIZE (a087H) 
+|  |  |  Length is 10 (aH) 
+|  |  |  Wire frame size of 1.000000
+
+|  |  |  Chunk MAT_OPACMAP (a210H) 
+|  |  |  Length is 67 (43H) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 100%
+
+|  |  |  |  Chunk MAT_MAPNAME (a300H) 
+|  |  |  |  Length is 15 (fH) 
+|  |  |  |  Map name LENS.BMP
+
+|  |  |  |  Chunk MAT_MAP_TILING (a351H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Map flags of NONE
+
+|  |  |  |  Chunk MAT_MAP_TEXBLUR (a353H) 
+|  |  |  |  Length is 10 (aH) 
+|  |  |  |  Map bluring of 0.000000
+
+|  |  |  |  Chunk MAT_MAP_USCALE (a354H) 
+|  |  |  |  Length is 10 (aH) 
+|  |  |  |  Map U scale of 0.800000
+
+|  |  |  |  Chunk MAT_MAP_VSCALE (a356H) 
+|  |  |  |  Length is 10 (aH) 
+|  |  |  |  Map V scale of 0.900000
+
+|  |  Chunk MAT_ENTRY (afffH) 
+|  |  Length is 271 (10fH) 
+
+|  |  |  Chunk MAT_NAME (a000H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Material name White Flare
+
+|  |  |  Chunk MAT_AMBIENT (a010H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 232,G: 232,B: 232
+
+|  |  |  Chunk MAT_DIFFUSE (a020H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 232,G: 232,B: 232
+
+|  |  |  Chunk MAT_SPECULAR (a030H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 229,G: 229,B: 229
+
+|  |  |  Chunk MAT_SHININESS (a040H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 25%
+
+|  |  |  Chunk MAT_SHIN2PCT (a041H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 5%
+
+|  |  |  Chunk MAT_TRANSPARENCY (a050H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_XPFALL (a052H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_REFBLUR (a053H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_SHADING (a100H) 
+|  |  |  Length is 8 (8H) 
+|  |  |  Shading value of 3
+
+|  |  |  Chunk MAT_SELF_ILPCT (a084H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 100%
+
+|  |  |  Chunk MAT_XPFALLIN (a08aH) 
+|  |  |  Length is 6 (6H) 
+
+|  |  |  Chunk MAT_WIRESIZE (a087H) 
+|  |  |  Length is 10 (aH) 
+|  |  |  Wire frame size of 1.000000
+
+|  |  |  Chunk MAT_OPACMAP (a210H) 
+|  |  |  Length is 47 (2fH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 100%
+
+|  |  |  |  Chunk MAT_MAPNAME (a300H) 
+|  |  |  |  Length is 15 (fH) 
+|  |  |  |  Map name LENS.BMP
+
+|  |  |  |  Chunk MAT_MAP_TILING (a351H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Map flags of NONE
+
+|  |  |  |  Chunk MAT_MAP_TEXBLUR (a353H) 
+|  |  |  |  Length is 10 (aH) 
+|  |  |  |  Map bluring of 0.000000
+
+|  |  |  Chunk MAT_SELFIMAP (a33dH) 
+|  |  |  Length is 47 (2fH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 100%
+
+|  |  |  |  Chunk MAT_MAPNAME (a300H) 
+|  |  |  |  Length is 15 (fH) 
+|  |  |  |  Map name LENS.BMP
+
+|  |  |  |  Chunk MAT_MAP_TILING (a351H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Map flags of NONE
+
+|  |  |  |  Chunk MAT_MAP_TEXBLUR (a353H) 
+|  |  |  |  Length is 10 (aH) 
+|  |  |  |  Map bluring of 0.000000
+
+|  |  Chunk MAT_ENTRY (afffH) 
+|  |  Length is 212 (d4H) 
+
+|  |  |  Chunk MAT_NAME (a000H) 
+|  |  |  Length is 12 (cH) 
+|  |  |  Material name IndWt
+
+|  |  |  Chunk MAT_AMBIENT (a010H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 255,G: 255,B: 255
+
+|  |  |  Chunk MAT_DIFFUSE (a020H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 255,G: 255,B: 255
+
+|  |  |  Chunk MAT_SPECULAR (a030H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 255,G: 255,B: 255
+
+|  |  |  Chunk MAT_SHININESS (a040H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 1%
+
+|  |  |  Chunk MAT_SHIN2PCT (a041H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_TRANSPARENCY (a050H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_XPFALL (a052H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_REFBLUR (a053H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_SHADING (a100H) 
+|  |  |  Length is 8 (8H) 
+|  |  |  Shading value of 3
+
+|  |  |  Chunk MAT_SELF_ILPCT (a084H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 100%
+
+|  |  |  Chunk MAT_WIRESIZE (a087H) 
+|  |  |  Length is 10 (aH) 
+|  |  |  Wire frame size of 1.000000
+
+|  |  |  Chunk MAT_OPACMAP (a210H) 
+|  |  |  Length is 47 (2fH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 100%
+
+|  |  |  |  Chunk MAT_MAPNAME (a300H) 
+|  |  |  |  Length is 15 (fH) 
+|  |  |  |  Map name LENS.BMP
+
+|  |  |  |  Chunk MAT_MAP_TILING (a351H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Map flags of NONE
+
+|  |  |  |  Chunk MAT_MAP_TEXBLUR (a353H) 
+|  |  |  |  Length is 10 (aH) 
+|  |  |  |  Map bluring of 0.000000
+
+|  |  Chunk MAT_ENTRY (afffH) 
+|  |  Length is 179 (b3H) 
+
+|  |  |  Chunk MAT_NAME (a000H) 
+|  |  |  Length is 20 (14H) 
+|  |  |  Material name Material #114
+
+|  |  |  Chunk MAT_AMBIENT (a010H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 25,G: 25,B: 25
+
+|  |  |  Chunk MAT_DIFFUSE (a020H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 29,G: 29,B: 29
+
+|  |  |  Chunk MAT_SPECULAR (a030H) 
+|  |  |  Length is 15 (fH) 
+
+|  |  |  |  Chunk COLOR_24 (11H) 
+|  |  |  |  Length is 9 (9H) 
+|  |  |  |  Color R: 229,G: 229,B: 229
+
+|  |  |  Chunk MAT_SHININESS (a040H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 25%
+
+|  |  |  Chunk MAT_SHIN2PCT (a041H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 5%
+
+|  |  |  Chunk MAT_TRANSPARENCY (a050H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_XPFALL (a052H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_REFBLUR (a053H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_SHADING (a100H) 
+|  |  |  Length is 8 (8H) 
+|  |  |  Shading value of 3
+
+|  |  |  Chunk MAT_SELF_ILPCT (a084H) 
+|  |  |  Length is 14 (eH) 
+
+|  |  |  |  Chunk INT_PERCENTAGE (30H) 
+|  |  |  |  Length is 8 (8H) 
+|  |  |  |  Percentage of 0%
+
+|  |  |  Chunk MAT_XPFALLIN (a08aH) 
+|  |  |  Length is 6 (6H) 
+
+|  |  |  Chunk MAT_WIRESIZE (a087H) 
+|  |  |  Length is 10 (aH) 
+|  |  |  Wire frame size of 1.000000
+
+|  |  Chunk MASTER_SCALE (100H) 
+|  |  Length is 10 (aH) 
+|  |  Master Scale 1.000000
+
+|  |  Chunk NAMED_OBJECT (4000H) 
+|  |  Length is 3466 (d8aH) 
+|  |  Name: SQBLCK01
+
+|  |  |  Chunk N_TRI_OBJECT (4100H) 
+|  |  |  Length is 3451 (d7bH) 
+
+|  |  |  |  Chunk POINT_ARRAY (4110H) 
+|  |  |  |  Length is 2120 (848H) 
+|  |  |  |  176 Vertices
+|  |  |  |  Vertex 0 at -30.392359, 12.000998, 18.014702
+|  |  |  |  Vertex 1 at -30.392359, 10.000998, 18.014702
+|  |  |  |  Vertex 2 at -28.392361, 12.000998, 18.012133
+|  |  |  |  Vertex 3 at -28.392361, 10.000998, 18.012133
+|  |  |  |  Vertex 4 at -24.392363, 12.000998, 18.006992
+|  |  |  |  Vertex 5 at -24.392363, 10.000998, 18.006992
+|  |  |  |  Vertex 6 at -22.392365, 12.000998, 18.004423
+|  |  |  |  Vertex 7 at -22.392365, 10.000998, 18.004423
+|  |  |  |  Vertex 8 at -18.392368, 12.000998, 17.999285
+|  |  |  |  Vertex 9 at -18.392368, 10.000998, 17.999285
+|  |  |  |  Vertex 10 at -16.392370, 12.000998, 17.996716
+|  |  |  |  Vertex 11 at -16.392370, 10.000998, 17.996716
+|  |  |  |  Vertex 12 at -12.392372, 12.000998, 17.991577
+|  |  |  |  Vertex 13 at -12.392371, 10.000998, 17.991577
+|  |  |  |  Vertex 14 at -10.392373, 12.000998, 17.989008
+|  |  |  |  Vertex 15 at -10.392373, 10.000998, 17.989006
+|  |  |  |  Vertex 16 at -6.392377, 12.000998, 17.983868
+|  |  |  |  Vertex 17 at -6.392377, 10.000998, 17.983868
+|  |  |  |  Vertex 18 at -4.392378, 12.000998, 17.981298
+|  |  |  |  Vertex 19 at -4.392378, 10.000998, 17.981298
+|  |  |  |  Vertex 20 at -0.392381, 12.000998, 17.976160
+|  |  |  |  Vertex 21 at -0.392381, 10.000998, 17.976160
+|  |  |  |  Vertex 22 at 1.607617, 12.000998, 17.973591
+|  |  |  |  Vertex 23 at 1.607617, 10.000998, 17.973591
+|  |  |  |  Vertex 24 at 5.607614, 12.000998, 17.968452
+|  |  |  |  Vertex 25 at 5.607614, 10.000998, 17.968451
+|  |  |  |  Vertex 26 at 7.607612, 12.000998, 17.965881
+|  |  |  |  Vertex 27 at 7.607613, 10.000998, 17.965881
+|  |  |  |  Vertex 28 at 11.607610, 12.000999, 17.960743
+|  |  |  |  Vertex 29 at 11.607610, 10.000999, 17.960743
+|  |  |  |  Vertex 30 at 13.607608, 12.000999, 17.958174
+|  |  |  |  Vertex 31 at 13.607608, 10.000999, 17.958174
+|  |  |  |  Vertex 32 at 17.607605, 12.000999, 17.953035
+|  |  |  |  Vertex 33 at 17.607605, 10.000999, 17.953035
+|  |  |  |  Vertex 34 at 19.607603, 12.000999, 17.950466
+|  |  |  |  Vertex 35 at 19.607603, 10.000999, 17.950466
+|  |  |  |  Vertex 36 at 23.607599, 12.000999, 17.945326
+|  |  |  |  Vertex 37 at 23.607599, 10.000999, 17.945326
+|  |  |  |  Vertex 38 at 25.607597, 12.000999, 17.942757
+|  |  |  |  Vertex 39 at 25.607597, 10.000999, 17.942757
+|  |  |  |  Vertex 40 at 29.607595, 12.000999, 17.937618
+|  |  |  |  Vertex 41 at 29.607595, 10.000999, 17.937618
+|  |  |  |  Vertex 42 at 31.607594, 12.000999, 17.935049
+|  |  |  |  Vertex 43 at 31.607594, 10.000999, 17.935049
+|  |  |  |  Vertex 44 at 35.607590, 12.001000, 17.929911
+|  |  |  |  Vertex 45 at 35.607590, 10.001000, 17.929911
+|  |  |  |  Vertex 46 at 37.607590, 12.001000, 17.927341
+|  |  |  |  Vertex 47 at 37.607590, 10.001000, 17.927340
+|  |  |  |  Vertex 48 at 41.607586, 12.001000, 17.922201
+|  |  |  |  Vertex 49 at 41.607586, 10.001000, 17.922201
+|  |  |  |  Vertex 50 at 43.607582, 12.001000, 17.919632
+|  |  |  |  Vertex 51 at 43.607586, 10.001000, 17.919632
+|  |  |  |  Vertex 52 at 47.607582, 12.001000, 17.914494
+|  |  |  |  Vertex 53 at 47.607582, 10.001000, 17.914494
+|  |  |  |  Vertex 54 at 49.607578, 12.001000, 17.911924
+|  |  |  |  Vertex 55 at 49.607578, 10.001000, 17.911924
+|  |  |  |  Vertex 56 at 53.607574, 12.001000, 17.906786
+|  |  |  |  Vertex 57 at 53.607574, 10.001000, 17.906784
+|  |  |  |  Vertex 58 at 55.607574, 12.001001, 17.904215
+|  |  |  |  Vertex 59 at 55.607574, 10.001001, 17.904215
+|  |  |  |  Vertex 60 at 59.607571, 12.001001, 17.899076
+|  |  |  |  Vertex 61 at 59.607571, 10.001001, 17.899076
+|  |  |  |  Vertex 62 at 61.607571, 12.001001, 17.896507
+|  |  |  |  Vertex 63 at 61.607571, 10.001001, 17.896507
+|  |  |  |  Vertex 64 at 65.607567, 12.001001, 17.891369
+|  |  |  |  Vertex 65 at 65.607567, 10.001001, 17.891369
+|  |  |  |  Vertex 66 at 67.607567, 12.001001, 17.888800
+|  |  |  |  Vertex 67 at 67.607567, 10.001001, 17.888800
+|  |  |  |  Vertex 68 at -32.903919, 26.500996, 9.017920
+|  |  |  |  Vertex 69 at -32.903919, 21.000996, 9.017920
+|  |  |  |  Vertex 70 at -27.903923, 26.500998, 9.011497
+|  |  |  |  Vertex 71 at -27.903923, 21.000998, 9.011497
+|  |  |  |  Vertex 72 at -24.903927, 26.500998, 9.007643
+|  |  |  |  Vertex 73 at -24.903925, 21.000998, 9.007643
+|  |  |  |  Vertex 74 at -19.903931, 26.500998, 9.001220
+|  |  |  |  Vertex 75 at -19.903929, 21.000998, 9.001220
+|  |  |  |  Vertex 76 at -16.903933, 26.500998, 8.997365
+|  |  |  |  Vertex 77 at -16.903933, 21.000998, 8.997365
+|  |  |  |  Vertex 78 at -11.903935, 26.500998, 8.990942
+|  |  |  |  Vertex 79 at -11.903934, 21.000998, 8.990942
+|  |  |  |  Vertex 80 at 1.096054, 26.500998, 8.974240
+|  |  |  |  Vertex 81 at 1.096055, 21.000998, 8.974240
+|  |  |  |  Vertex 82 at 6.096050, 26.500998, 8.967817
+|  |  |  |  Vertex 83 at 6.096051, 21.000998, 8.967816
+|  |  |  |  Vertex 84 at 9.096048, 26.500998, 8.963963
+|  |  |  |  Vertex 85 at 9.096048, 21.000998, 8.963963
+|  |  |  |  Vertex 86 at 14.096045, 26.500999, 8.957540
+|  |  |  |  Vertex 87 at 14.096045, 21.000999, 8.957539
+|  |  |  |  Vertex 88 at -32.928093, 26.500998, -9.798745
+|  |  |  |  Vertex 89 at -32.928093, 21.000998, -9.798746
+|  |  |  |  Vertex 90 at -27.928099, 26.500998, -9.805169
+|  |  |  |  Vertex 91 at -27.928097, 21.000998, -9.805169
+|  |  |  |  Vertex 92 at -24.928101, 26.500998, -9.809023
+|  |  |  |  Vertex 93 at -24.928101, 21.000998, -9.809024
+|  |  |  |  Vertex 94 at -19.928104, 26.500998, -9.815447
+|  |  |  |  Vertex 95 at -19.928104, 21.000998, -9.815447
+|  |  |  |  Vertex 96 at -16.928106, 26.500998, -9.819301
+|  |  |  |  Vertex 97 at -16.928106, 21.000998, -9.819302
+|  |  |  |  Vertex 98 at -11.928109, 26.500998, -9.825725
+|  |  |  |  Vertex 99 at -11.928109, 21.000998, -9.825725
+|  |  |  |  Vertex 100 at 1.071880, 26.500999, -9.842426
+|  |  |  |  Vertex 101 at 1.071881, 21.000999, -9.842426
+|  |  |  |  Vertex 102 at 6.071877, 26.500999, -9.848849
+|  |  |  |  Vertex 103 at 6.071877, 21.000999, -9.848849
+|  |  |  |  Vertex 104 at 9.071875, 26.500999, -9.852704
+|  |  |  |  Vertex 105 at 9.071875, 21.000999, -9.852704
+|  |  |  |  Vertex 106 at 14.071871, 26.500999, -9.859127
+|  |  |  |  Vertex 107 at 14.071871, 21.000999, -9.859127
+|  |  |  |  Vertex 108 at -30.439657, 12.000998, -18.801952
+|  |  |  |  Vertex 109 at -30.439657, 10.000998, -18.801952
+|  |  |  |  Vertex 110 at -28.439659, 12.000998, -18.804522
+|  |  |  |  Vertex 111 at -28.439659, 10.000998, -18.804522
+|  |  |  |  Vertex 112 at -24.439663, 12.000999, -18.809662
+|  |  |  |  Vertex 113 at -24.439663, 10.000999, -18.809662
+|  |  |  |  Vertex 114 at -22.439665, 12.000999, -18.812231
+|  |  |  |  Vertex 115 at -22.439663, 10.000999, -18.812231
+|  |  |  |  Vertex 116 at -18.439667, 12.000999, -18.817369
+|  |  |  |  Vertex 117 at -18.439667, 10.000999, -18.817369
+|  |  |  |  Vertex 118 at -16.439669, 12.000999, -18.819939
+|  |  |  |  Vertex 119 at -16.439669, 10.000999, -18.819939
+|  |  |  |  Vertex 120 at -12.439671, 12.000999, -18.825077
+|  |  |  |  Vertex 121 at -12.439671, 10.000999, -18.825077
+|  |  |  |  Vertex 122 at -10.439672, 12.000999, -18.827646
+|  |  |  |  Vertex 123 at -10.439672, 10.000999, -18.827648
+|  |  |  |  Vertex 124 at -6.439676, 12.000999, -18.832787
+|  |  |  |  Vertex 125 at -6.439676, 10.000999, -18.832787
+|  |  |  |  Vertex 126 at -4.439677, 12.001000, -18.835356
+|  |  |  |  Vertex 127 at -4.439677, 10.001000, -18.835356
+|  |  |  |  Vertex 128 at -0.439680, 12.001000, -18.840494
+|  |  |  |  Vertex 129 at -0.439680, 10.001000, -18.840494
+|  |  |  |  Vertex 130 at 1.560318, 12.001000, -18.843063
+|  |  |  |  Vertex 131 at 1.560318, 10.001000, -18.843063
+|  |  |  |  Vertex 132 at 5.560315, 12.001000, -18.848202
+|  |  |  |  Vertex 133 at 5.560315, 10.001000, -18.848204
+|  |  |  |  Vertex 134 at 7.560313, 12.001000, -18.850773
+|  |  |  |  Vertex 135 at 7.560313, 10.001000, -18.850773
+|  |  |  |  Vertex 136 at 11.560310, 12.001000, -18.855911
+|  |  |  |  Vertex 137 at 11.560310, 10.001000, -18.855911
+|  |  |  |  Vertex 138 at 13.560309, 12.001000, -18.858480
+|  |  |  |  Vertex 139 at 13.560309, 10.001000, -18.858480
+|  |  |  |  Vertex 140 at 17.560305, 12.001001, -18.863619
+|  |  |  |  Vertex 141 at 17.560305, 10.001001, -18.863619
+|  |  |  |  Vertex 142 at 19.560303, 12.001001, -18.866188
+|  |  |  |  Vertex 143 at 19.560303, 10.001001, -18.866188
+|  |  |  |  Vertex 144 at 23.560301, 12.001001, -18.871328
+|  |  |  |  Vertex 145 at 23.560301, 10.001001, -18.871328
+|  |  |  |  Vertex 146 at 25.560299, 12.001001, -18.873898
+|  |  |  |  Vertex 147 at 25.560299, 10.001001, -18.873898
+|  |  |  |  Vertex 148 at 29.560295, 12.001001, -18.879036
+|  |  |  |  Vertex 149 at 29.560295, 10.001001, -18.879036
+|  |  |  |  Vertex 150 at 31.560295, 12.001001, -18.881605
+|  |  |  |  Vertex 151 at 31.560295, 10.001001, -18.881605
+|  |  |  |  Vertex 152 at 35.560291, 12.001001, -18.886744
+|  |  |  |  Vertex 153 at 35.560291, 10.001001, -18.886744
+|  |  |  |  Vertex 154 at 37.560291, 12.001001, -18.889313
+|  |  |  |  Vertex 155 at 37.560291, 10.001001, -18.889315
+|  |  |  |  Vertex 156 at 41.560287, 12.001002, -18.894453
+|  |  |  |  Vertex 157 at 41.560287, 10.001002, -18.894453
+|  |  |  |  Vertex 158 at 43.560284, 12.001002, -18.897022
+|  |  |  |  Vertex 159 at 43.560284, 10.001002, -18.897022
+|  |  |  |  Vertex 160 at 47.560284, 12.001002, -18.902161
+|  |  |  |  Vertex 161 at 47.560284, 10.001002, -18.902161
+|  |  |  |  Vertex 162 at 49.560280, 12.001002, -18.904730
+|  |  |  |  Vertex 163 at 49.560280, 10.001002, -18.904730
+|  |  |  |  Vertex 164 at 53.560276, 12.001002, -18.909868
+|  |  |  |  Vertex 165 at 53.560276, 10.001002, -18.909870
+|  |  |  |  Vertex 166 at 55.560276, 12.001002, -18.912439
+|  |  |  |  Vertex 167 at 55.560276, 10.001002, -18.912439
+|  |  |  |  Vertex 168 at 59.560272, 12.001002, -18.917578
+|  |  |  |  Vertex 169 at 59.560272, 10.001002, -18.917578
+|  |  |  |  Vertex 170 at 61.560272, 12.001003, -18.920147
+|  |  |  |  Vertex 171 at 61.560272, 10.001003, -18.920147
+|  |  |  |  Vertex 172 at 65.560265, 12.001003, -18.925285
+|  |  |  |  Vertex 173 at 65.560265, 10.001003, -18.925285
+|  |  |  |  Vertex 174 at 67.560265, 12.001003, -18.927855
+|  |  |  |  Vertex 175 at 67.560265, 10.001003, -18.927855
+
+|  |  |  |  Chunk MESH_MATRIX (4160H) 
+|  |  |  |  Length is 54 (36H) 
+|  |  |  |  [0] 1.000000 [1] 0.000000 [2] 0.000000
+|  |  |  |  [3] 0.000000 [4] 1.000000 [5] 0.000000
+|  |  |  |  [6] 0.000000 [7] 0.000000 [8] 1.000000
+|  |  |  |  [9] 0.001000 [10] 0.001000 [11] 0.001000
+
+|  |  |  |  Chunk FACE_ARRAY (4120H) 
+|  |  |  |  Length is 1271 (4f7H) 
+|  |  |  |  88 Faces
+|  |  |  |  Face 0 vertices 107, 105, 104 and flag 7
+|  |  |  |  Face 1 vertices 107, 104, 106 and flag 7
+|  |  |  |  Face 2 vertices 103, 101, 100 and flag 7
+|  |  |  |  Face 3 vertices 103, 100, 102 and flag 7
+|  |  |  |  Face 4 vertices 99, 97, 96 and flag 7
+|  |  |  |  Face 5 vertices 99, 96, 98 and flag 7
+|  |  |  |  Face 6 vertices 95, 93, 92 and flag 7
+|  |  |  |  Face 7 vertices 95, 92, 94 and flag 7
+|  |  |  |  Face 8 vertices 91, 89, 88 and flag 7
+|  |  |  |  Face 9 vertices 91, 88, 90 and flag 7
+|  |  |  |  Face 10 vertices 132, 134, 135 and flag 7
+|  |  |  |  Face 11 vertices 132, 135, 133 and flag 7
+|  |  |  |  Face 12 vertices 136, 138, 139 and flag 7
+|  |  |  |  Face 13 vertices 136, 139, 137 and flag 7
+|  |  |  |  Face 14 vertices 140, 142, 143 and flag 7
+|  |  |  |  Face 15 vertices 140, 143, 141 and flag 7
+|  |  |  |  Face 16 vertices 144, 146, 147 and flag 7
+|  |  |  |  Face 17 vertices 144, 147, 145 and flag 7
+|  |  |  |  Face 18 vertices 148, 150, 151 and flag 7
+|  |  |  |  Face 19 vertices 148, 151, 149 and flag 7
+|  |  |  |  Face 20 vertices 152, 154, 155 and flag 7
+|  |  |  |  Face 21 vertices 152, 155, 153 and flag 7
+|  |  |  |  Face 22 vertices 156, 158, 159 and flag 7
+|  |  |  |  Face 23 vertices 156, 159, 157 and flag 7
+|  |  |  |  Face 24 vertices 160, 162, 163 and flag 7
+|  |  |  |  Face 25 vertices 160, 163, 161 and flag 7
+|  |  |  |  Face 26 vertices 164, 166, 167 and flag 7
+|  |  |  |  Face 27 vertices 164, 167, 165 and flag 7
+|  |  |  |  Face 28 vertices 168, 170, 171 and flag 7
+|  |  |  |  Face 29 vertices 168, 171, 169 and flag 7
+|  |  |  |  Face 30 vertices 172, 174, 175 and flag 7
+|  |  |  |  Face 31 vertices 172, 175, 173 and flag 7
+|  |  |  |  Face 32 vertices 1, 3, 2 and flag 7
+|  |  |  |  Face 33 vertices 1, 2, 0 and flag 7
+|  |  |  |  Face 34 vertices 5, 7, 6 and flag 7
+|  |  |  |  Face 35 vertices 5, 6, 4 and flag 7
+|  |  |  |  Face 36 vertices 9, 11, 10 and flag 7
+|  |  |  |  Face 37 vertices 9, 10, 8 and flag 7
+|  |  |  |  Face 38 vertices 13, 15, 14 and flag 7
+|  |  |  |  Face 39 vertices 13, 14, 12 and flag 7
+|  |  |  |  Face 40 vertices 17, 19, 18 and flag 7
+|  |  |  |  Face 41 vertices 17, 18, 16 and flag 7
+|  |  |  |  Face 42 vertices 21, 23, 22 and flag 7
+|  |  |  |  Face 43 vertices 21, 22, 20 and flag 7
+|  |  |  |  Face 44 vertices 25, 27, 26 and flag 7
+|  |  |  |  Face 45 vertices 25, 26, 24 and flag 7
+|  |  |  |  Face 46 vertices 29, 31, 30 and flag 7
+|  |  |  |  Face 47 vertices 29, 30, 28 and flag 7
+|  |  |  |  Face 48 vertices 33, 35, 34 and flag 7
+|  |  |  |  Face 49 vertices 33, 34, 32 and flag 7
+|  |  |  |  Face 50 vertices 108, 110, 111 and flag 7
+|  |  |  |  Face 51 vertices 108, 111, 109 and flag 7
+|  |  |  |  Face 52 vertices 37, 39, 38 and flag 7
+|  |  |  |  Face 53 vertices 37, 38, 36 and flag 7
+|  |  |  |  Face 54 vertices 41, 43, 42 and flag 7
+|  |  |  |  Face 55 vertices 41, 42, 40 and flag 7
+|  |  |  |  Face 56 vertices 45, 47, 46 and flag 7
+|  |  |  |  Face 57 vertices 45, 46, 44 and flag 7
+|  |  |  |  Face 58 vertices 49, 51, 50 and flag 7
+|  |  |  |  Face 59 vertices 49, 50, 48 and flag 7
+|  |  |  |  Face 60 vertices 53, 55, 54 and flag 7
+|  |  |  |  Face 61 vertices 53, 54, 52 and flag 7
+|  |  |  |  Face 62 vertices 57, 59, 58 and flag 7
+|  |  |  |  Face 63 vertices 57, 58, 56 and flag 7
+|  |  |  |  Face 64 vertices 61, 63, 62 and flag 7
+|  |  |  |  Face 65 vertices 61, 62, 60 and flag 7
+|  |  |  |  Face 66 vertices 65, 67, 66 and flag 7
+|  |  |  |  Face 67 vertices 65, 66, 64 and flag 7
+|  |  |  |  Face 68 vertices 112, 114, 115 and flag 7
+|  |  |  |  Face 69 vertices 112, 115, 113 and flag 7
+|  |  |  |  Face 70 vertices 116, 118, 119 and flag 7
+|  |  |  |  Face 71 vertices 116, 119, 117 and flag 7
+|  |  |  |  Face 72 vertices 120, 122, 123 and flag 7
+|  |  |  |  Face 73 vertices 120, 123, 121 and flag 7
+|  |  |  |  Face 74 vertices 124, 126, 127 and flag 7
+|  |  |  |  Face 75 vertices 124, 127, 125 and flag 7
+|  |  |  |  Face 76 vertices 128, 130, 131 and flag 7
+|  |  |  |  Face 77 vertices 128, 131, 129 and flag 7
+|  |  |  |  Face 78 vertices 86, 84, 85 and flag 7
+|  |  |  |  Face 79 vertices 86, 85, 87 and flag 7
+|  |  |  |  Face 80 vertices 82, 80, 81 and flag 7
+|  |  |  |  Face 81 vertices 82, 81, 83 and flag 7
+|  |  |  |  Face 82 vertices 78, 76, 77 and flag 7
+|  |  |  |  Face 83 vertices 78, 77, 79 and flag 7
+|  |  |  |  Face 84 vertices 74, 72, 73 and flag 7
+|  |  |  |  Face 85 vertices 74, 73, 75 and flag 7
+|  |  |  |  Face 86 vertices 70, 68, 69 and flag 7
+|  |  |  |  Face 87 vertices 70, 69, 71 and flag 7
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 201 (c9H) 
+|  |  |  |  |  Material Name Of Material #14 (su
+|  |  |  |  |  Assigned to 88 faces
+
+|  |  |  |  |  Chunk SMOOTH_GROUP (4150H) 
+|  |  |  |  |  Length is 358 (166H) 
+
+|  |  Chunk NAMED_OBJECT (4000H) 
+|  |  Length is 1158 (486H) 
+|  |  Name: SQBOAT01
+
+|  |  |  Chunk N_TRI_OBJECT (4100H) 
+|  |  |  Length is 1143 (477H) 
+
+|  |  |  |  Chunk POINT_ARRAY (4110H) 
+|  |  |  |  Length is 488 (1e8H) 
+|  |  |  |  40 Vertices
+|  |  |  |  Vertex 0 at -28.582085, 28.150356, 21.127750
+|  |  |  |  Vertex 1 at -13.933107, 28.150358, 21.108931
+|  |  |  |  Vertex 2 at -29.891319, 24.000996, 18.824232
+|  |  |  |  Vertex 3 at -12.746418, 24.000998, 18.802206
+|  |  |  |  Vertex 4 at -35.773529, 29.072435, 15.758186
+|  |  |  |  Vertex 5 at -34.467247, 25.845156, 15.756509
+|  |  |  |  Vertex 6 at -26.895269, 24.000996, 15.746780
+|  |  |  |  Vertex 7 at -24.395271, 24.000998, 15.743568
+|  |  |  |  Vertex 8 at -17.750364, 24.000998, 15.735032
+|  |  |  |  Vertex 9 at -15.250350, 24.000998, 15.731820
+|  |  |  |  Vertex 10 at -8.178380, 25.845158, 15.722734
+|  |  |  |  Vertex 11 at -6.872107, 29.072437, 15.721057
+|  |  |  |  Vertex 12 at -27.897839, 21.000996, 13.748067
+|  |  |  |  Vertex 13 at -23.397842, 21.000998, 13.742286
+|  |  |  |  Vertex 14 at -18.752934, 21.000998, 13.736318
+|  |  |  |  Vertex 15 at -14.252935, 21.000998, 13.730536
+|  |  |  |  Vertex 16 at -29.899216, 24.000996, 12.677037
+|  |  |  |  Vertex 17 at -12.754315, 24.000998, 12.655011
+|  |  |  |  Vertex 18 at -28.595905, 28.150358, 10.370160
+|  |  |  |  Vertex 19 at -13.946928, 28.150358, 10.351340
+|  |  |  |  Vertex 20 at 3.330241, 28.150360, -10.913274
+|  |  |  |  Vertex 21 at 17.979216, 28.150360, -10.932094
+|  |  |  |  Vertex 22 at 2.137630, 24.000999, -13.216944
+|  |  |  |  Vertex 23 at 19.282528, 24.000999, -13.238971
+|  |  |  |  Vertex 24 at 3.636249, 21.000999, -14.292470
+|  |  |  |  Vertex 25 at 8.136246, 21.000999, -14.298252
+|  |  |  |  Vertex 26 at 12.781156, 21.000999, -14.304219
+|  |  |  |  Vertex 27 at 17.281151, 21.000999, -14.310000
+|  |  |  |  Vertex 28 at -3.744580, 29.072439, -16.282991
+|  |  |  |  Vertex 29 at -2.438307, 25.845160, -16.284668
+|  |  |  |  Vertex 30 at 4.633664, 24.000999, -16.293755
+|  |  |  |  Vertex 31 at 7.133677, 24.000999, -16.296967
+|  |  |  |  Vertex 32 at 13.778585, 24.000999, -16.305504
+|  |  |  |  Vertex 33 at 16.278582, 24.000999, -16.308714
+|  |  |  |  Vertex 34 at 23.850567, 25.845160, -16.318443
+|  |  |  |  Vertex 35 at 25.156841, 29.072439, -16.320120
+|  |  |  |  Vertex 36 at 2.129732, 24.000999, -19.364141
+|  |  |  |  Vertex 37 at 19.274632, 24.000999, -19.386168
+|  |  |  |  Vertex 38 at 3.316421, 28.150360, -21.670866
+|  |  |  |  Vertex 39 at 17.965397, 28.150360, -21.689686
+
+|  |  |  |  Chunk MESH_MATRIX (4160H) 
+|  |  |  |  Length is 54 (36H) 
+|  |  |  |  [0] 1.000000 [1] 0.000000 [2] 0.000000
+|  |  |  |  [3] 0.000000 [4] 1.000000 [5] 0.000000
+|  |  |  |  [6] 0.000000 [7] 0.000000 [8] 1.000000
+|  |  |  |  [9] 0.001000 [10] 0.001000 [11] 0.001000
+
+|  |  |  |  Chunk FACE_ARRAY (4120H) 
+|  |  |  |  Length is 595 (253H) 
+|  |  |  |  40 Faces
+|  |  |  |  Face 0 vertices 4, 5, 2 and flag 7
+|  |  |  |  Face 1 vertices 4, 2, 0 and flag 7
+|  |  |  |  Face 2 vertices 9, 8, 14 and flag 7
+|  |  |  |  Face 3 vertices 9, 14, 15 and flag 7
+|  |  |  |  Face 4 vertices 7, 6, 12 and flag 7
+|  |  |  |  Face 5 vertices 7, 12, 13 and flag 7
+|  |  |  |  Face 6 vertices 0, 2, 3 and flag 7
+|  |  |  |  Face 7 vertices 0, 3, 1 and flag 7
+|  |  |  |  Face 8 vertices 1, 3, 10 and flag 7
+|  |  |  |  Face 9 vertices 1, 10, 11 and flag 7
+|  |  |  |  Face 10 vertices 11, 10, 17 and flag 7
+|  |  |  |  Face 11 vertices 11, 17, 19 and flag 7
+|  |  |  |  Face 12 vertices 19, 17, 16 and flag 7
+|  |  |  |  Face 13 vertices 19, 16, 18 and flag 7
+|  |  |  |  Face 14 vertices 18, 16, 5 and flag 7
+|  |  |  |  Face 15 vertices 18, 5, 4 and flag 7
+|  |  |  |  Face 16 vertices 2, 5, 16 and flag 7
+|  |  |  |  Face 17 vertices 2, 16, 17 and flag 7
+|  |  |  |  Face 18 vertices 2, 17, 3 and flag 7
+|  |  |  |  Face 19 vertices 10, 3, 17 and flag 7
+|  |  |  |  Face 20 vertices 35, 34, 37 and flag 7
+|  |  |  |  Face 21 vertices 35, 37, 39 and flag 7
+|  |  |  |  Face 22 vertices 30, 31, 25 and flag 7
+|  |  |  |  Face 23 vertices 30, 25, 24 and flag 7
+|  |  |  |  Face 24 vertices 32, 33, 27 and flag 7
+|  |  |  |  Face 25 vertices 32, 27, 26 and flag 7
+|  |  |  |  Face 26 vertices 39, 37, 36 and flag 7
+|  |  |  |  Face 27 vertices 39, 36, 38 and flag 7
+|  |  |  |  Face 28 vertices 38, 36, 29 and flag 7
+|  |  |  |  Face 29 vertices 38, 29, 28 and flag 7
+|  |  |  |  Face 30 vertices 28, 29, 22 and flag 7
+|  |  |  |  Face 31 vertices 28, 22, 20 and flag 7
+|  |  |  |  Face 32 vertices 20, 22, 23 and flag 7
+|  |  |  |  Face 33 vertices 20, 23, 21 and flag 7
+|  |  |  |  Face 34 vertices 21, 23, 34 and flag 7
+|  |  |  |  Face 35 vertices 21, 34, 35 and flag 7
+|  |  |  |  Face 36 vertices 37, 34, 23 and flag 7
+|  |  |  |  Face 37 vertices 37, 23, 22 and flag 7
+|  |  |  |  Face 38 vertices 37, 22, 36 and flag 7
+|  |  |  |  Face 39 vertices 29, 36, 22 and flag 7
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 101 (65H) 
+|  |  |  |  |  Material Name Of Material #21
+|  |  |  |  |  Assigned to 40 faces
+
+|  |  |  |  |  Chunk SMOOTH_GROUP (4150H) 
+|  |  |  |  |  Length is 166 (a6H) 
+
+|  |  Chunk NAMED_OBJECT (4000H) 
+|  |  Length is 9806 (264eH) 
+|  |  Name: SQGUNS01
+
+|  |  |  Chunk N_TRI_OBJECT (4100H) 
+|  |  |  Length is 9791 (263fH) 
+
+|  |  |  |  Chunk POINT_ARRAY (4110H) 
+|  |  |  |  Length is 4544 (11c0H) 
+|  |  |  |  378 Vertices
+|  |  |  |  Vertex 0 at -1.880515, 35.500996, 27.214653
+|  |  |  |  Vertex 1 at 16.119471, 35.500999, 27.191528
+|  |  |  |  Vertex 2 at -1.895289, 28.500998, 15.714663
+|  |  |  |  Vertex 3 at -1.895288, 21.000998, 15.714663
+|  |  |  |  Vertex 4 at 16.104696, 28.500998, 15.691538
+|  |  |  |  Vertex 5 at 16.104696, 21.000998, 15.691538
+|  |  |  |  Vertex 6 at 62.444565, 33.000999, 15.561663
+|  |  |  |  Vertex 7 at 62.444565, 30.000999, 15.561663
+|  |  |  |  Vertex 8 at 67.444565, 33.000999, 15.555240
+|  |  |  |  Vertex 9 at 67.444565, 30.001001, 15.555240
+|  |  |  |  Vertex 10 at -96.396507, 49.000992, 14.836070
+|  |  |  |  Vertex 11 at -96.396507, 17.000994, 14.836069
+|  |  |  |  Vertex 12 at -2.897215, 29.500998, 14.215949
+|  |  |  |  Vertex 13 at -2.897215, 21.000998, 14.215948
+|  |  |  |  Vertex 14 at -0.897217, 29.500998, 14.213379
+|  |  |  |  Vertex 15 at -0.897216, 21.000998, 14.213379
+|  |  |  |  Vertex 16 at 15.102772, 29.500998, 14.192823
+|  |  |  |  Vertex 17 at 15.102772, 21.000998, 14.192823
+|  |  |  |  Vertex 18 at 17.102768, 29.500998, 14.190254
+|  |  |  |  Vertex 19 at 17.102770, 21.000998, 14.190254
+|  |  |  |  Vertex 20 at -111.897774, 23.000994, 13.855983
+|  |  |  |  Vertex 21 at -111.897774, 17.000994, 13.855983
+|  |  |  |  Vertex 22 at -103.897781, 23.000994, 13.845705
+|  |  |  |  Vertex 23 at -103.897781, 17.000994, 13.845705
+|  |  |  |  Vertex 24 at -97.897789, 49.000992, 13.837998
+|  |  |  |  Vertex 25 at -97.897789, 17.000994, 13.837996
+|  |  |  |  Vertex 26 at -94.897789, 49.000992, 13.834144
+|  |  |  |  Vertex 27 at -94.897789, 17.000994, 13.834143
+|  |  |  |  Vertex 28 at -97.899719, 49.000992, 12.337999
+|  |  |  |  Vertex 29 at -97.899712, 17.000994, 12.337997
+|  |  |  |  Vertex 30 at -94.899719, 49.000992, 12.334146
+|  |  |  |  Vertex 31 at -94.899719, 17.000994, 12.334144
+|  |  |  |  Vertex 32 at -96.401001, 49.000992, 11.336073
+|  |  |  |  Vertex 33 at -96.401001, 17.000994, 11.336072
+|  |  |  |  Vertex 34 at -96.401642, 17.000994, 10.836072
+|  |  |  |  Vertex 35 at -76.401657, 47.000996, 10.810379
+|  |  |  |  Vertex 36 at 31.812935, 36.000999, 10.421352
+|  |  |  |  Vertex 37 at 31.812937, 30.000999, 10.421352
+|  |  |  |  Vertex 38 at 32.312935, 36.000999, 10.420711
+|  |  |  |  Vertex 39 at 32.312935, 35.500999, 10.420711
+|  |  |  |  Vertex 40 at 32.312935, 34.500999, 10.420711
+|  |  |  |  Vertex 41 at 32.312935, 34.000999, 10.420711
+|  |  |  |  Vertex 42 at 32.312935, 33.000999, 10.420711
+|  |  |  |  Vertex 43 at 32.312935, 32.500999, 10.420711
+|  |  |  |  Vertex 44 at 32.312935, 31.500999, 10.420711
+|  |  |  |  Vertex 45 at 32.312935, 31.000999, 10.420711
+|  |  |  |  Vertex 46 at 32.312935, 30.000999, 10.420711
+|  |  |  |  Vertex 47 at 34.187935, 36.000999, 10.418302
+|  |  |  |  Vertex 48 at 34.187935, 31.500999, 10.418302
+|  |  |  |  Vertex 49 at 34.687935, 36.000999, 10.417659
+|  |  |  |  Vertex 50 at 34.687935, 31.500999, 10.417659
+|  |  |  |  Vertex 51 at 36.562931, 36.000999, 10.415251
+|  |  |  |  Vertex 52 at 36.562931, 31.500999, 10.415250
+|  |  |  |  Vertex 53 at 37.062931, 36.000999, 10.414608
+|  |  |  |  Vertex 54 at 37.062931, 31.500999, 10.414608
+|  |  |  |  Vertex 55 at 38.937931, 36.000999, 10.412199
+|  |  |  |  Vertex 56 at 38.937931, 31.500999, 10.412199
+|  |  |  |  Vertex 57 at 39.437931, 36.000999, 10.411557
+|  |  |  |  Vertex 58 at 39.437931, 31.500999, 10.411556
+|  |  |  |  Vertex 59 at 41.312927, 36.000999, 10.409148
+|  |  |  |  Vertex 60 at 41.312927, 35.500999, 10.409148
+|  |  |  |  Vertex 61 at 41.312927, 34.500999, 10.409148
+|  |  |  |  Vertex 62 at 41.312927, 34.000999, 10.409148
+|  |  |  |  Vertex 63 at 41.312927, 33.000999, 10.409148
+|  |  |  |  Vertex 64 at 41.312927, 32.500999, 10.409148
+|  |  |  |  Vertex 65 at 41.312927, 31.500999, 10.409148
+|  |  |  |  Vertex 66 at 41.312927, 31.000999, 10.409148
+|  |  |  |  Vertex 67 at 41.312927, 30.000999, 10.409147
+|  |  |  |  Vertex 68 at 41.812927, 36.000999, 10.408505
+|  |  |  |  Vertex 69 at 41.812927, 30.000999, 10.408505
+|  |  |  |  Vertex 70 at 43.812927, 32.000999, 10.405936
+|  |  |  |  Vertex 71 at 43.812927, 30.000999, 10.405936
+|  |  |  |  Vertex 72 at 60.312912, 32.000999, 10.384738
+|  |  |  |  Vertex 73 at 60.312916, 30.001001, 10.384738
+|  |  |  |  Vertex 74 at -95.652283, 17.000994, 10.335109
+|  |  |  |  Vertex 75 at -75.652298, 47.000996, 10.309416
+|  |  |  |  Vertex 76 at -96.402931, 17.000994, 9.836073
+|  |  |  |  Vertex 77 at -76.402939, 47.000996, 9.810380
+|  |  |  |  Vertex 78 at -36.904255, 27.977165, 8.759633
+|  |  |  |  Vertex 79 at -36.904255, 21.000996, 8.759633
+|  |  |  |  Vertex 80 at 20.095701, 27.977169, 8.686404
+|  |  |  |  Vertex 81 at 20.095701, 21.000999, 8.686404
+|  |  |  |  Vertex 82 at -111.905487, 23.000994, 7.855987
+|  |  |  |  Vertex 83 at -111.905487, 17.000994, 7.855987
+|  |  |  |  Vertex 84 at -103.905495, 23.000994, 7.845709
+|  |  |  |  Vertex 85 at -103.905495, 17.000994, 7.845709
+|  |  |  |  Vertex 86 at -49.906815, 33.500996, 6.776336
+|  |  |  |  Vertex 87 at 95.308601, 41.996864, 6.089775
+|  |  |  |  Vertex 88 at 95.308601, 20.850992, 6.089774
+|  |  |  |  Vertex 89 at -50.407780, 33.500996, 6.026979
+|  |  |  |  Vertex 90 at 36.523666, 30.000999, 5.790296
+|  |  |  |  Vertex 91 at 94.809135, 41.996864, 5.590416
+|  |  |  |  Vertex 92 at 94.809135, 20.816652, 5.590415
+|  |  |  |  Vertex 93 at 95.806786, 41.996864, 5.589134
+|  |  |  |  Vertex 94 at 95.806786, 20.885321, 5.589133
+|  |  |  |  Vertex 95 at 95.307320, 41.996864, 5.089776
+|  |  |  |  Vertex 96 at 95.307320, 20.850992, 5.089775
+|  |  |  |  Vertex 97 at 36.022701, 30.000999, 5.040939
+|  |  |  |  Vertex 98 at 37.089783, 35.000999, 4.922588
+|  |  |  |  Vertex 99 at 37.146400, 35.500999, 4.835815
+|  |  |  |  Vertex 100 at 75.616180, 47.001003, 4.615073
+|  |  |  |  Vertex 101 at 95.616165, 20.872293, 4.589377
+|  |  |  |  Vertex 102 at 112.782097, 10.534294, 4.178003
+|  |  |  |  Vertex 103 at 74.867310, 47.001003, 4.116035
+|  |  |  |  Vertex 104 at 94.867294, 20.820793, 4.090339
+|  |  |  |  Vertex 105 at -48.697701, 42.750996, 4.146571
+|  |  |  |  Vertex 106 at -48.632336, 43.250996, 4.004426
+|  |  |  |  Vertex 107 at 75.614899, 47.001003, 3.615074
+|  |  |  |  Vertex 108 at 95.614883, 20.872293, 3.589378
+|  |  |  |  Vertex 109 at 115.426331, 13.753744, 3.376035
+|  |  |  |  Vertex 110 at 114.854385, 5.746824, 2.841699
+|  |  |  |  Vertex 111 at 17.212996, 21.000999, 2.690102
+|  |  |  |  Vertex 112 at 20.087992, 21.000999, 2.686408
+|  |  |  |  Vertex 113 at 25.212988, 21.000999, 2.679824
+|  |  |  |  Vertex 114 at 118.507202, 10.990564, 2.441647
+|  |  |  |  Vertex 115 at 20.087648, 27.977169, 2.418039
+|  |  |  |  Vertex 116 at 25.212626, 28.817429, 2.396875
+|  |  |  |  Vertex 117 at 17.212454, 31.502600, 2.270043
+|  |  |  |  Vertex 118 at 25.212439, 32.814808, 2.252175
+|  |  |  |  Vertex 119 at 17.212353, 33.500999, 2.190103
+|  |  |  |  Vertex 120 at 25.212345, 34.813499, 2.179825
+|  |  |  |  Vertex 121 at 119.494179, 10.078694, 2.000748
+|  |  |  |  Vertex 122 at 40.468678, 68.000999, 1.910226
+|  |  |  |  Vertex 123 at 40.468681, 65.000999, 1.910226
+|  |  |  |  Vertex 124 at 39.071217, 52.500999, 1.885621
+|  |  |  |  Vertex 125 at 39.127823, 53.000999, 1.798848
+|  |  |  |  Vertex 126 at 40.021172, 68.000999, 1.687191
+|  |  |  |  Vertex 127 at 40.021172, 65.000999, 1.687191
+|  |  |  |  Vertex 128 at 56.176674, 47.125999, 1.640045
+|  |  |  |  Vertex 129 at 56.176674, 44.125999, 1.640045
+|  |  |  |  Vertex 130 at 40.897091, 68.000999, 1.652426
+|  |  |  |  Vertex 131 at 40.897091, 65.000999, 1.652426
+|  |  |  |  Vertex 132 at 55.999676, 47.125999, 1.463492
+|  |  |  |  Vertex 133 at 55.999676, 45.625999, 1.463492
+|  |  |  |  Vertex 134 at 55.999676, 45.375999, 1.463492
+|  |  |  |  Vertex 135 at 55.999676, 44.125999, 1.463492
+|  |  |  |  Vertex 136 at 56.353222, 47.125999, 1.463038
+|  |  |  |  Vertex 137 at 56.353222, 45.625999, 1.463038
+|  |  |  |  Vertex 138 at 56.353222, 45.375999, 1.463038
+|  |  |  |  Vertex 139 at 56.353222, 44.125999, 1.463038
+|  |  |  |  Vertex 140 at -47.488575, 52.000996, 1.516815
+|  |  |  |  Vertex 141 at -47.423214, 52.500996, 1.374661
+|  |  |  |  Vertex 142 at 42.538342, 68.000999, 0.664816
+|  |  |  |  Vertex 143 at 42.538342, 65.000999, 0.664816
+|  |  |  |  Vertex 144 at -47.164848, 63.500996, 0.522809
+|  |  |  |  Vertex 145 at -47.031471, 55.497936, 0.522637
+|  |  |  |  Vertex 146 at -46.981514, 52.500996, 0.522573
+|  |  |  |  Vertex 147 at -46.973183, 52.000996, 0.522562
+|  |  |  |  Vertex 148 at -46.827339, 43.250996, 0.522375
+|  |  |  |  Vertex 149 at -46.819016, 42.750996, 0.522364
+|  |  |  |  Vertex 150 at -46.664848, 33.500996, 0.522165
+|  |  |  |  Vertex 151 at -46.414848, 63.500996, 0.521846
+|  |  |  |  Vertex 152 at -45.914848, 33.500996, 0.521202
+|  |  |  |  Vertex 153 at 37.466755, 65.000999, 0.414081
+|  |  |  |  Vertex 154 at 39.966751, 65.000999, 0.410870
+|  |  |  |  Vertex 155 at 40.033447, 60.999470, 0.410784
+|  |  |  |  Vertex 156 at 40.166752, 53.000999, 0.410612
+|  |  |  |  Vertex 157 at 40.175083, 52.500999, 0.410601
+|  |  |  |  Vertex 158 at 40.458424, 35.500999, 0.410237
+|  |  |  |  Vertex 159 at 40.466755, 35.000999, 0.410226
+|  |  |  |  Vertex 160 at 40.550083, 30.000999, 0.410119
+|  |  |  |  Vertex 161 at 40.716751, 65.000999, 0.409906
+|  |  |  |  Vertex 162 at 41.300083, 30.000999, 0.409155
+|  |  |  |  Vertex 163 at 42.966751, 68.000999, 0.407015
+|  |  |  |  Vertex 164 at 42.966751, 65.000999, 0.407015
+|  |  |  |  Vertex 165 at 55.550072, 44.125999, 0.390848
+|  |  |  |  Vertex 166 at 55.550072, 30.001001, 0.390848
+|  |  |  |  Vertex 167 at 56.800068, 44.125999, 0.389243
+|  |  |  |  Vertex 168 at 56.800068, 30.001001, 0.389242
+|  |  |  |  Vertex 169 at 54.476269, 47.125999, -0.055992
+|  |  |  |  Vertex 170 at 54.476269, 45.625999, -0.055992
+|  |  |  |  Vertex 171 at 54.476269, 45.375999, -0.055992
+|  |  |  |  Vertex 172 at 54.476269, 44.125999, -0.055992
+|  |  |  |  Vertex 173 at 57.872719, 47.125999, -0.060356
+|  |  |  |  Vertex 174 at 57.872719, 44.125999, -0.060356
+|  |  |  |  Vertex 175 at 57.872704, 45.625999, -0.060366
+|  |  |  |  Vertex 176 at 57.872704, 45.375999, -0.060366
+|  |  |  |  Vertex 177 at 37.466114, 65.000999, -0.085918
+|  |  |  |  Vertex 178 at 54.299267, 47.125999, -0.232545
+|  |  |  |  Vertex 179 at 54.299267, 44.125999, -0.232545
+|  |  |  |  Vertex 180 at 58.049263, 47.125999, -0.237363
+|  |  |  |  Vertex 181 at 58.049267, 44.125999, -0.237363
+|  |  |  |  Vertex 182 at -47.665810, 63.500996, -0.226548
+|  |  |  |  Vertex 183 at -47.532433, 55.497936, -0.226720
+|  |  |  |  Vertex 184 at -47.165810, 33.500996, -0.227192
+|  |  |  |  Vertex 185 at -45.915813, 63.500996, -0.228796
+|  |  |  |  Vertex 186 at -45.415810, 33.500996, -0.229440
+|  |  |  |  Vertex 187 at 14.924140, 21.000999, -0.306960
+|  |  |  |  Vertex 188 at 15.132483, 31.001429, -0.307228
+|  |  |  |  Vertex 189 at 15.174139, 33.000999, -0.307281
+|  |  |  |  Vertex 190 at 26.174129, 35.000999, -0.321413
+|  |  |  |  Vertex 191 at 26.209835, 33.001320, -0.321459
+|  |  |  |  Vertex 192 at 26.424129, 21.000999, -0.321735
+|  |  |  |  Vertex 193 at 37.590790, 75.000999, -0.336078
+|  |  |  |  Vertex 194 at 37.715790, 65.000999, -0.336239
+|  |  |  |  Vertex 195 at 39.465790, 65.000999, -0.338488
+|  |  |  |  Vertex 196 at 39.532486, 60.999470, -0.338573
+|  |  |  |  Vertex 197 at 40.049118, 30.000999, -0.339238
+|  |  |  |  Vertex 198 at 41.215790, 65.000999, -0.340736
+|  |  |  |  Vertex 199 at 41.799118, 30.000999, -0.341487
+|  |  |  |  Vertex 200 at 54.475815, 45.625999, -0.409542
+|  |  |  |  Vertex 201 at 54.475815, 45.375999, -0.409542
+|  |  |  |  Vertex 202 at 54.475815, 47.125999, -0.409552
+|  |  |  |  Vertex 203 at 54.475815, 44.125999, -0.409552
+|  |  |  |  Vertex 204 at 57.872265, 47.125999, -0.413916
+|  |  |  |  Vertex 205 at 57.872265, 44.125999, -0.413916
+|  |  |  |  Vertex 206 at 57.872257, 45.625999, -0.418916
+|  |  |  |  Vertex 207 at 57.872257, 45.375999, -0.418916
+|  |  |  |  Vertex 208 at 37.465469, 65.000999, -0.585918
+|  |  |  |  Vertex 209 at 55.548466, 44.125999, -0.859151
+|  |  |  |  Vertex 210 at 55.548466, 30.001001, -0.859151
+|  |  |  |  Vertex 211 at 56.798462, 44.125999, -0.860757
+|  |  |  |  Vertex 212 at 56.798462, 30.001001, -0.860757
+|  |  |  |  Vertex 213 at -47.166775, 63.500996, -0.977190
+|  |  |  |  Vertex 214 at -47.033398, 55.497936, -0.977361
+|  |  |  |  Vertex 215 at -46.983440, 52.500996, -0.977426
+|  |  |  |  Vertex 216 at -46.975109, 52.000996, -0.977436
+|  |  |  |  Vertex 217 at -46.829266, 43.250996, -0.977624
+|  |  |  |  Vertex 218 at -46.820942, 42.750996, -0.977635
+|  |  |  |  Vertex 219 at -46.666775, 33.500996, -0.977833
+|  |  |  |  Vertex 220 at -46.416775, 63.500996, -0.978153
+|  |  |  |  Vertex 221 at -45.916775, 33.500996, -0.978797
+|  |  |  |  Vertex 222 at 37.464828, 65.000999, -1.085917
+|  |  |  |  Vertex 223 at 39.964825, 65.000999, -1.089129
+|  |  |  |  Vertex 224 at 40.031521, 60.999470, -1.089215
+|  |  |  |  Vertex 225 at 40.164822, 53.000999, -1.089387
+|  |  |  |  Vertex 226 at 40.173153, 52.500999, -1.089397
+|  |  |  |  Vertex 227 at 40.456493, 35.500999, -1.089762
+|  |  |  |  Vertex 228 at 40.464828, 35.000999, -1.089773
+|  |  |  |  Vertex 229 at 40.548157, 30.000999, -1.089880
+|  |  |  |  Vertex 230 at 40.714825, 65.000999, -1.090093
+|  |  |  |  Vertex 231 at 41.298153, 30.000999, -1.090844
+|  |  |  |  Vertex 232 at 42.964825, 68.000999, -1.092983
+|  |  |  |  Vertex 233 at 42.964825, 65.000999, -1.092983
+|  |  |  |  Vertex 234 at 42.535751, 68.000999, -1.349682
+|  |  |  |  Vertex 235 at 42.535751, 65.000999, -1.349682
+|  |  |  |  Vertex 236 at 55.995296, 45.625999, -1.932956
+|  |  |  |  Vertex 237 at 55.995296, 45.375999, -1.932956
+|  |  |  |  Vertex 238 at 55.995304, 47.125999, -1.937945
+|  |  |  |  Vertex 239 at 55.995304, 44.125999, -1.937946
+|  |  |  |  Vertex 240 at 56.348850, 47.125999, -1.938400
+|  |  |  |  Vertex 241 at 56.348850, 45.625999, -1.938400
+|  |  |  |  Vertex 242 at 56.348850, 45.375999, -1.938400
+|  |  |  |  Vertex 243 at 56.348850, 44.125999, -1.938400
+|  |  |  |  Vertex 244 at -47.427330, 52.500996, -1.828376
+|  |  |  |  Vertex 245 at -47.493053, 52.000996, -1.970362
+|  |  |  |  Vertex 246 at 56.171852, 47.125999, -2.114953
+|  |  |  |  Vertex 247 at 56.171852, 44.125999, -2.114953
+|  |  |  |  Vertex 248 at 40.891972, 68.000999, -2.333071
+|  |  |  |  Vertex 249 at 40.891972, 65.000999, -2.333072
+|  |  |  |  Vertex 250 at 40.015965, 68.000999, -2.365586
+|  |  |  |  Vertex 251 at 40.015965, 65.000999, -2.365586
+|  |  |  |  Vertex 252 at 39.122330, 53.000999, -2.474949
+|  |  |  |  Vertex 253 at 39.065502, 52.500999, -2.561576
+|  |  |  |  Vertex 254 at 40.462898, 68.000999, -2.589771
+|  |  |  |  Vertex 255 at 40.462898, 65.000999, -2.589771
+|  |  |  |  Vertex 256 at 119.487907, 10.078694, -2.883348
+|  |  |  |  Vertex 257 at 17.205929, 33.500999, -2.809894
+|  |  |  |  Vertex 258 at 25.205921, 34.813499, -2.820171
+|  |  |  |  Vertex 259 at 25.205830, 32.814808, -2.892521
+|  |  |  |  Vertex 260 at 17.205826, 31.502600, -2.889834
+|  |  |  |  Vertex 261 at 25.205643, 28.817429, -3.037221
+|  |  |  |  Vertex 262 at 20.080629, 27.977169, -3.045217
+|  |  |  |  Vertex 263 at 118.499794, 10.990564, -3.321709
+|  |  |  |  Vertex 264 at 17.205286, 21.000999, -3.309894
+|  |  |  |  Vertex 265 at 20.080284, 21.000999, -3.313587
+|  |  |  |  Vertex 266 at 25.205280, 21.000999, -3.320171
+|  |  |  |  Vertex 267 at 114.845970, 5.746824, -3.712375
+|  |  |  |  Vertex 268 at 115.416542, 13.753744, -4.248178
+|  |  |  |  Vertex 269 at -48.643204, 43.250996, -4.455027
+|  |  |  |  Vertex 270 at -48.708931, 42.750996, -4.597003
+|  |  |  |  Vertex 271 at 112.770248, 10.534294, -5.043350
+|  |  |  |  Vertex 272 at 37.133114, 35.500999, -5.506816
+|  |  |  |  Vertex 273 at 37.076271, 35.000999, -5.593443
+|  |  |  |  Vertex 274 at 36.008892, 30.000999, -5.709053
+|  |  |  |  Vertex 275 at 95.293182, 41.996864, -5.910216
+|  |  |  |  Vertex 276 at 95.293182, 20.850994, -5.910217
+|  |  |  |  Vertex 277 at 94.793716, 41.996864, -6.409575
+|  |  |  |  Vertex 278 at 94.793716, 20.816654, -6.409575
+|  |  |  |  Vertex 279 at 95.791367, 41.996864, -6.410856
+|  |  |  |  Vertex 280 at 95.791367, 20.885323, -6.410857
+|  |  |  |  Vertex 281 at 36.507927, 30.000999, -6.459694
+|  |  |  |  Vertex 282 at -50.423836, 33.500996, -6.473011
+|  |  |  |  Vertex 283 at 95.291901, 41.996864, -6.910215
+|  |  |  |  Vertex 284 at 95.291901, 20.850994, -6.910216
+|  |  |  |  Vertex 285 at -49.924801, 33.500996, -7.223653
+|  |  |  |  Vertex 286 at 75.600769, 47.001003, -7.384918
+|  |  |  |  Vertex 287 at 95.600754, 20.872293, -7.410614
+|  |  |  |  Vertex 288 at 74.851898, 47.001003, -7.883956
+|  |  |  |  Vertex 289 at 94.851883, 20.820793, -7.909652
+|  |  |  |  Vertex 290 at -111.926041, 23.000994, -8.144000
+|  |  |  |  Vertex 291 at -111.926041, 17.000994, -8.144000
+|  |  |  |  Vertex 292 at -103.926048, 23.000994, -8.154278
+|  |  |  |  Vertex 293 at -103.926048, 17.000994, -8.154278
+|  |  |  |  Vertex 294 at 75.599480, 47.001003, -8.384916
+|  |  |  |  Vertex 295 at 95.599464, 20.872293, -8.410612
+|  |  |  |  Vertex 296 at -36.927380, 27.977167, -9.240353
+|  |  |  |  Vertex 297 at -36.927380, 21.000998, -9.240354
+|  |  |  |  Vertex 298 at 20.072577, 27.977169, -9.313581
+|  |  |  |  Vertex 299 at 20.072577, 21.000999, -9.313582
+|  |  |  |  Vertex 300 at 31.785315, 36.000999, -11.078630
+|  |  |  |  Vertex 301 at 31.785315, 30.000999, -11.078630
+|  |  |  |  Vertex 302 at 32.285313, 36.000999, -11.079273
+|  |  |  |  Vertex 303 at 32.285313, 35.500999, -11.079273
+|  |  |  |  Vertex 304 at 32.285313, 34.500999, -11.079273
+|  |  |  |  Vertex 305 at 32.285313, 34.000999, -11.079273
+|  |  |  |  Vertex 306 at 32.285313, 33.000999, -11.079273
+|  |  |  |  Vertex 307 at 32.285313, 32.500999, -11.079273
+|  |  |  |  Vertex 308 at 32.285313, 31.500999, -11.079273
+|  |  |  |  Vertex 309 at 32.285313, 31.000999, -11.079273
+|  |  |  |  Vertex 310 at 32.285313, 30.000999, -11.079273
+|  |  |  |  Vertex 311 at 34.160313, 36.000999, -11.081682
+|  |  |  |  Vertex 312 at 34.160313, 31.500999, -11.081682
+|  |  |  |  Vertex 313 at 34.660313, 36.000999, -11.082324
+|  |  |  |  Vertex 314 at 34.660313, 31.500999, -11.082324
+|  |  |  |  Vertex 315 at 36.535309, 36.000999, -11.084733
+|  |  |  |  Vertex 316 at 36.535313, 31.501001, -11.084733
+|  |  |  |  Vertex 317 at 37.035309, 36.000999, -11.085376
+|  |  |  |  Vertex 318 at 37.035309, 31.501001, -11.085376
+|  |  |  |  Vertex 319 at 38.910309, 36.000999, -11.087784
+|  |  |  |  Vertex 320 at 38.910309, 31.501001, -11.087785
+|  |  |  |  Vertex 321 at 39.410309, 36.000999, -11.088427
+|  |  |  |  Vertex 322 at 39.410309, 31.501001, -11.088427
+|  |  |  |  Vertex 323 at 41.285309, 36.000999, -11.090836
+|  |  |  |  Vertex 324 at 41.285309, 35.500999, -11.090836
+|  |  |  |  Vertex 325 at 41.285309, 34.500999, -11.090836
+|  |  |  |  Vertex 326 at 41.285309, 34.000999, -11.090836
+|  |  |  |  Vertex 327 at 41.285309, 33.000999, -11.090836
+|  |  |  |  Vertex 328 at 41.285309, 32.500999, -11.090836
+|  |  |  |  Vertex 329 at 41.285309, 31.501001, -11.090836
+|  |  |  |  Vertex 330 at 41.285309, 31.001001, -11.090836
+|  |  |  |  Vertex 331 at 41.285309, 30.001001, -11.090836
+|  |  |  |  Vertex 332 at 41.785305, 36.000999, -11.091477
+|  |  |  |  Vertex 333 at 41.785305, 30.001001, -11.091478
+|  |  |  |  Vertex 334 at 43.785305, 32.000999, -11.094048
+|  |  |  |  Vertex 335 at 43.785305, 30.001001, -11.094048
+|  |  |  |  Vertex 336 at 60.285294, 32.001003, -11.115245
+|  |  |  |  Vertex 337 at 60.285294, 30.001001, -11.115245
+|  |  |  |  Vertex 338 at -96.430550, 49.000996, -11.663909
+|  |  |  |  Vertex 339 at -96.430550, 17.000994, -11.663911
+|  |  |  |  Vertex 340 at -97.931831, 49.000996, -12.661982
+|  |  |  |  Vertex 341 at -97.931831, 17.000994, -12.661983
+|  |  |  |  Vertex 342 at -94.931839, 49.000996, -12.665835
+|  |  |  |  Vertex 343 at -94.931831, 17.000996, -12.665837
+|  |  |  |  Vertex 344 at -111.933746, 23.000994, -14.143995
+|  |  |  |  Vertex 345 at -111.933746, 17.000994, -14.143995
+|  |  |  |  Vertex 346 at -103.933754, 23.000994, -14.154273
+|  |  |  |  Vertex 347 at -103.933754, 17.000994, -14.154273
+|  |  |  |  Vertex 348 at -97.933762, 49.000996, -14.161981
+|  |  |  |  Vertex 349 at -97.933762, 17.000996, -14.161982
+|  |  |  |  Vertex 350 at -94.933762, 49.000996, -14.165834
+|  |  |  |  Vertex 351 at -94.933762, 17.000996, -14.165835
+|  |  |  |  Vertex 352 at -28.934452, 29.500998, -14.750627
+|  |  |  |  Vertex 353 at -28.934452, 21.000998, -14.750627
+|  |  |  |  Vertex 354 at -26.934454, 29.500998, -14.753196
+|  |  |  |  Vertex 355 at -26.934454, 21.000998, -14.753196
+|  |  |  |  Vertex 356 at -10.934465, 29.500999, -14.773751
+|  |  |  |  Vertex 357 at -10.934465, 21.000999, -14.773751
+|  |  |  |  Vertex 358 at -8.934467, 29.500999, -14.776320
+|  |  |  |  Vertex 359 at -8.934466, 21.000999, -14.776321
+|  |  |  |  Vertex 360 at -96.435043, 49.000996, -15.163906
+|  |  |  |  Vertex 361 at -96.435043, 17.000996, -15.163908
+|  |  |  |  Vertex 362 at -96.435692, 17.000996, -15.663907
+|  |  |  |  Vertex 363 at -76.435699, 47.000996, -15.689601
+|  |  |  |  Vertex 364 at 62.403759, 33.001003, -16.201746
+|  |  |  |  Vertex 365 at 62.403759, 30.001001, -16.201746
+|  |  |  |  Vertex 366 at 67.403755, 33.001003, -16.208170
+|  |  |  |  Vertex 367 at 67.403755, 30.001001, -16.208170
+|  |  |  |  Vertex 368 at -95.686333, 17.000996, -16.164871
+|  |  |  |  Vertex 369 at -75.686340, 47.000996, -16.190565
+|  |  |  |  Vertex 370 at -27.936380, 28.500998, -16.251911
+|  |  |  |  Vertex 371 at -27.936380, 21.000998, -16.251911
+|  |  |  |  Vertex 372 at -9.936393, 28.500999, -16.275036
+|  |  |  |  Vertex 373 at -9.936393, 21.000999, -16.275036
+|  |  |  |  Vertex 374 at -96.436974, 17.000996, -16.663908
+|  |  |  |  Vertex 375 at -76.436989, 47.000996, -16.689600
+|  |  |  |  Vertex 376 at -27.951155, 35.500999, -27.751902
+|  |  |  |  Vertex 377 at -9.951168, 35.500999, -27.775026
+
+|  |  |  |  Chunk MESH_MATRIX (4160H) 
+|  |  |  |  Length is 54 (36H) 
+|  |  |  |  [0] 1.000000 [1] 0.000000 [2] 0.000000
+|  |  |  |  [3] 0.000000 [4] 1.000000 [5] 0.000000
+|  |  |  |  [6] 0.000000 [7] 0.000000 [8] 1.000000
+|  |  |  |  [9] 0.001000 [10] 0.001000 [11] 0.001000
+
+|  |  |  |  Chunk FACE_ARRAY (4120H) 
+|  |  |  |  Length is 5187 (1443H) 
+|  |  |  |  361 Faces
+|  |  |  |  Face 0 vertices 102, 110, 121 and flag 7
+|  |  |  |  Face 1 vertices 102, 121, 114 and flag 7
+|  |  |  |  Face 2 vertices 109, 102, 114 and flag 7
+|  |  |  |  Face 3 vertices 263, 256, 267 and flag 7
+|  |  |  |  Face 4 vertices 263, 267, 271 and flag 7
+|  |  |  |  Face 5 vertices 268, 263, 271 and flag 7
+|  |  |  |  Face 6 vertices 22, 20, 21 and flag 7
+|  |  |  |  Face 7 vertices 22, 21, 23 and flag 7
+|  |  |  |  Face 8 vertices 20, 82, 83 and flag 7
+|  |  |  |  Face 9 vertices 20, 83, 21 and flag 7
+|  |  |  |  Face 10 vertices 82, 84, 85 and flag 7
+|  |  |  |  Face 11 vertices 82, 85, 83 and flag 7
+|  |  |  |  Face 12 vertices 84, 22, 23 and flag 7
+|  |  |  |  Face 13 vertices 84, 23, 85 and flag 7
+|  |  |  |  Face 14 vertices 292, 290, 291 and flag 7
+|  |  |  |  Face 15 vertices 292, 291, 293 and flag 7
+|  |  |  |  Face 16 vertices 290, 344, 345 and flag 7
+|  |  |  |  Face 17 vertices 290, 345, 291 and flag 7
+|  |  |  |  Face 18 vertices 344, 346, 347 and flag 7
+|  |  |  |  Face 19 vertices 344, 347, 345 and flag 7
+|  |  |  |  Face 20 vertices 346, 292, 293 and flag 7
+|  |  |  |  Face 21 vertices 346, 293, 347 and flag 7
+|  |  |  |  Face 22 vertices 69, 67, 59 and flag 7
+|  |  |  |  Face 23 vertices 69, 59, 68 and flag 7
+|  |  |  |  Face 24 vertices 332, 323, 331 and flag 7
+|  |  |  |  Face 25 vertices 332, 331, 333 and flag 7
+|  |  |  |  Face 26 vertices 302, 300, 301 and flag 7
+|  |  |  |  Face 27 vertices 302, 301, 310 and flag 7
+|  |  |  |  Face 28 vertices 329, 308, 309 and flag 7
+|  |  |  |  Face 29 vertices 329, 309, 330 and flag 7
+|  |  |  |  Face 30 vertices 327, 306, 307 and flag 7
+|  |  |  |  Face 31 vertices 327, 307, 328 and flag 7
+|  |  |  |  Face 32 vertices 325, 304, 305 and flag 7
+|  |  |  |  Face 33 vertices 325, 305, 326 and flag 7
+|  |  |  |  Face 34 vertices 323, 302, 303 and flag 7
+|  |  |  |  Face 35 vertices 323, 303, 324 and flag 7
+|  |  |  |  Face 36 vertices 313, 311, 312 and flag 7
+|  |  |  |  Face 37 vertices 313, 312, 314 and flag 7
+|  |  |  |  Face 38 vertices 317, 315, 316 and flag 7
+|  |  |  |  Face 39 vertices 317, 316, 318 and flag 7
+|  |  |  |  Face 40 vertices 321, 319, 320 and flag 7
+|  |  |  |  Face 41 vertices 321, 320, 322 and flag 7
+|  |  |  |  Face 42 vertices 46, 37, 36 and flag 7
+|  |  |  |  Face 43 vertices 46, 36, 38 and flag 7
+|  |  |  |  Face 44 vertices 66, 45, 44 and flag 7
+|  |  |  |  Face 45 vertices 66, 44, 65 and flag 7
+|  |  |  |  Face 46 vertices 64, 43, 42 and flag 7
+|  |  |  |  Face 47 vertices 64, 42, 63 and flag 7
+|  |  |  |  Face 48 vertices 62, 41, 40 and flag 7
+|  |  |  |  Face 49 vertices 62, 40, 61 and flag 7
+|  |  |  |  Face 50 vertices 60, 39, 38 and flag 7
+|  |  |  |  Face 51 vertices 60, 38, 59 and flag 7
+|  |  |  |  Face 52 vertices 50, 48, 47 and flag 7
+|  |  |  |  Face 53 vertices 50, 47, 49 and flag 7
+|  |  |  |  Face 54 vertices 54, 52, 51 and flag 7
+|  |  |  |  Face 55 vertices 54, 51, 53 and flag 7
+|  |  |  |  Face 56 vertices 58, 56, 55 and flag 7
+|  |  |  |  Face 57 vertices 58, 55, 57 and flag 7
+|  |  |  |  Face 58 vertices 189, 257, 260 and flag 7
+|  |  |  |  Face 59 vertices 189, 260, 188 and flag 7
+|  |  |  |  Face 60 vertices 257, 258, 259 and flag 7
+|  |  |  |  Face 61 vertices 257, 259, 260 and flag 7
+|  |  |  |  Face 62 vertices 258, 190, 191 and flag 7
+|  |  |  |  Face 63 vertices 258, 191, 259 and flag 7
+|  |  |  |  Face 64 vertices 190, 120, 118 and flag 7
+|  |  |  |  Face 65 vertices 190, 118, 191 and flag 7
+|  |  |  |  Face 66 vertices 120, 119, 117 and flag 7
+|  |  |  |  Face 67 vertices 120, 117, 118 and flag 7
+|  |  |  |  Face 68 vertices 119, 189, 188 and flag 7
+|  |  |  |  Face 69 vertices 119, 188, 117 and flag 7
+|  |  |  |  Face 70 vertices 79, 81, 80 and flag 7
+|  |  |  |  Face 71 vertices 79, 80, 78 and flag 7
+|  |  |  |  Face 72 vertices 296, 298, 299 and flag 7
+|  |  |  |  Face 73 vertices 296, 299, 297 and flag 7
+|  |  |  |  Face 74 vertices 298, 262, 265 and flag 7
+|  |  |  |  Face 75 vertices 298, 265, 299 and flag 7
+|  |  |  |  Face 76 vertices 115, 80, 81 and flag 7
+|  |  |  |  Face 77 vertices 115, 81, 112 and flag 7
+|  |  |  |  Face 78 vertices 356, 372, 373 and flag 7
+|  |  |  |  Face 79 vertices 356, 373, 357 and flag 7
+|  |  |  |  Face 80 vertices 372, 358, 359 and flag 7
+|  |  |  |  Face 81 vertices 372, 359, 373 and flag 7
+|  |  |  |  Face 82 vertices 358, 356, 357 and flag 7
+|  |  |  |  Face 83 vertices 358, 357, 359 and flag 7
+|  |  |  |  Face 84 vertices 377, 372, 356 and flag 7
+|  |  |  |  Face 85 vertices 377, 358, 372 and flag 7
+|  |  |  |  Face 86 vertices 377, 356, 358 and flag 7
+|  |  |  |  Face 87 vertices 35, 77, 76 and flag 7
+|  |  |  |  Face 88 vertices 35, 76, 34 and flag 7
+|  |  |  |  Face 89 vertices 77, 75, 74 and flag 7
+|  |  |  |  Face 90 vertices 77, 74, 76 and flag 7
+|  |  |  |  Face 91 vertices 75, 35, 34 and flag 7
+|  |  |  |  Face 92 vertices 75, 34, 74 and flag 7
+|  |  |  |  Face 93 vertices 363, 375, 374 and flag 7
+|  |  |  |  Face 94 vertices 363, 374, 362 and flag 7
+|  |  |  |  Face 95 vertices 375, 369, 368 and flag 7
+|  |  |  |  Face 96 vertices 375, 368, 374 and flag 7
+|  |  |  |  Face 97 vertices 369, 363, 362 and flag 7
+|  |  |  |  Face 98 vertices 369, 362, 368 and flag 7
+|  |  |  |  Face 99 vertices 352, 370, 371 and flag 7
+|  |  |  |  Face 100 vertices 352, 371, 353 and flag 7
+|  |  |  |  Face 101 vertices 370, 354, 355 and flag 7
+|  |  |  |  Face 102 vertices 370, 355, 371 and flag 7
+|  |  |  |  Face 103 vertices 354, 352, 353 and flag 7
+|  |  |  |  Face 104 vertices 354, 353, 355 and flag 7
+|  |  |  |  Face 105 vertices 376, 370, 352 and flag 7
+|  |  |  |  Face 106 vertices 376, 354, 370 and flag 7
+|  |  |  |  Face 107 vertices 376, 352, 354 and flag 7
+|  |  |  |  Face 108 vertices 103, 107, 108 and flag 7
+|  |  |  |  Face 109 vertices 103, 108, 104 and flag 7
+|  |  |  |  Face 110 vertices 107, 100, 101 and flag 7
+|  |  |  |  Face 111 vertices 107, 101, 108 and flag 7
+|  |  |  |  Face 112 vertices 100, 103, 104 and flag 7
+|  |  |  |  Face 113 vertices 100, 104, 101 and flag 7
+|  |  |  |  Face 114 vertices 288, 294, 295 and flag 7
+|  |  |  |  Face 115 vertices 288, 295, 289 and flag 7
+|  |  |  |  Face 116 vertices 294, 286, 287 and flag 7
+|  |  |  |  Face 117 vertices 294, 287, 295 and flag 7
+|  |  |  |  Face 118 vertices 286, 288, 289 and flag 7
+|  |  |  |  Face 119 vertices 286, 289, 287 and flag 7
+|  |  |  |  Face 120 vertices 18, 4, 5 and flag 7
+|  |  |  |  Face 121 vertices 18, 5, 19 and flag 7
+|  |  |  |  Face 122 vertices 4, 16, 17 and flag 7
+|  |  |  |  Face 123 vertices 4, 17, 5 and flag 7
+|  |  |  |  Face 124 vertices 16, 18, 19 and flag 7
+|  |  |  |  Face 125 vertices 16, 19, 17 and flag 7
+|  |  |  |  Face 126 vertices 1, 4, 18 and flag 7
+|  |  |  |  Face 127 vertices 1, 16, 4 and flag 7
+|  |  |  |  Face 128 vertices 1, 18, 16 and flag 7
+|  |  |  |  Face 129 vertices 14, 2, 3 and flag 7
+|  |  |  |  Face 130 vertices 14, 3, 15 and flag 7
+|  |  |  |  Face 131 vertices 2, 12, 13 and flag 7
+|  |  |  |  Face 132 vertices 2, 13, 3 and flag 7
+|  |  |  |  Face 133 vertices 12, 14, 15 and flag 7
+|  |  |  |  Face 134 vertices 12, 15, 13 and flag 7
+|  |  |  |  Face 135 vertices 0, 2, 14 and flag 7
+|  |  |  |  Face 136 vertices 0, 12, 2 and flag 7
+|  |  |  |  Face 137 vertices 0, 14, 12 and flag 7
+|  |  |  |  Face 138 vertices 154, 195, 197 and flag 7
+|  |  |  |  Face 139 vertices 154, 197, 160 and flag 7
+|  |  |  |  Face 140 vertices 274, 281, 224 and flag 7
+|  |  |  |  Face 141 vertices 274, 224, 196 and flag 7
+|  |  |  |  Face 142 vertices 272, 227, 228 and flag 7
+|  |  |  |  Face 143 vertices 272, 228, 273 and flag 7
+|  |  |  |  Face 144 vertices 158, 99, 98 and flag 7
+|  |  |  |  Face 145 vertices 158, 98, 159 and flag 7
+|  |  |  |  Face 146 vertices 156, 125, 124 and flag 7
+|  |  |  |  Face 147 vertices 156, 124, 157 and flag 7
+|  |  |  |  Face 148 vertices 252, 225, 226 and flag 7
+|  |  |  |  Face 149 vertices 252, 226, 253 and flag 7
+|  |  |  |  Face 150 vertices 195, 223, 229 and flag 7
+|  |  |  |  Face 151 vertices 195, 229, 197 and flag 7
+|  |  |  |  Face 152 vertices 223, 230, 231 and flag 7
+|  |  |  |  Face 153 vertices 223, 231, 229 and flag 7
+|  |  |  |  Face 154 vertices 230, 198, 199 and flag 7
+|  |  |  |  Face 155 vertices 230, 199, 231 and flag 7
+|  |  |  |  Face 156 vertices 198, 161, 162 and flag 7
+|  |  |  |  Face 157 vertices 198, 162, 199 and flag 7
+|  |  |  |  Face 158 vertices 161, 154, 160 and flag 7
+|  |  |  |  Face 159 vertices 161, 160, 162 and flag 7
+|  |  |  |  Face 160 vertices 155, 196, 97 and flag 7
+|  |  |  |  Face 161 vertices 155, 97, 90 and flag 7
+|  |  |  |  Face 162 vertices 90, 97, 196 and flag 7
+|  |  |  |  Face 163 vertices 90, 196, 155 and flag 7
+|  |  |  |  Face 164 vertices 196, 224, 281 and flag 7
+|  |  |  |  Face 165 vertices 196, 281, 274 and flag 7
+|  |  |  |  Face 166 vertices 144, 182, 184 and flag 7
+|  |  |  |  Face 167 vertices 144, 184, 150 and flag 7
+|  |  |  |  Face 168 vertices 282, 285, 214 and flag 7
+|  |  |  |  Face 169 vertices 282, 214, 183 and flag 7
+|  |  |  |  Face 170 vertices 148, 106, 105 and flag 7
+|  |  |  |  Face 171 vertices 148, 105, 149 and flag 7
+|  |  |  |  Face 172 vertices 269, 217, 218 and flag 7
+|  |  |  |  Face 173 vertices 269, 218, 270 and flag 7
+|  |  |  |  Face 174 vertices 146, 141, 140 and flag 7
+|  |  |  |  Face 175 vertices 146, 140, 147 and flag 7
+|  |  |  |  Face 176 vertices 244, 215, 216 and flag 7
+|  |  |  |  Face 177 vertices 244, 216, 245 and flag 7
+|  |  |  |  Face 178 vertices 182, 213, 219 and flag 7
+|  |  |  |  Face 179 vertices 182, 219, 184 and flag 7
+|  |  |  |  Face 180 vertices 213, 220, 221 and flag 7
+|  |  |  |  Face 181 vertices 213, 221, 219 and flag 7
+|  |  |  |  Face 182 vertices 220, 185, 186 and flag 7
+|  |  |  |  Face 183 vertices 220, 186, 221 and flag 7
+|  |  |  |  Face 184 vertices 185, 151, 152 and flag 7
+|  |  |  |  Face 185 vertices 185, 152, 186 and flag 7
+|  |  |  |  Face 186 vertices 151, 144, 150 and flag 7
+|  |  |  |  Face 187 vertices 151, 150, 152 and flag 7
+|  |  |  |  Face 188 vertices 145, 183, 89 and flag 7
+|  |  |  |  Face 189 vertices 145, 89, 86 and flag 7
+|  |  |  |  Face 190 vertices 86, 89, 183 and flag 7
+|  |  |  |  Face 191 vertices 86, 183, 145 and flag 7
+|  |  |  |  Face 192 vertices 183, 214, 285 and flag 7
+|  |  |  |  Face 193 vertices 183, 285, 282 and flag 7
+|  |  |  |  Face 194 vertices 348, 360, 361 and flag 7
+|  |  |  |  Face 195 vertices 348, 361, 349 and flag 7
+|  |  |  |  Face 196 vertices 26, 10, 11 and flag 7
+|  |  |  |  Face 197 vertices 26, 11, 27 and flag 7
+|  |  |  |  Face 198 vertices 10, 24, 25 and flag 7
+|  |  |  |  Face 199 vertices 10, 25, 11 and flag 7
+|  |  |  |  Face 200 vertices 24, 28, 29 and flag 7
+|  |  |  |  Face 201 vertices 24, 29, 25 and flag 7
+|  |  |  |  Face 202 vertices 360, 350, 351 and flag 7
+|  |  |  |  Face 203 vertices 360, 351, 361 and flag 7
+|  |  |  |  Face 204 vertices 350, 342, 343 and flag 7
+|  |  |  |  Face 205 vertices 350, 343, 351 and flag 7
+|  |  |  |  Face 206 vertices 342, 338, 339 and flag 7
+|  |  |  |  Face 207 vertices 342, 339, 343 and flag 7
+|  |  |  |  Face 208 vertices 338, 340, 341 and flag 7
+|  |  |  |  Face 209 vertices 338, 341, 339 and flag 7
+|  |  |  |  Face 210 vertices 340, 348, 349 and flag 7
+|  |  |  |  Face 211 vertices 340, 349, 341 and flag 7
+|  |  |  |  Face 212 vertices 28, 32, 33 and flag 7
+|  |  |  |  Face 213 vertices 28, 33, 29 and flag 7
+|  |  |  |  Face 214 vertices 32, 30, 31 and flag 7
+|  |  |  |  Face 215 vertices 32, 31, 33 and flag 7
+|  |  |  |  Face 216 vertices 30, 26, 27 and flag 7
+|  |  |  |  Face 217 vertices 30, 27, 31 and flag 7
+|  |  |  |  Face 218 vertices 95, 93, 94 and flag 7
+|  |  |  |  Face 219 vertices 95, 94, 96 and flag 7
+|  |  |  |  Face 220 vertices 93, 87, 88 and flag 7
+|  |  |  |  Face 221 vertices 93, 88, 94 and flag 7
+|  |  |  |  Face 222 vertices 87, 91, 92 and flag 7
+|  |  |  |  Face 223 vertices 87, 92, 88 and flag 7
+|  |  |  |  Face 224 vertices 91, 95, 96 and flag 7
+|  |  |  |  Face 225 vertices 91, 96, 92 and flag 7
+|  |  |  |  Face 226 vertices 283, 279, 280 and flag 7
+|  |  |  |  Face 227 vertices 283, 280, 284 and flag 7
+|  |  |  |  Face 228 vertices 279, 275, 276 and flag 7
+|  |  |  |  Face 229 vertices 279, 276, 280 and flag 7
+|  |  |  |  Face 230 vertices 275, 277, 278 and flag 7
+|  |  |  |  Face 231 vertices 275, 278, 276 and flag 7
+|  |  |  |  Face 232 vertices 277, 283, 284 and flag 7
+|  |  |  |  Face 233 vertices 277, 284, 278 and flag 7
+|  |  |  |  Face 234 vertices 167, 165, 166 and flag 7
+|  |  |  |  Face 235 vertices 167, 166, 168 and flag 7
+|  |  |  |  Face 236 vertices 136, 128, 129 and flag 7
+|  |  |  |  Face 237 vertices 136, 129, 139 and flag 7
+|  |  |  |  Face 238 vertices 128, 132, 135 and flag 7
+|  |  |  |  Face 239 vertices 128, 135, 129 and flag 7
+|  |  |  |  Face 240 vertices 169, 178, 179 and flag 7
+|  |  |  |  Face 241 vertices 169, 179, 172 and flag 7
+|  |  |  |  Face 242 vertices 178, 202, 203 and flag 7
+|  |  |  |  Face 243 vertices 178, 203, 179 and flag 7
+|  |  |  |  Face 244 vertices 165, 209, 210 and flag 7
+|  |  |  |  Face 245 vertices 165, 210, 166 and flag 7
+|  |  |  |  Face 246 vertices 246, 240, 243 and flag 7
+|  |  |  |  Face 247 vertices 246, 243, 247 and flag 7
+|  |  |  |  Face 248 vertices 238, 246, 247 and flag 7
+|  |  |  |  Face 249 vertices 238, 247, 239 and flag 7
+|  |  |  |  Face 250 vertices 209, 211, 212 and flag 7
+|  |  |  |  Face 251 vertices 209, 212, 210 and flag 7
+|  |  |  |  Face 252 vertices 211, 167, 168 and flag 7
+|  |  |  |  Face 253 vertices 211, 168, 212 and flag 7
+|  |  |  |  Face 254 vertices 181, 129, 179 and flag 7
+|  |  |  |  Face 255 vertices 181, 179, 247 and flag 7
+|  |  |  |  Face 256 vertices 180, 173, 174 and flag 7
+|  |  |  |  Face 257 vertices 180, 174, 181 and flag 7
+|  |  |  |  Face 258 vertices 204, 180, 181 and flag 7
+|  |  |  |  Face 259 vertices 204, 181, 205 and flag 7
+|  |  |  |  Face 260 vertices 173, 204, 205 and flag 7
+|  |  |  |  Face 261 vertices 173, 205, 174 and flag 7
+|  |  |  |  Face 262 vertices 132, 136, 139 and flag 7
+|  |  |  |  Face 263 vertices 132, 139, 135 and flag 7
+|  |  |  |  Face 264 vertices 202, 169, 172 and flag 7
+|  |  |  |  Face 265 vertices 202, 172, 203 and flag 7
+|  |  |  |  Face 266 vertices 240, 238, 239 and flag 7
+|  |  |  |  Face 267 vertices 240, 239, 243 and flag 7
+|  |  |  |  Face 268 vertices 68, 59, 67 and flag 7
+|  |  |  |  Face 269 vertices 68, 67, 69 and flag 7
+|  |  |  |  Face 270 vertices 333, 331, 323 and flag 7
+|  |  |  |  Face 271 vertices 333, 323, 332 and flag 7
+|  |  |  |  Face 272 vertices 310, 301, 300 and flag 7
+|  |  |  |  Face 273 vertices 310, 300, 302 and flag 7
+|  |  |  |  Face 274 vertices 330, 309, 308 and flag 7
+|  |  |  |  Face 275 vertices 330, 308, 329 and flag 7
+|  |  |  |  Face 276 vertices 328, 307, 306 and flag 7
+|  |  |  |  Face 277 vertices 328, 306, 327 and flag 7
+|  |  |  |  Face 278 vertices 326, 305, 304 and flag 7
+|  |  |  |  Face 279 vertices 326, 304, 325 and flag 7
+|  |  |  |  Face 280 vertices 324, 303, 302 and flag 7
+|  |  |  |  Face 281 vertices 324, 302, 323 and flag 7
+|  |  |  |  Face 282 vertices 314, 312, 311 and flag 7
+|  |  |  |  Face 283 vertices 314, 311, 313 and flag 7
+|  |  |  |  Face 284 vertices 318, 316, 315 and flag 7
+|  |  |  |  Face 285 vertices 318, 315, 317 and flag 7
+|  |  |  |  Face 286 vertices 322, 320, 319 and flag 7
+|  |  |  |  Face 287 vertices 322, 319, 321 and flag 7
+|  |  |  |  Face 288 vertices 72, 70, 71 and flag 7
+|  |  |  |  Face 289 vertices 72, 71, 73 and flag 7
+|  |  |  |  Face 290 vertices 38, 36, 37 and flag 7
+|  |  |  |  Face 291 vertices 38, 37, 46 and flag 7
+|  |  |  |  Face 292 vertices 334, 336, 337 and flag 7
+|  |  |  |  Face 293 vertices 334, 337, 335 and flag 7
+|  |  |  |  Face 294 vertices 65, 44, 45 and flag 7
+|  |  |  |  Face 295 vertices 65, 45, 66 and flag 7
+|  |  |  |  Face 296 vertices 53, 51, 52 and flag 7
+|  |  |  |  Face 297 vertices 53, 52, 54 and flag 7
+|  |  |  |  Face 298 vertices 63, 42, 43 and flag 7
+|  |  |  |  Face 299 vertices 63, 43, 64 and flag 7
+|  |  |  |  Face 300 vertices 61, 40, 41 and flag 7
+|  |  |  |  Face 301 vertices 61, 41, 62 and flag 7
+|  |  |  |  Face 302 vertices 59, 38, 39 and flag 7
+|  |  |  |  Face 303 vertices 59, 39, 60 and flag 7
+|  |  |  |  Face 304 vertices 57, 55, 56 and flag 7
+|  |  |  |  Face 305 vertices 57, 56, 58 and flag 7
+|  |  |  |  Face 306 vertices 49, 47, 48 and flag 7
+|  |  |  |  Face 307 vertices 49, 48, 50 and flag 7
+|  |  |  |  Face 308 vertices 170, 171, 134 and flag 7
+|  |  |  |  Face 309 vertices 170, 134, 133 and flag 7
+|  |  |  |  Face 310 vertices 236, 237, 201 and flag 7
+|  |  |  |  Face 311 vertices 236, 201, 200 and flag 7
+|  |  |  |  Face 312 vertices 206, 207, 242 and flag 7
+|  |  |  |  Face 313 vertices 206, 242, 241 and flag 7
+|  |  |  |  Face 314 vertices 137, 138, 176 and flag 7
+|  |  |  |  Face 315 vertices 137, 176, 175 and flag 7
+|  |  |  |  Face 316 vertices 255, 233, 164 and flag 7
+|  |  |  |  Face 317 vertices 255, 164, 123 and flag 7
+|  |  |  |  Face 318 vertices 163, 142, 143 and flag 7
+|  |  |  |  Face 319 vertices 163, 143, 164 and flag 7
+|  |  |  |  Face 320 vertices 234, 232, 233 and flag 7
+|  |  |  |  Face 321 vertices 234, 233, 235 and flag 7
+|  |  |  |  Face 322 vertices 255, 123, 153 and flag 7
+|  |  |  |  Face 323 vertices 255, 153, 222 and flag 7
+|  |  |  |  Face 324 vertices 130, 122, 123 and flag 7
+|  |  |  |  Face 325 vertices 130, 123, 131 and flag 7
+|  |  |  |  Face 326 vertices 122, 126, 127 and flag 7
+|  |  |  |  Face 327 vertices 122, 127, 123 and flag 7
+|  |  |  |  Face 328 vertices 250, 254, 255 and flag 7
+|  |  |  |  Face 329 vertices 250, 255, 251 and flag 7
+|  |  |  |  Face 330 vertices 254, 248, 249 and flag 7
+|  |  |  |  Face 331 vertices 254, 249, 255 and flag 7
+|  |  |  |  Face 332 vertices 193, 177, 194 and flag 7
+|  |  |  |  Face 333 vertices 193, 208, 177 and flag 7
+|  |  |  |  Face 334 vertices 193, 194, 208 and flag 7
+|  |  |  |  Face 335 vertices 8, 6, 7 and flag 7
+|  |  |  |  Face 336 vertices 8, 7, 9 and flag 7
+|  |  |  |  Face 337 vertices 367, 365, 364 and flag 7
+|  |  |  |  Face 338 vertices 367, 364, 366 and flag 7
+|  |  |  |  Face 339 vertices 189, 257, 264 and flag 7
+|  |  |  |  Face 340 vertices 189, 264, 187 and flag 7
+|  |  |  |  Face 341 vertices 258, 190, 192 and flag 7
+|  |  |  |  Face 342 vertices 258, 192, 266 and flag 7
+|  |  |  |  Face 343 vertices 190, 120, 113 and flag 7
+|  |  |  |  Face 344 vertices 190, 113, 192 and flag 7
+|  |  |  |  Face 345 vertices 119, 189, 187 and flag 7
+|  |  |  |  Face 346 vertices 119, 187, 111 and flag 7
+|  |  |  |  Face 347 vertices 116, 115, 112 and flag 7
+|  |  |  |  Face 348 vertices 116, 112, 113 and flag 7
+|  |  |  |  Face 349 vertices 262, 261, 266 and flag 7
+|  |  |  |  Face 350 vertices 262, 266, 265 and flag 7
+|  |  |  |  Face 351 vertices 257, 189, 119 and flag 7
+|  |  |  |  Face 352 vertices 257, 119, 120 and flag 7
+|  |  |  |  Face 353 vertices 120, 258, 257 and flag 7
+|  |  |  |  Face 354 vertices 258, 120, 190 and flag 7
+|  |  |  |  Face 355 vertices 80, 298, 296 and flag 7
+|  |  |  |  Face 356 vertices 296, 78, 80 and flag 7
+|  |  |  |  Face 357 vertices 292, 346, 344 and flag 7
+|  |  |  |  Face 358 vertices 292, 344, 290 and flag 7
+|  |  |  |  Face 359 vertices 84, 82, 22 and flag 7
+|  |  |  |  Face 360 vertices 22, 82, 20 and flag 7
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 95 (5fH) 
+|  |  |  |  |  Material Name Of sqguns01 (sub)
+|  |  |  |  |  Assigned to 36 faces
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 157 (9dH) 
+|  |  |  |  |  Material Name Of Material #15 (su
+|  |  |  |  |  Assigned to 66 faces
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 259 (103H) 
+|  |  |  |  |  Material Name Of Material #20 (su
+|  |  |  |  |  Assigned to 117 faces
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 177 (b1H) 
+|  |  |  |  |  Material Name Of Material #21
+|  |  |  |  |  Assigned to 78 faces
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 153 (99H) 
+|  |  |  |  |  Material Name Of Material #14 (su
+|  |  |  |  |  Assigned to 64 faces
+
+|  |  |  |  |  Chunk SMOOTH_GROUP (4150H) 
+|  |  |  |  |  Length is 1450 (5aaH) 
+
+|  |  Chunk NAMED_OBJECT (4000H) 
+|  |  Length is 1170 (492H) 
+|  |  Name: SQHULL01
+
+|  |  |  Chunk N_TRI_OBJECT (4100H) 
+|  |  |  Length is 1155 (483H) 
+
+|  |  |  |  Chunk POINT_ARRAY (4110H) 
+|  |  |  |  Length is 332 (14cH) 
+|  |  |  |  27 Vertices
+|  |  |  |  Vertex 0 at -136.392609, 17.000992, 17.887455
+|  |  |  |  Vertex 1 at -136.392609, 7.000992, 17.887453
+|  |  |  |  Vertex 2 at 68.447220, 19.001001, 17.624292
+|  |  |  |  Vertex 3 at 68.447220, 17.001001, 17.624292
+|  |  |  |  Vertex 4 at 68.447220, 7.001001, 17.624292
+|  |  |  |  Vertex 5 at -139.382660, 20.000992, 16.912924
+|  |  |  |  Vertex 6 at -136.393890, 0.000992, 16.887455
+|  |  |  |  Vertex 7 at 68.445938, 0.001001, 16.624292
+|  |  |  |  Vertex 8 at -144.180176, 20.000992, 15.897458
+|  |  |  |  Vertex 9 at -144.180176, 10.000993, 15.897458
+|  |  |  |  Vertex 10 at -142.680176, 5.000992, 15.895531
+|  |  |  |  Vertex 11 at -139.180176, 1.250992, 15.891034
+|  |  |  |  Vertex 12 at 122.299057, 0.001004, -0.444908
+|  |  |  |  Vertex 13 at 128.049057, 11.751005, -0.452295
+|  |  |  |  Vertex 14 at 133.799057, 23.501005, -0.459681
+|  |  |  |  Vertex 15 at -144.221283, 20.000992, -16.102518
+|  |  |  |  Vertex 16 at -144.221283, 10.000994, -16.102518
+|  |  |  |  Vertex 17 at -142.721283, 5.000993, -16.104445
+|  |  |  |  Vertex 18 at -139.221283, 1.250994, -16.108942
+|  |  |  |  Vertex 19 at -136.437576, 0.000994, -17.112520
+|  |  |  |  Vertex 20 at 68.402260, 0.001003, -17.375681
+|  |  |  |  Vertex 21 at -139.426392, 20.000994, -17.130308
+|  |  |  |  Vertex 22 at -136.438858, 17.000994, -18.112518
+|  |  |  |  Vertex 23 at -136.438858, 7.000994, -18.112518
+|  |  |  |  Vertex 24 at 68.400970, 19.001001, -18.375679
+|  |  |  |  Vertex 25 at 68.400970, 17.001001, -18.375679
+|  |  |  |  Vertex 26 at 68.400970, 7.001003, -18.375681
+
+|  |  |  |  Chunk TEX_VERTS (4140H) 
+|  |  |  |  Length is 224 (e0H) 
+|  |  |  |  27 Vertices
+|  |  |  |  Vertex 0 with tex vert of 0.052952, 0.601271
+|  |  |  |  Vertex 1 with tex vert of 0.052952, 0.489253
+|  |  |  |  Vertex 2 with tex vert of 0.753998, 0.623674
+|  |  |  |  Vertex 3 with tex vert of 0.753998, 0.601271
+|  |  |  |  Vertex 4 with tex vert of 0.753998, 0.489253
+|  |  |  |  Vertex 5 with tex vert of 0.042723, 0.634876
+|  |  |  |  Vertex 6 with tex vert of 0.052952, 0.410841
+|  |  |  |  Vertex 7 with tex vert of 0.753998, 0.410841
+|  |  |  |  Vertex 8 with tex vert of 0.026309, 0.634876
+|  |  |  |  Vertex 9 with tex vert of 0.026309, 0.522859
+|  |  |  |  Vertex 10 with tex vert of 0.031442, 0.466850
+|  |  |  |  Vertex 11 with tex vert of 0.043421, 0.424843
+|  |  |  |  Vertex 12 with tex vert of 0.938384, 0.410841
+|  |  |  |  Vertex 13 with tex vert of 0.958063, 0.542462
+|  |  |  |  Vertex 14 with tex vert of 0.977742, 0.674082
+|  |  |  |  Vertex 15 with tex vert of 0.026316, 0.634876
+|  |  |  |  Vertex 16 with tex vert of 0.026316, 0.522858
+|  |  |  |  Vertex 17 with tex vert of 0.031442, 0.466850
+|  |  |  |  Vertex 18 with tex vert of 0.043421, 0.424843
+|  |  |  |  Vertex 19 with tex vert of 0.052952, 0.410841
+|  |  |  |  Vertex 20 with tex vert of 0.753998, 0.410841
+|  |  |  |  Vertex 21 with tex vert of 0.042723, 0.634876
+|  |  |  |  Vertex 22 with tex vert of 0.052959, 0.601271
+|  |  |  |  Vertex 23 with tex vert of 0.052959, 0.489253
+|  |  |  |  Vertex 24 with tex vert of 0.754006, 0.623674
+|  |  |  |  Vertex 25 with tex vert of 0.754006, 0.601271
+|  |  |  |  Vertex 26 with tex vert of 0.754006, 0.489253
+
+|  |  |  |  Chunk MESH_MATRIX (4160H) 
+|  |  |  |  Length is 54 (36H) 
+|  |  |  |  [0] 1.000000 [1] 0.000000 [2] 0.000000
+|  |  |  |  [3] 0.000000 [4] 1.000000 [5] 0.000000
+|  |  |  |  [6] 0.000000 [7] 0.000000 [8] 1.000000
+|  |  |  |  [9] 0.001000 [10] 0.001000 [11] 0.001000
+
+|  |  |  |  Chunk FACE_ARRAY (4120H) 
+|  |  |  |  Length is 539 (21bH) 
+|  |  |  |  36 Faces
+|  |  |  |  Face 0 vertices 26, 13, 12 and flag 7
+|  |  |  |  Face 1 vertices 26, 12, 20 and flag 7
+|  |  |  |  Face 2 vertices 4, 1, 6 and flag 7
+|  |  |  |  Face 3 vertices 4, 6, 7 and flag 7
+|  |  |  |  Face 4 vertices 8, 15, 16 and flag 7
+|  |  |  |  Face 5 vertices 8, 16, 9 and flag 7
+|  |  |  |  Face 6 vertices 9, 16, 17 and flag 7
+|  |  |  |  Face 7 vertices 9, 17, 10 and flag 7
+|  |  |  |  Face 8 vertices 10, 17, 18 and flag 7
+|  |  |  |  Face 9 vertices 10, 18, 11 and flag 7
+|  |  |  |  Face 10 vertices 11, 18, 19 and flag 7
+|  |  |  |  Face 11 vertices 11, 19, 6 and flag 7
+|  |  |  |  Face 12 vertices 15, 22, 23 and flag 7
+|  |  |  |  Face 13 vertices 15, 23, 16 and flag 7
+|  |  |  |  Face 14 vertices 16, 23, 17 and flag 7
+|  |  |  |  Face 15 vertices 23, 18, 17 and flag 7
+|  |  |  |  Face 16 vertices 23, 19, 18 and flag 7
+|  |  |  |  Face 17 vertices 0, 8, 9 and flag 7
+|  |  |  |  Face 18 vertices 0, 9, 1 and flag 7
+|  |  |  |  Face 19 vertices 14, 13, 26 and flag 7
+|  |  |  |  Face 20 vertices 9, 10, 1 and flag 7
+|  |  |  |  Face 21 vertices 10, 11, 1 and flag 7
+|  |  |  |  Face 22 vertices 11, 6, 1 and flag 7
+|  |  |  |  Face 23 vertices 3, 0, 1 and flag 7
+|  |  |  |  Face 24 vertices 3, 1, 4 and flag 7
+|  |  |  |  Face 25 vertices 5, 8, 0 and flag 7
+|  |  |  |  Face 26 vertices 21, 22, 15 and flag 7
+|  |  |  |  Face 27 vertices 22, 25, 26 and flag 7
+|  |  |  |  Face 28 vertices 22, 26, 23 and flag 7
+|  |  |  |  Face 29 vertices 24, 14, 26 and flag 7
+|  |  |  |  Face 30 vertices 13, 4, 7 and flag 7
+|  |  |  |  Face 31 vertices 13, 7, 12 and flag 7
+|  |  |  |  Face 32 vertices 14, 4, 13 and flag 7
+|  |  |  |  Face 33 vertices 14, 2, 4 and flag 7
+|  |  |  |  Face 34 vertices 23, 26, 20 and flag 7
+|  |  |  |  Face 35 vertices 23, 20, 19 and flag 7
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 93 (5dH) 
+|  |  |  |  |  Material Name Of Material #13
+|  |  |  |  |  Assigned to 36 faces
+
+|  |  |  |  |  Chunk SMOOTH_GROUP (4150H) 
+|  |  |  |  |  Length is 150 (96H) 
+
+|  |  Chunk NAMED_OBJECT (4000H) 
+|  |  Length is 504 (1f8H) 
+|  |  Name: SQHULL02
+
+|  |  |  Chunk N_TRI_OBJECT (4100H) 
+|  |  |  Length is 489 (1e9H) 
+
+|  |  |  |  Chunk POINT_ARRAY (4110H) 
+|  |  |  |  Length is 128 (80H) 
+|  |  |  |  10 Vertices
+|  |  |  |  Vertex 0 at -136.393890, 0.947981, 16.887455
+|  |  |  |  Vertex 1 at 68.445938, 0.947990, 16.624292
+|  |  |  |  Vertex 2 at 122.299057, 0.947993, -0.444908
+|  |  |  |  Vertex 3 at -136.437576, 0.947982, -17.112520
+|  |  |  |  Vertex 4 at 68.402260, 0.947991, -17.375681
+|  |  |  |  Vertex 5 at -128.315704, -9.150847, 13.889615
+|  |  |  |  Vertex 6 at 68.445930, -9.150839, 13.626453
+|  |  |  |  Vertex 7 at 114.256783, -9.150835, -0.444908
+|  |  |  |  Vertex 8 at -128.359390, -9.150846, -14.842763
+|  |  |  |  Vertex 9 at 68.402260, -9.150838, -15.105924
+
+|  |  |  |  Chunk TEX_VERTS (4140H) 
+|  |  |  |  Length is 88 (58H) 
+|  |  |  |  10 Vertices
+|  |  |  |  Vertex 0 with tex vert of 0.000499, 0.771794
+|  |  |  |  Vertex 1 with tex vert of 0.791468, 0.771794
+|  |  |  |  Vertex 2 with tex vert of 0.999501, 0.771795
+|  |  |  |  Vertex 3 with tex vert of 0.000499, 0.771794
+|  |  |  |  Vertex 4 with tex vert of 0.791468, 0.771794
+|  |  |  |  Vertex 5 with tex vert of 0.031681, 0.204181
+|  |  |  |  Vertex 6 with tex vert of 0.791483, 0.204181
+|  |  |  |  Vertex 7 with tex vert of 0.968446, 0.204181
+|  |  |  |  Vertex 8 with tex vert of 0.031681, 0.204181
+|  |  |  |  Vertex 9 with tex vert of 0.791457, 0.204181
+
+|  |  |  |  Chunk MESH_MATRIX (4160H) 
+|  |  |  |  Length is 54 (36H) 
+|  |  |  |  [0] 1.000000 [1] 0.000000 [2] 0.000000
+|  |  |  |  [3] 0.000000 [4] 1.000000 [5] 0.000000
+|  |  |  |  [6] 0.000000 [7] 0.000000 [8] 1.000000
+|  |  |  |  [9] 0.001000 [10] 0.001000 [11] 0.001000
+
+|  |  |  |  Chunk FACE_ARRAY (4120H) 
+|  |  |  |  Length is 213 (d5H) 
+|  |  |  |  13 Faces
+|  |  |  |  Face 0 vertices 7, 6, 9 and flag 7
+|  |  |  |  Face 1 vertices 6, 5, 9 and flag 7
+|  |  |  |  Face 2 vertices 5, 8, 9 and flag 7
+|  |  |  |  Face 3 vertices 2, 1, 6 and flag 7
+|  |  |  |  Face 4 vertices 6, 7, 2 and flag 7
+|  |  |  |  Face 5 vertices 4, 2, 7 and flag 7
+|  |  |  |  Face 6 vertices 7, 9, 4 and flag 7
+|  |  |  |  Face 7 vertices 1, 0, 5 and flag 7
+|  |  |  |  Face 8 vertices 5, 6, 1 and flag 7
+|  |  |  |  Face 9 vertices 0, 3, 8 and flag 7
+|  |  |  |  Face 10 vertices 8, 5, 0 and flag 7
+|  |  |  |  Face 11 vertices 3, 4, 9 and flag 7
+|  |  |  |  Face 12 vertices 9, 8, 3 and flag 7
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 43 (2bH) 
+|  |  |  |  |  Material Name Of sqsups01
+|  |  |  |  |  Assigned to 13 faces
+
+|  |  |  |  |  Chunk SMOOTH_GROUP (4150H) 
+|  |  |  |  |  Length is 58 (3aH) 
+
+|  |  Chunk NAMED_OBJECT (4000H) 
+|  |  Length is 424 (1a8H) 
+|  |  Name: SQRED01
+
+|  |  |  Chunk N_TRI_OBJECT (4100H) 
+|  |  |  Length is 410 (19aH) 
+
+|  |  |  |  Chunk POINT_ARRAY (4110H) 
+|  |  |  |  Length is 152 (98H) 
+|  |  |  |  12 Vertices
+|  |  |  |  Vertex 0 at 17.212660, 27.505800, 2.429912
+|  |  |  |  Vertex 1 at 25.212626, 28.817429, 2.396875
+|  |  |  |  Vertex 2 at 17.212454, 31.502600, 2.270043
+|  |  |  |  Vertex 3 at 25.212439, 32.814808, 2.252175
+|  |  |  |  Vertex 4 at 15.049170, 27.002300, -0.307121
+|  |  |  |  Vertex 5 at 15.132483, 31.001429, -0.307228
+|  |  |  |  Vertex 6 at 26.209835, 33.001320, -0.321459
+|  |  |  |  Vertex 7 at 26.281261, 29.001959, -0.321551
+|  |  |  |  Vertex 8 at 25.205830, 32.814808, -2.892521
+|  |  |  |  Vertex 9 at 17.205826, 31.502600, -2.889834
+|  |  |  |  Vertex 10 at 25.205643, 28.817429, -3.037221
+|  |  |  |  Vertex 11 at 17.205620, 27.505800, -3.049704
+
+|  |  |  |  Chunk MESH_MATRIX (4160H) 
+|  |  |  |  Length is 54 (36H) 
+|  |  |  |  [0] 1.000000 [1] 0.000000 [2] 0.000000
+|  |  |  |  [3] 0.000000 [4] 1.000000 [5] 0.000000
+|  |  |  |  [6] 0.000000 [7] 0.000000 [8] 1.000000
+|  |  |  |  [9] 0.001000 [10] 0.001000 [11] 0.001000
+
+|  |  |  |  Chunk FACE_ARRAY (4120H) 
+|  |  |  |  Length is 198 (c6H) 
+|  |  |  |  12 Faces
+|  |  |  |  Face 0 vertices 5, 9, 11 and flag 7
+|  |  |  |  Face 1 vertices 5, 11, 4 and flag 7
+|  |  |  |  Face 2 vertices 9, 8, 10 and flag 7
+|  |  |  |  Face 3 vertices 9, 10, 11 and flag 7
+|  |  |  |  Face 4 vertices 8, 6, 7 and flag 7
+|  |  |  |  Face 5 vertices 8, 7, 10 and flag 7
+|  |  |  |  Face 6 vertices 6, 3, 1 and flag 7
+|  |  |  |  Face 7 vertices 6, 1, 7 and flag 7
+|  |  |  |  Face 8 vertices 3, 2, 0 and flag 7
+|  |  |  |  Face 9 vertices 3, 0, 1 and flag 7
+|  |  |  |  Face 10 vertices 2, 5, 4 and flag 7
+|  |  |  |  Face 11 vertices 2, 4, 0 and flag 7
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 40 (28H) 
+|  |  |  |  |  Material Name Of sqred01
+|  |  |  |  |  Assigned to 12 faces
+
+|  |  |  |  |  Chunk SMOOTH_GROUP (4150H) 
+|  |  |  |  |  Length is 54 (36H) 
+
+|  |  Chunk NAMED_OBJECT (4000H) 
+|  |  Length is 2918 (b66H) 
+|  |  Name: SQSUPS01
+
+|  |  |  Chunk N_TRI_OBJECT (4100H) 
+|  |  |  Length is 2903 (b57H) 
+
+|  |  |  |  Chunk POINT_ARRAY (4110H) 
+|  |  |  |  Length is 944 (3b0H) 
+|  |  |  |  78 Vertices
+|  |  |  |  Vertex 0 at -136.392609, 17.000992, 17.887455
+|  |  |  |  Vertex 1 at -83.892662, 27.500994, 17.820007
+|  |  |  |  Vertex 2 at -83.892662, 17.000994, 17.820007
+|  |  |  |  Vertex 3 at -70.767670, 33.500996, 17.803144
+|  |  |  |  Vertex 4 at -70.767670, 27.500994, 17.803144
+|  |  |  |  Vertex 5 at -52.392681, 33.500996, 17.779539
+|  |  |  |  Vertex 6 at -52.392681, 27.500996, 17.779539
+|  |  |  |  Vertex 7 at -41.892689, 27.500996, 17.766048
+|  |  |  |  Vertex 8 at -41.892689, 21.000996, 17.766048
+|  |  |  |  Vertex 9 at 55.822231, 23.000999, 17.640512
+|  |  |  |  Vertex 10 at 60.572227, 26.250999, 17.634411
+|  |  |  |  Vertex 11 at 68.447220, 26.251001, 17.624292
+|  |  |  |  Vertex 12 at 68.447220, 23.001001, 17.624292
+|  |  |  |  Vertex 13 at 68.447220, 19.001001, 17.624292
+|  |  |  |  Vertex 14 at 68.447220, 17.001001, 17.624292
+|  |  |  |  Vertex 15 at -139.382660, 20.000992, 16.912924
+|  |  |  |  Vertex 16 at -36.894619, 27.500996, 16.259626
+|  |  |  |  Vertex 17 at -36.894619, 21.000996, 16.259626
+|  |  |  |  Vertex 18 at -144.180176, 20.000992, 15.897458
+|  |  |  |  Vertex 19 at 60.319336, 34.125999, 15.384734
+|  |  |  |  Vertex 20 at 60.319340, 19.000999, 15.384734
+|  |  |  |  Vertex 21 at 68.444328, 34.125999, 15.374296
+|  |  |  |  Vertex 22 at 68.444328, 19.001001, 15.374295
+|  |  |  |  Vertex 23 at 26.437941, 30.000999, 10.428258
+|  |  |  |  Vertex 24 at 26.437941, 19.000999, 10.428257
+|  |  |  |  Vertex 25 at 60.312916, 30.001001, 10.384738
+|  |  |  |  Vertex 26 at 60.312916, 19.001001, 10.384738
+|  |  |  |  Vertex 27 at -68.191803, 43.500996, 6.799828
+|  |  |  |  Vertex 28 at -68.191803, 33.500996, 6.799827
+|  |  |  |  Vertex 29 at -61.191811, 43.500996, 6.790834
+|  |  |  |  Vertex 30 at -61.191811, 33.500996, 6.790834
+|  |  |  |  Vertex 31 at -52.406815, 33.500996, 6.779548
+|  |  |  |  Vertex 32 at -52.406811, 27.500996, 6.779547
+|  |  |  |  Vertex 33 at -45.406818, 33.500996, 6.770555
+|  |  |  |  Vertex 34 at -45.406818, 27.500996, 6.770555
+|  |  |  |  Vertex 35 at 95.806786, 28.876001, 5.589134
+|  |  |  |  Vertex 36 at 95.806786, 20.885321, 5.589133
+|  |  |  |  Vertex 37 at 105.805168, 28.876003, 4.326287
+|  |  |  |  Vertex 38 at 105.805168, 21.633793, 4.326287
+|  |  |  |  Vertex 39 at 105.792969, 28.876003, -5.173705
+|  |  |  |  Vertex 40 at 105.792969, 21.633793, -5.173706
+|  |  |  |  Vertex 41 at 95.791367, 28.876003, -6.410857
+|  |  |  |  Vertex 42 at 95.791367, 20.885323, -6.410857
+|  |  |  |  Vertex 43 at -68.209793, 43.500996, -7.200162
+|  |  |  |  Vertex 44 at -68.209793, 33.500996, -7.200162
+|  |  |  |  Vertex 45 at -61.209797, 43.500996, -7.209155
+|  |  |  |  Vertex 46 at -61.209797, 33.500996, -7.209155
+|  |  |  |  Vertex 47 at -52.424797, 33.500996, -7.220441
+|  |  |  |  Vertex 48 at -52.424797, 27.500996, -7.220442
+|  |  |  |  Vertex 49 at -45.424805, 33.500996, -7.229434
+|  |  |  |  Vertex 50 at -45.424805, 27.500998, -7.229435
+|  |  |  |  Vertex 51 at 26.410318, 30.000999, -11.071726
+|  |  |  |  Vertex 52 at 26.410318, 19.000999, -11.071726
+|  |  |  |  Vertex 53 at 60.285294, 30.001001, -11.115245
+|  |  |  |  Vertex 54 at 60.285294, 19.001001, -11.115246
+|  |  |  |  Vertex 55 at 60.278870, 34.126003, -16.115242
+|  |  |  |  Vertex 56 at 60.278870, 19.001001, -16.115242
+|  |  |  |  Vertex 57 at 68.403862, 34.126003, -16.125681
+|  |  |  |  Vertex 58 at 68.403862, 19.001001, -16.125681
+|  |  |  |  Vertex 59 at -144.221283, 20.000992, -16.102518
+|  |  |  |  Vertex 60 at -36.937016, 27.500998, -16.740349
+|  |  |  |  Vertex 61 at -36.937016, 21.000998, -16.740349
+|  |  |  |  Vertex 62 at -139.426392, 20.000994, -17.130308
+|  |  |  |  Vertex 63 at -136.438858, 17.000994, -18.112518
+|  |  |  |  Vertex 64 at -83.938911, 27.500996, -18.179966
+|  |  |  |  Vertex 65 at -83.938911, 17.000996, -18.179966
+|  |  |  |  Vertex 66 at -70.813919, 33.500996, -18.196827
+|  |  |  |  Vertex 67 at -70.813919, 27.500996, -18.196827
+|  |  |  |  Vertex 68 at -52.438931, 33.500996, -18.220434
+|  |  |  |  Vertex 69 at -52.438931, 27.500998, -18.220434
+|  |  |  |  Vertex 70 at -41.938938, 27.500998, -18.233923
+|  |  |  |  Vertex 71 at -41.938938, 21.000998, -18.233923
+|  |  |  |  Vertex 72 at 55.775982, 23.001001, -18.359459
+|  |  |  |  Vertex 73 at 60.525978, 26.251001, -18.365562
+|  |  |  |  Vertex 74 at 68.400970, 26.251001, -18.375679
+|  |  |  |  Vertex 75 at 68.400970, 23.001001, -18.375679
+|  |  |  |  Vertex 76 at 68.400970, 19.001001, -18.375679
+|  |  |  |  Vertex 77 at 68.400970, 17.001001, -18.375679
+
+|  |  |  |  Chunk TEX_VERTS (4140H) 
+|  |  |  |  Length is 632 (278H) 
+|  |  |  |  78 Vertices
+|  |  |  |  Vertex 0 with tex vert of 0.031608, 1.020423
+|  |  |  |  Vertex 1 with tex vert of 0.241399, 1.416254
+|  |  |  |  Vertex 2 with tex vert of 0.241399, 1.020423
+|  |  |  |  Vertex 3 with tex vert of 0.293846, 1.642442
+|  |  |  |  Vertex 4 with tex vert of 0.293846, 1.416254
+|  |  |  |  Vertex 5 with tex vert of 0.367273, 1.642442
+|  |  |  |  Vertex 6 with tex vert of 0.367273, 1.416254
+|  |  |  |  Vertex 7 with tex vert of 0.409231, 1.416254
+|  |  |  |  Vertex 8 with tex vert of 0.409231, 1.171216
+|  |  |  |  Vertex 9 with tex vert of 0.799700, 1.246612
+|  |  |  |  Vertex 10 with tex vert of 0.818681, 1.369131
+|  |  |  |  Vertex 11 with tex vert of 0.850150, 1.369131
+|  |  |  |  Vertex 12 with tex vert of 0.850150, 1.246612
+|  |  |  |  Vertex 13 with tex vert of 0.850150, 1.095819
+|  |  |  |  Vertex 14 with tex vert of 0.850150, 1.020423
+|  |  |  |  Vertex 15 with tex vert of 0.019665, 1.133518
+|  |  |  |  Vertex 16 with tex vert of 0.429211, 1.416254
+|  |  |  |  Vertex 17 with tex vert of 0.429211, 1.171216
+|  |  |  |  Vertex 18 with tex vert of 0.000500, 1.133518
+|  |  |  |  Vertex 19 with tex vert of 0.817682, 1.666004
+|  |  |  |  Vertex 20 with tex vert of 0.817682, 1.095820
+|  |  |  |  Vertex 21 with tex vert of 0.850150, 1.666004
+|  |  |  |  Vertex 22 with tex vert of 0.850150, 1.095819
+|  |  |  |  Vertex 23 with tex vert of 0.682318, 1.510499
+|  |  |  |  Vertex 24 with tex vert of 0.682318, 1.095819
+|  |  |  |  Vertex 25 with tex vert of 0.817682, 1.510499
+|  |  |  |  Vertex 26 with tex vert of 0.817682, 1.095820
+|  |  |  |  Vertex 27 with tex vert of 0.304196, 2.019424
+|  |  |  |  Vertex 28 with tex vert of 0.304196, 1.642443
+|  |  |  |  Vertex 29 with tex vert of 0.332168, 2.019424
+|  |  |  |  Vertex 30 with tex vert of 0.332168, 1.642443
+|  |  |  |  Vertex 31 with tex vert of 0.367273, 1.642442
+|  |  |  |  Vertex 32 with tex vert of 0.367273, 1.416254
+|  |  |  |  Vertex 33 with tex vert of 0.395245, 1.642443
+|  |  |  |  Vertex 34 with tex vert of 0.395245, 1.416254
+|  |  |  |  Vertex 35 with tex vert of 0.959540, 1.468089
+|  |  |  |  Vertex 36 with tex vert of 0.959540, 1.166855
+|  |  |  |  Vertex 37 with tex vert of 0.999501, 1.468089
+|  |  |  |  Vertex 38 with tex vert of 0.999501, 1.195071
+|  |  |  |  Vertex 39 with tex vert of 0.999501, 1.468089
+|  |  |  |  Vertex 40 with tex vert of 0.999501, 1.195071
+|  |  |  |  Vertex 41 with tex vert of 0.959540, 1.468089
+|  |  |  |  Vertex 42 with tex vert of 0.959540, 1.166855
+|  |  |  |  Vertex 43 with tex vert of 0.304196, 2.019424
+|  |  |  |  Vertex 44 with tex vert of 0.304196, 1.642443
+|  |  |  |  Vertex 45 with tex vert of 0.332168, 2.019424
+|  |  |  |  Vertex 46 with tex vert of 0.332168, 1.642443
+|  |  |  |  Vertex 47 with tex vert of 0.367273, 1.642442
+|  |  |  |  Vertex 48 with tex vert of 0.367273, 1.416254
+|  |  |  |  Vertex 49 with tex vert of 0.395245, 1.642443
+|  |  |  |  Vertex 50 with tex vert of 0.395245, 1.416254
+|  |  |  |  Vertex 51 with tex vert of 0.682318, 1.510499
+|  |  |  |  Vertex 52 with tex vert of 0.682318, 1.095819
+|  |  |  |  Vertex 53 with tex vert of 0.817682, 1.510499
+|  |  |  |  Vertex 54 with tex vert of 0.817682, 1.095819
+|  |  |  |  Vertex 55 with tex vert of 0.817682, 1.666004
+|  |  |  |  Vertex 56 with tex vert of 0.817682, 1.095819
+|  |  |  |  Vertex 57 with tex vert of 0.850150, 1.666004
+|  |  |  |  Vertex 58 with tex vert of 0.850150, 1.095819
+|  |  |  |  Vertex 59 with tex vert of 0.000500, 1.133518
+|  |  |  |  Vertex 60 with tex vert of 0.429211, 1.416254
+|  |  |  |  Vertex 61 with tex vert of 0.429211, 1.171216
+|  |  |  |  Vertex 62 with tex vert of 0.019665, 1.133518
+|  |  |  |  Vertex 63 with tex vert of 0.031608, 1.020423
+|  |  |  |  Vertex 64 with tex vert of 0.241399, 1.416254
+|  |  |  |  Vertex 65 with tex vert of 0.241399, 1.020423
+|  |  |  |  Vertex 66 with tex vert of 0.293846, 1.642442
+|  |  |  |  Vertex 67 with tex vert of 0.293846, 1.416254
+|  |  |  |  Vertex 68 with tex vert of 0.367273, 1.642442
+|  |  |  |  Vertex 69 with tex vert of 0.367273, 1.416254
+|  |  |  |  Vertex 70 with tex vert of 0.409231, 1.416254
+|  |  |  |  Vertex 71 with tex vert of 0.409231, 1.171216
+|  |  |  |  Vertex 72 with tex vert of 0.799700, 1.246612
+|  |  |  |  Vertex 73 with tex vert of 0.818681, 1.369131
+|  |  |  |  Vertex 74 with tex vert of 0.850150, 1.369131
+|  |  |  |  Vertex 75 with tex vert of 0.850150, 1.246612
+|  |  |  |  Vertex 76 with tex vert of 0.850150, 1.095819
+|  |  |  |  Vertex 77 with tex vert of 0.850150, 1.020423
+
+|  |  |  |  Chunk MESH_MATRIX (4160H) 
+|  |  |  |  Length is 54 (36H) 
+|  |  |  |  [0] 1.000000 [1] 0.000000 [2] 0.000000
+|  |  |  |  [3] 0.000000 [4] 1.000000 [5] 0.000000
+|  |  |  |  [6] 0.000000 [7] 0.000000 [8] 1.000000
+|  |  |  |  [9] 0.001000 [10] 0.001000 [11] 0.001000
+
+|  |  |  |  Chunk FACE_ARRAY (4120H) 
+|  |  |  |  Length is 1267 (4f3H) 
+|  |  |  |  88 Faces
+|  |  |  |  Face 0 vertices 12, 8, 2 and flag 7
+|  |  |  |  Face 1 vertices 12, 2, 14 and flag 7
+|  |  |  |  Face 2 vertices 11, 10, 9 and flag 7
+|  |  |  |  Face 3 vertices 11, 9, 12 and flag 7
+|  |  |  |  Face 4 vertices 7, 1, 2 and flag 7
+|  |  |  |  Face 5 vertices 7, 2, 8 and flag 7
+|  |  |  |  Face 6 vertices 71, 75, 77 and flag 7
+|  |  |  |  Face 7 vertices 71, 77, 65 and flag 7
+|  |  |  |  Face 8 vertices 73, 74, 75 and flag 7
+|  |  |  |  Face 9 vertices 73, 75, 72 and flag 7
+|  |  |  |  Face 10 vertices 64, 70, 71 and flag 7
+|  |  |  |  Face 11 vertices 64, 71, 65 and flag 7
+|  |  |  |  Face 12 vertices 63, 62, 59 and flag 7
+|  |  |  |  Face 13 vertices 18, 15, 0 and flag 7
+|  |  |  |  Face 14 vertices 16, 7, 8 and flag 7
+|  |  |  |  Face 15 vertices 16, 8, 17 and flag 7
+|  |  |  |  Face 16 vertices 74, 11, 13 and flag 7
+|  |  |  |  Face 17 vertices 74, 13, 76 and flag 7
+|  |  |  |  Face 18 vertices 21, 19, 20 and flag 7
+|  |  |  |  Face 19 vertices 21, 20, 22 and flag 7
+|  |  |  |  Face 20 vertices 55, 57, 58 and flag 7
+|  |  |  |  Face 21 vertices 55, 58, 56 and flag 7
+|  |  |  |  Face 22 vertices 11, 74, 76 and flag 7
+|  |  |  |  Face 23 vertices 11, 76, 13 and flag 7
+|  |  |  |  Face 24 vertices 19, 55, 56 and flag 7
+|  |  |  |  Face 25 vertices 19, 56, 20 and flag 7
+|  |  |  |  Face 26 vertices 25, 23, 24 and flag 7
+|  |  |  |  Face 27 vertices 25, 24, 26 and flag 7
+|  |  |  |  Face 28 vertices 51, 53, 54 and flag 7
+|  |  |  |  Face 29 vertices 51, 54, 52 and flag 7
+|  |  |  |  Face 30 vertices 5, 3, 4 and flag 7
+|  |  |  |  Face 31 vertices 5, 4, 6 and flag 7
+|  |  |  |  Face 32 vertices 23, 51, 52 and flag 7
+|  |  |  |  Face 33 vertices 23, 52, 24 and flag 7
+|  |  |  |  Face 34 vertices 29, 27, 28 and flag 7
+|  |  |  |  Face 35 vertices 29, 28, 30 and flag 7
+|  |  |  |  Face 36 vertices 27, 43, 44 and flag 7
+|  |  |  |  Face 37 vertices 27, 44, 28 and flag 7
+|  |  |  |  Face 38 vertices 43, 45, 46 and flag 7
+|  |  |  |  Face 39 vertices 43, 46, 44 and flag 7
+|  |  |  |  Face 40 vertices 45, 29, 30 and flag 7
+|  |  |  |  Face 41 vertices 45, 30, 46 and flag 7
+|  |  |  |  Face 42 vertices 1, 64, 65 and flag 7
+|  |  |  |  Face 43 vertices 1, 65, 2 and flag 7
+|  |  |  |  Face 44 vertices 3, 66, 67 and flag 7
+|  |  |  |  Face 45 vertices 3, 67, 4 and flag 7
+|  |  |  |  Face 46 vertices 60, 16, 17 and flag 7
+|  |  |  |  Face 47 vertices 60, 17, 61 and flag 7
+|  |  |  |  Face 48 vertices 68, 5, 6 and flag 7
+|  |  |  |  Face 49 vertices 68, 6, 69 and flag 7
+|  |  |  |  Face 50 vertices 49, 33, 34 and flag 7
+|  |  |  |  Face 51 vertices 49, 34, 50 and flag 7
+|  |  |  |  Face 52 vertices 70, 60, 61 and flag 7
+|  |  |  |  Face 53 vertices 70, 61, 71 and flag 7
+|  |  |  |  Face 54 vertices 47, 49, 50 and flag 7
+|  |  |  |  Face 55 vertices 47, 50, 48 and flag 7
+|  |  |  |  Face 56 vertices 33, 31, 32 and flag 7
+|  |  |  |  Face 57 vertices 33, 32, 34 and flag 7
+|  |  |  |  Face 58 vertices 66, 68, 69 and flag 7
+|  |  |  |  Face 59 vertices 66, 69, 67 and flag 7
+|  |  |  |  Face 60 vertices 37, 35, 36 and flag 7
+|  |  |  |  Face 61 vertices 37, 36, 38 and flag 7
+|  |  |  |  Face 62 vertices 35, 41, 42 and flag 7
+|  |  |  |  Face 63 vertices 35, 42, 36 and flag 7
+|  |  |  |  Face 64 vertices 41, 39, 40 and flag 7
+|  |  |  |  Face 65 vertices 41, 40, 42 and flag 7
+|  |  |  |  Face 66 vertices 39, 37, 38 and flag 7
+|  |  |  |  Face 67 vertices 39, 38, 40 and flag 7
+|  |  |  |  Face 68 vertices 57, 21, 22 and flag 7
+|  |  |  |  Face 69 vertices 57, 22, 58 and flag 7
+|  |  |  |  Face 70 vertices 7, 16, 60 and flag 7
+|  |  |  |  Face 71 vertices 60, 70, 7 and flag 7
+|  |  |  |  Face 72 vertices 7, 70, 69 and flag 7
+|  |  |  |  Face 73 vertices 69, 6, 7 and flag 7
+|  |  |  |  Face 74 vertices 31, 33, 49 and flag 7
+|  |  |  |  Face 75 vertices 49, 47, 31 and flag 7
+|  |  |  |  Face 76 vertices 5, 68, 66 and flag 7
+|  |  |  |  Face 77 vertices 66, 3, 5 and flag 7
+|  |  |  |  Face 78 vertices 29, 45, 43 and flag 7
+|  |  |  |  Face 79 vertices 43, 27, 29 and flag 7
+|  |  |  |  Face 80 vertices 67, 64, 1 and flag 7
+|  |  |  |  Face 81 vertices 1, 4, 67 and flag 7
+|  |  |  |  Face 82 vertices 37, 39, 41 and flag 7
+|  |  |  |  Face 83 vertices 41, 35, 37 and flag 7
+|  |  |  |  Face 84 vertices 57, 55, 19 and flag 7
+|  |  |  |  Face 85 vertices 19, 21, 57 and flag 7
+|  |  |  |  Face 86 vertices 53, 51, 23 and flag 7
+|  |  |  |  Face 87 vertices 23, 25, 53 and flag 7
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 197 (c5H) 
+|  |  |  |  |  Material Name Of Material #23
+|  |  |  |  |  Assigned to 88 faces
+
+|  |  |  |  |  Chunk SMOOTH_GROUP (4150H) 
+|  |  |  |  |  Length is 358 (166H) 
+
+|  |  Chunk NAMED_OBJECT (4000H) 
+|  |  Length is 372 (174H) 
+|  |  Name: deck
+
+|  |  |  Chunk N_TRI_OBJECT (4100H) 
+|  |  |  Length is 361 (169H) 
+
+|  |  |  |  Chunk POINT_ARRAY (4110H) 
+|  |  |  |  Length is 164 (a4H) 
+|  |  |  |  13 Vertices
+|  |  |  |  Vertex 0 at -136.392609, 17.000992, 17.887455
+|  |  |  |  Vertex 1 at -83.892662, 17.000994, 17.820007
+|  |  |  |  Vertex 2 at -41.892689, 21.000996, 17.766048
+|  |  |  |  Vertex 3 at 68.447220, 23.001001, 17.624292
+|  |  |  |  Vertex 4 at 68.447220, 19.001001, 17.624292
+|  |  |  |  Vertex 5 at -144.180176, 20.000992, 15.897458
+|  |  |  |  Vertex 6 at 133.799057, 23.501005, -0.459681
+|  |  |  |  Vertex 7 at -144.221283, 20.000992, -16.102518
+|  |  |  |  Vertex 8 at -136.438858, 17.000994, -18.112518
+|  |  |  |  Vertex 9 at -83.938911, 17.000996, -18.179966
+|  |  |  |  Vertex 10 at -41.938938, 21.000998, -18.233923
+|  |  |  |  Vertex 11 at 68.400970, 23.001001, -18.375679
+|  |  |  |  Vertex 12 at 68.400970, 19.001001, -18.375679
+
+|  |  |  |  Chunk MESH_MATRIX (4160H) 
+|  |  |  |  Length is 54 (36H) 
+|  |  |  |  [0] 1.000000 [1] 0.000000 [2] 0.000000
+|  |  |  |  [3] 0.000000 [4] 1.000000 [5] 0.000000
+|  |  |  |  [6] 0.000000 [7] 0.000000 [8] 1.000000
+|  |  |  |  [9] 0.001000 [10] 0.001000 [11] 0.001000
+
+|  |  |  |  Chunk FACE_ARRAY (4120H) 
+|  |  |  |  Length is 137 (89H) 
+|  |  |  |  7 Faces
+|  |  |  |  Face 0 vertices 12, 4, 6 and flag 7
+|  |  |  |  Face 1 vertices 0, 1, 9 and flag 7
+|  |  |  |  Face 2 vertices 0, 9, 8 and flag 7
+|  |  |  |  Face 3 vertices 5, 0, 8 and flag 7
+|  |  |  |  Face 4 vertices 5, 8, 7 and flag 7
+|  |  |  |  Face 5 vertices 11, 10, 2 and flag 7
+|  |  |  |  Face 6 vertices 2, 3, 11 and flag 7
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 39 (27H) 
+|  |  |  |  |  Material Name Of Material #15 (su
+|  |  |  |  |  Assigned to 7 faces
+
+|  |  |  |  |  Chunk SMOOTH_GROUP (4150H) 
+|  |  |  |  |  Length is 34 (22H) 
+
+|  |  Chunk NAMED_OBJECT (4000H) 
+|  |  Length is 726 (2d6H) 
+|  |  Name: windows01
+
+|  |  |  Chunk N_TRI_OBJECT (4100H) 
+|  |  |  Length is 710 (2c6H) 
+
+|  |  |  |  Chunk POINT_ARRAY (4110H) 
+|  |  |  |  Length is 392 (188H) 
+|  |  |  |  32 Vertices
+|  |  |  |  Vertex 0 at 68.541550, 24.570074, 15.123169
+|  |  |  |  Vertex 1 at 68.541550, 21.570074, 15.123169
+|  |  |  |  Vertex 2 at 68.537697, 24.570074, 12.123172
+|  |  |  |  Vertex 3 at 68.537697, 21.570074, 12.123171
+|  |  |  |  Vertex 4 at 68.536415, 24.570074, 11.123172
+|  |  |  |  Vertex 5 at 68.536415, 21.570074, 11.123172
+|  |  |  |  Vertex 6 at 68.532562, 24.570074, 8.123175
+|  |  |  |  Vertex 7 at 68.532562, 21.570074, 8.123175
+|  |  |  |  Vertex 8 at 68.531273, 24.570074, 7.123175
+|  |  |  |  Vertex 9 at 68.531273, 21.570074, 7.123175
+|  |  |  |  Vertex 10 at 68.527420, 24.570074, 4.123178
+|  |  |  |  Vertex 11 at 68.527420, 21.570074, 4.123178
+|  |  |  |  Vertex 12 at 68.526138, 24.570074, 3.123178
+|  |  |  |  Vertex 13 at 68.526138, 21.570074, 3.123178
+|  |  |  |  Vertex 14 at 68.522278, 24.570074, 0.123180
+|  |  |  |  Vertex 15 at 68.522278, 21.570074, 0.123180
+|  |  |  |  Vertex 16 at 68.520996, 24.570074, -0.876819
+|  |  |  |  Vertex 17 at 68.520996, 21.570074, -0.876819
+|  |  |  |  Vertex 18 at 68.517143, 24.570074, -3.876817
+|  |  |  |  Vertex 19 at 68.517143, 21.570074, -3.876817
+|  |  |  |  Vertex 20 at 68.515854, 24.570074, -4.876815
+|  |  |  |  Vertex 21 at 68.515854, 21.570074, -4.876816
+|  |  |  |  Vertex 22 at 68.512001, 24.570074, -7.876813
+|  |  |  |  Vertex 23 at 68.512001, 21.570074, -7.876813
+|  |  |  |  Vertex 24 at 68.510719, 24.570074, -8.876812
+|  |  |  |  Vertex 25 at 68.510719, 21.570074, -8.876813
+|  |  |  |  Vertex 26 at 68.506866, 24.570074, -11.876810
+|  |  |  |  Vertex 27 at 68.506866, 21.570074, -11.876810
+|  |  |  |  Vertex 28 at 68.505577, 24.570074, -12.876809
+|  |  |  |  Vertex 29 at 68.505577, 21.570074, -12.876809
+|  |  |  |  Vertex 30 at 68.501724, 24.570074, -15.876807
+|  |  |  |  Vertex 31 at 68.501724, 21.570074, -15.876807
+
+|  |  |  |  Chunk MESH_MATRIX (4160H) 
+|  |  |  |  Length is 54 (36H) 
+|  |  |  |  [0] 1.000000 [1] 0.000000 [2] 0.000000
+|  |  |  |  [3] 0.000000 [4] 1.000000 [5] 0.000000
+|  |  |  |  [6] 0.000000 [7] 0.000000 [8] 1.000000
+|  |  |  |  [9] -0.000000 [10] -5.429928 [11] -0.000000
+
+|  |  |  |  Chunk FACE_ARRAY (4120H) 
+|  |  |  |  Length is 258 (102H) 
+|  |  |  |  16 Faces
+|  |  |  |  Face 0 vertices 30, 28, 29 and flag 7
+|  |  |  |  Face 1 vertices 30, 29, 31 and flag 7
+|  |  |  |  Face 2 vertices 10, 8, 9 and flag 7
+|  |  |  |  Face 3 vertices 10, 9, 11 and flag 7
+|  |  |  |  Face 4 vertices 22, 20, 21 and flag 7
+|  |  |  |  Face 5 vertices 22, 21, 23 and flag 7
+|  |  |  |  Face 6 vertices 26, 24, 25 and flag 7
+|  |  |  |  Face 7 vertices 26, 25, 27 and flag 7
+|  |  |  |  Face 8 vertices 6, 4, 5 and flag 7
+|  |  |  |  Face 9 vertices 6, 5, 7 and flag 7
+|  |  |  |  Face 10 vertices 2, 0, 1 and flag 7
+|  |  |  |  Face 11 vertices 2, 1, 3 and flag 7
+|  |  |  |  Face 12 vertices 18, 16, 17 and flag 7
+|  |  |  |  Face 13 vertices 18, 17, 19 and flag 7
+|  |  |  |  Face 14 vertices 14, 12, 13 and flag 7
+|  |  |  |  Face 15 vertices 14, 13, 15 and flag 7
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 52 (34H) 
+|  |  |  |  |  Material Name Of Material #1
+|  |  |  |  |  Assigned to 16 faces
+
+|  |  |  |  |  Chunk SMOOTH_GROUP (4150H) 
+|  |  |  |  |  Length is 70 (46H) 
+
+|  |  Chunk NAMED_OBJECT (4000H) 
+|  |  Length is 299 (12bH) 
+|  |  Name: LTStar
+
+|  |  |  Chunk N_TRI_OBJECT (4100H) 
+|  |  |  Length is 286 (11eH) 
+
+|  |  |  |  Chunk POINT_ARRAY (4110H) 
+|  |  |  |  Length is 80 (50H) 
+|  |  |  |  6 Vertices
+|  |  |  |  Vertex 0 at 68.640648, 30.911535, 15.616612
+|  |  |  |  Vertex 1 at 64.058113, 30.911535, 15.616613
+|  |  |  |  Vertex 2 at 62.163586, 30.911535, 18.680902
+|  |  |  |  Vertex 3 at 68.640648, 32.827839, 15.616612
+|  |  |  |  Vertex 4 at 64.058113, 32.827839, 15.616613
+|  |  |  |  Vertex 5 at 62.163586, 32.827839, 18.680902
+
+|  |  |  |  Chunk TEX_VERTS (4140H) 
+|  |  |  |  Length is 56 (38H) 
+|  |  |  |  6 Vertices
+|  |  |  |  Vertex 0 with tex vert of 0.000527, 1.094367
+|  |  |  |  Vertex 1 with tex vert of 0.000527, 0.594073
+|  |  |  |  Vertex 2 with tex vert of 0.000527, 0.010500
+|  |  |  |  Vertex 3 with tex vert of 0.999479, 1.094366
+|  |  |  |  Vertex 4 with tex vert of 0.999479, 0.594073
+|  |  |  |  Vertex 5 with tex vert of 0.999479, 0.010500
+
+|  |  |  |  Chunk MESH_MATRIX (4160H) 
+|  |  |  |  Length is 54 (36H) 
+|  |  |  |  [0] 0.540541 [1] 0.000000 [2] 0.000000
+|  |  |  |  [3] 0.000000 [4] 0.540541 [5] 0.000000
+|  |  |  |  [6] 0.000000 [7] 0.000000 [8] 0.540541
+|  |  |  |  [9] 64.059135 [10] 31.869686 [11] 15.603522
+
+|  |  |  |  Chunk FACE_ARRAY (4120H) 
+|  |  |  |  Length is 90 (5aH) 
+|  |  |  |  4 Faces
+|  |  |  |  Face 0 vertices 1, 0, 4 and flag 5
+|  |  |  |  Face 1 vertices 4, 0, 3 and flag 3
+|  |  |  |  Face 2 vertices 2, 1, 5 and flag 5
+|  |  |  |  Face 3 vertices 5, 1, 4 and flag 3
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 28 (1cH) 
+|  |  |  |  |  Material Name Of StrbrdGreen
+|  |  |  |  |  Assigned to 4 faces
+
+|  |  |  |  |  Chunk SMOOTH_GROUP (4150H) 
+|  |  |  |  |  Length is 22 (16H) 
+
+|  |  Chunk NAMED_OBJECT (4000H) 
+|  |  Length is 297 (129H) 
+|  |  Name: LTPort
+
+|  |  |  Chunk N_TRI_OBJECT (4100H) 
+|  |  |  Length is 284 (11cH) 
+
+|  |  |  |  Chunk POINT_ARRAY (4110H) 
+|  |  |  |  Length is 80 (50H) 
+|  |  |  |  6 Vertices
+|  |  |  |  Vertex 0 at 68.344124, 32.870838, -16.447901
+|  |  |  |  Vertex 1 at 63.996593, 32.870838, -16.447901
+|  |  |  |  Vertex 2 at 62.199223, 32.870838, -19.355047
+|  |  |  |  Vertex 3 at 68.344124, 31.052807, -16.447901
+|  |  |  |  Vertex 4 at 63.996593, 31.052807, -16.447901
+|  |  |  |  Vertex 5 at 62.199223, 31.052805, -19.355047
+
+|  |  |  |  Chunk TEX_VERTS (4140H) 
+|  |  |  |  Length is 56 (38H) 
+|  |  |  |  6 Vertices
+|  |  |  |  Vertex 0 with tex vert of 0.000527, 1.094367
+|  |  |  |  Vertex 1 with tex vert of 0.000527, 0.594073
+|  |  |  |  Vertex 2 with tex vert of 0.000527, 0.010500
+|  |  |  |  Vertex 3 with tex vert of 0.999479, 1.094366
+|  |  |  |  Vertex 4 with tex vert of 0.999479, 0.594073
+|  |  |  |  Vertex 5 with tex vert of 0.999479, 0.010500
+
+|  |  |  |  Chunk MESH_MATRIX (4160H) 
+|  |  |  |  Length is 54 (36H) 
+|  |  |  |  [0] 0.512821 [1] 0.000000 [2] 0.000000
+|  |  |  |  [3] 0.000000 [4] 0.512821 [5] 0.000000
+|  |  |  |  [6] 0.000000 [7] 0.000000 [8] 0.512821
+|  |  |  |  [9] 63.995239 [10] 31.997118 [11] -16.448414
+
+|  |  |  |  Chunk FACE_ARRAY (4120H) 
+|  |  |  |  Length is 88 (58H) 
+|  |  |  |  4 Faces
+|  |  |  |  Face 0 vertices 1, 0, 4 and flag 5
+|  |  |  |  Face 1 vertices 4, 0, 3 and flag 3
+|  |  |  |  Face 2 vertices 2, 1, 5 and flag 5
+|  |  |  |  Face 3 vertices 5, 1, 4 and flag 3
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 26 (1aH) 
+|  |  |  |  |  Material Name Of Red Flare
+|  |  |  |  |  Assigned to 4 faces
+
+|  |  |  |  |  Chunk SMOOTH_GROUP (4150H) 
+|  |  |  |  |  Length is 22 (16H) 
+
+|  |  Chunk NAMED_OBJECT (4000H) 
+|  |  Length is 726 (2d6H) 
+|  |  Name: windows02
+
+|  |  |  Chunk N_TRI_OBJECT (4100H) 
+|  |  |  Length is 710 (2c6H) 
+
+|  |  |  |  Chunk POINT_ARRAY (4110H) 
+|  |  |  |  Length is 392 (188H) 
+|  |  |  |  32 Vertices
+|  |  |  |  Vertex 0 at 59.700603, 28.339914, 11.025845
+|  |  |  |  Vertex 1 at 59.700603, 25.339914, 11.025845
+|  |  |  |  Vertex 2 at 56.700607, 28.339914, 11.029696
+|  |  |  |  Vertex 3 at 56.700607, 25.339914, 11.029696
+|  |  |  |  Vertex 4 at 55.700607, 28.339914, 11.030978
+|  |  |  |  Vertex 5 at 55.700607, 25.339914, 11.030978
+|  |  |  |  Vertex 6 at 52.700611, 28.339914, 11.034831
+|  |  |  |  Vertex 7 at 52.700611, 25.339914, 11.034831
+|  |  |  |  Vertex 8 at 51.700611, 28.339914, 11.036120
+|  |  |  |  Vertex 9 at 51.700611, 25.339914, 11.036120
+|  |  |  |  Vertex 10 at 48.700615, 28.339914, 11.039972
+|  |  |  |  Vertex 11 at 48.700615, 25.339914, 11.039972
+|  |  |  |  Vertex 12 at 47.700615, 28.339914, 11.041254
+|  |  |  |  Vertex 13 at 47.700615, 25.339914, 11.041254
+|  |  |  |  Vertex 14 at 44.700619, 28.339914, 11.045115
+|  |  |  |  Vertex 15 at 44.700619, 25.339914, 11.045115
+|  |  |  |  Vertex 16 at 43.700619, 28.339914, 11.046396
+|  |  |  |  Vertex 17 at 43.700619, 25.339914, 11.046396
+|  |  |  |  Vertex 18 at 40.700623, 28.339912, 11.050248
+|  |  |  |  Vertex 19 at 40.700623, 25.339912, 11.050248
+|  |  |  |  Vertex 20 at 39.700623, 28.339912, 11.051538
+|  |  |  |  Vertex 21 at 39.700623, 25.339912, 11.051538
+|  |  |  |  Vertex 22 at 36.700626, 28.339912, 11.055390
+|  |  |  |  Vertex 23 at 36.700626, 25.339912, 11.055390
+|  |  |  |  Vertex 24 at 35.700626, 28.339912, 11.056672
+|  |  |  |  Vertex 25 at 35.700626, 25.339912, 11.056672
+|  |  |  |  Vertex 26 at 32.700630, 28.339912, 11.060524
+|  |  |  |  Vertex 27 at 32.700630, 25.339912, 11.060524
+|  |  |  |  Vertex 28 at 31.700630, 28.339912, 11.061813
+|  |  |  |  Vertex 29 at 31.700630, 25.339912, 11.061813
+|  |  |  |  Vertex 30 at 28.700632, 28.339912, 11.065666
+|  |  |  |  Vertex 31 at 28.700632, 25.339912, 11.065666
+
+|  |  |  |  Chunk MESH_MATRIX (4160H) 
+|  |  |  |  Length is 54 (36H) 
+|  |  |  |  [0] 1.000000 [1] 0.000000 [2] 0.000000
+|  |  |  |  [3] 0.000000 [4] 1.000000 [5] 0.000000
+|  |  |  |  [6] 0.000000 [7] 0.000000 [8] 1.000000
+|  |  |  |  [9] 44.200615 [10] 26.839914 [11] 11.045761
+
+|  |  |  |  Chunk FACE_ARRAY (4120H) 
+|  |  |  |  Length is 258 (102H) 
+|  |  |  |  16 Faces
+|  |  |  |  Face 0 vertices 28, 30, 29 and flag 7
+|  |  |  |  Face 1 vertices 29, 30, 31 and flag 7
+|  |  |  |  Face 2 vertices 8, 10, 9 and flag 7
+|  |  |  |  Face 3 vertices 9, 10, 11 and flag 7
+|  |  |  |  Face 4 vertices 20, 22, 21 and flag 7
+|  |  |  |  Face 5 vertices 21, 22, 23 and flag 7
+|  |  |  |  Face 6 vertices 24, 26, 25 and flag 7
+|  |  |  |  Face 7 vertices 25, 26, 27 and flag 7
+|  |  |  |  Face 8 vertices 4, 6, 5 and flag 7
+|  |  |  |  Face 9 vertices 5, 6, 7 and flag 7
+|  |  |  |  Face 10 vertices 0, 2, 1 and flag 7
+|  |  |  |  Face 11 vertices 1, 2, 3 and flag 7
+|  |  |  |  Face 12 vertices 16, 18, 17 and flag 7
+|  |  |  |  Face 13 vertices 17, 18, 19 and flag 7
+|  |  |  |  Face 14 vertices 12, 14, 13 and flag 7
+|  |  |  |  Face 15 vertices 13, 14, 15 and flag 7
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 52 (34H) 
+|  |  |  |  |  Material Name Of Material #1
+|  |  |  |  |  Assigned to 16 faces
+
+|  |  |  |  |  Chunk SMOOTH_GROUP (4150H) 
+|  |  |  |  |  Length is 70 (46H) 
+
+|  |  Chunk NAMED_OBJECT (4000H) 
+|  |  Length is 726 (2d6H) 
+|  |  Name: windows03
+
+|  |  |  Chunk N_TRI_OBJECT (4100H) 
+|  |  |  Length is 710 (2c6H) 
+
+|  |  |  |  Chunk POINT_ARRAY (4110H) 
+|  |  |  |  Length is 392 (188H) 
+|  |  |  |  32 Vertices
+|  |  |  |  Vertex 0 at 59.700603, 28.339916, -12.469566
+|  |  |  |  Vertex 1 at 59.700603, 25.339916, -12.469566
+|  |  |  |  Vertex 2 at 56.700607, 28.339916, -12.465714
+|  |  |  |  Vertex 3 at 56.700607, 25.339916, -12.465714
+|  |  |  |  Vertex 4 at 55.700607, 28.339916, -12.464433
+|  |  |  |  Vertex 5 at 55.700607, 25.339916, -12.464433
+|  |  |  |  Vertex 6 at 52.700611, 28.339916, -12.460580
+|  |  |  |  Vertex 7 at 52.700611, 25.339916, -12.460580
+|  |  |  |  Vertex 8 at 51.700611, 28.339916, -12.459291
+|  |  |  |  Vertex 9 at 51.700611, 25.339916, -12.459291
+|  |  |  |  Vertex 10 at 48.700615, 28.339916, -12.455439
+|  |  |  |  Vertex 11 at 48.700615, 25.339916, -12.455439
+|  |  |  |  Vertex 12 at 47.700615, 28.339916, -12.454157
+|  |  |  |  Vertex 13 at 47.700615, 25.339916, -12.454157
+|  |  |  |  Vertex 14 at 44.700619, 28.339916, -12.450296
+|  |  |  |  Vertex 15 at 44.700619, 25.339916, -12.450296
+|  |  |  |  Vertex 16 at 43.700619, 28.339916, -12.449015
+|  |  |  |  Vertex 17 at 43.700619, 25.339916, -12.449015
+|  |  |  |  Vertex 18 at 40.700623, 28.339916, -12.445163
+|  |  |  |  Vertex 19 at 40.700623, 25.339916, -12.445163
+|  |  |  |  Vertex 20 at 39.700623, 28.339914, -12.443873
+|  |  |  |  Vertex 21 at 39.700623, 25.339914, -12.443873
+|  |  |  |  Vertex 22 at 36.700626, 28.339914, -12.440021
+|  |  |  |  Vertex 23 at 36.700626, 25.339914, -12.440021
+|  |  |  |  Vertex 24 at 35.700626, 28.339914, -12.438739
+|  |  |  |  Vertex 25 at 35.700626, 25.339914, -12.438739
+|  |  |  |  Vertex 26 at 32.700630, 28.339914, -12.434887
+|  |  |  |  Vertex 27 at 32.700630, 25.339914, -12.434887
+|  |  |  |  Vertex 28 at 31.700630, 28.339914, -12.433598
+|  |  |  |  Vertex 29 at 31.700630, 25.339914, -12.433598
+|  |  |  |  Vertex 30 at 28.700632, 28.339914, -12.429745
+|  |  |  |  Vertex 31 at 28.700632, 25.339914, -12.429745
+
+|  |  |  |  Chunk MESH_MATRIX (4160H) 
+|  |  |  |  Length is 54 (36H) 
+|  |  |  |  [0] 1.000000 [1] 0.000000 [2] 0.000000
+|  |  |  |  [3] 0.000000 [4] 1.000000 [5] 0.000000
+|  |  |  |  [6] 0.000000 [7] 0.000000 [8] 1.000000
+|  |  |  |  [9] 44.200615 [10] 26.839916 [11] -12.449650
+
+|  |  |  |  Chunk FACE_ARRAY (4120H) 
+|  |  |  |  Length is 258 (102H) 
+|  |  |  |  16 Faces
+|  |  |  |  Face 0 vertices 30, 28, 29 and flag 7
+|  |  |  |  Face 1 vertices 30, 29, 31 and flag 7
+|  |  |  |  Face 2 vertices 10, 8, 9 and flag 7
+|  |  |  |  Face 3 vertices 10, 9, 11 and flag 7
+|  |  |  |  Face 4 vertices 22, 20, 21 and flag 7
+|  |  |  |  Face 5 vertices 22, 21, 23 and flag 7
+|  |  |  |  Face 6 vertices 26, 24, 25 and flag 7
+|  |  |  |  Face 7 vertices 26, 25, 27 and flag 7
+|  |  |  |  Face 8 vertices 6, 4, 5 and flag 7
+|  |  |  |  Face 9 vertices 6, 5, 7 and flag 7
+|  |  |  |  Face 10 vertices 2, 0, 1 and flag 7
+|  |  |  |  Face 11 vertices 2, 1, 3 and flag 7
+|  |  |  |  Face 12 vertices 18, 16, 17 and flag 7
+|  |  |  |  Face 13 vertices 18, 17, 19 and flag 7
+|  |  |  |  Face 14 vertices 14, 12, 13 and flag 7
+|  |  |  |  Face 15 vertices 14, 13, 15 and flag 7
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 52 (34H) 
+|  |  |  |  |  Material Name Of Material #1
+|  |  |  |  |  Assigned to 16 faces
+
+|  |  |  |  |  Chunk SMOOTH_GROUP (4150H) 
+|  |  |  |  |  Length is 70 (46H) 
+
+|  |  Chunk NAMED_OBJECT (4000H) 
+|  |  Length is 787 (313H) 
+|  |  Name: LTMasT
+
+|  |  |  Chunk N_TRI_OBJECT (4100H) 
+|  |  |  Length is 774 (306H) 
+
+|  |  |  |  Chunk POINT_ARRAY (4110H) 
+|  |  |  |  Length is 272 (110H) 
+|  |  |  |  22 Vertices
+|  |  |  |  Vertex 0 at 57.694561, 36.752899, -0.314186
+|  |  |  |  Vertex 1 at 56.014690, 36.752895, -4.698298
+|  |  |  |  Vertex 2 at 57.694561, 47.208149, -0.314186
+|  |  |  |  Vertex 3 at 56.014690, 47.208145, -4.698298
+|  |  |  |  Vertex 4 at 56.014690, 36.752895, -4.698298
+|  |  |  |  Vertex 5 at 56.014690, 47.208145, -4.698298
+|  |  |  |  Vertex 6 at 56.485985, 36.752899, 4.243214
+|  |  |  |  Vertex 7 at 56.485985, 47.208145, 4.243216
+|  |  |  |  Vertex 8 at 56.485985, 36.752899, 4.243214
+|  |  |  |  Vertex 9 at 56.485985, 47.208145, 4.243216
+|  |  |  |  Vertex 10 at 62.401390, 36.752899, -0.325359
+|  |  |  |  Vertex 11 at 62.401390, 47.208145, -0.325360
+|  |  |  |  Vertex 12 at 57.669304, 36.752899, -0.212540
+|  |  |  |  Vertex 13 at 57.669300, 47.208149, -0.212541
+|  |  |  |  Vertex 14 at 57.694561, 36.752899, -0.314186
+|  |  |  |  Vertex 15 at 57.694561, 47.208149, -0.314186
+|  |  |  |  Vertex 16 at 57.694561, 47.208149, -0.314186
+|  |  |  |  Vertex 17 at 57.694561, 36.752899, -0.314186
+|  |  |  |  Vertex 18 at 57.694561, 47.208149, -0.314186
+|  |  |  |  Vertex 19 at 57.694561, 36.752899, -0.314186
+|  |  |  |  Vertex 20 at 57.694561, 47.208149, -0.314186
+|  |  |  |  Vertex 21 at 57.694561, 47.208149, -0.314186
+
+|  |  |  |  Chunk TEX_VERTS (4140H) 
+|  |  |  |  Length is 184 (b8H) 
+|  |  |  |  22 Vertices
+|  |  |  |  Vertex 0 with tex vert of 0.502245, 0.000500
+|  |  |  |  Vertex 1 with tex vert of 0.999500, 0.000500
+|  |  |  |  Vertex 2 with tex vert of 0.502246, 0.999500
+|  |  |  |  Vertex 3 with tex vert of 0.999501, 0.999500
+|  |  |  |  Vertex 4 with tex vert of 0.999500, 0.000500
+|  |  |  |  Vertex 5 with tex vert of 0.999501, 0.999500
+|  |  |  |  Vertex 6 with tex vert of 0.000500, 0.000500
+|  |  |  |  Vertex 7 with tex vert of 0.000500, 0.999501
+|  |  |  |  Vertex 8 with tex vert of 0.000500, 0.000500
+|  |  |  |  Vertex 9 with tex vert of 0.000500, 0.999501
+|  |  |  |  Vertex 10 with tex vert of 0.000500, 0.000500
+|  |  |  |  Vertex 11 with tex vert of 0.000500, 0.999501
+|  |  |  |  Vertex 12 with tex vert of 0.497963, 0.000500
+|  |  |  |  Vertex 13 with tex vert of 0.497963, 0.999500
+|  |  |  |  Vertex 14 with tex vert of 0.497963, 0.000500
+|  |  |  |  Vertex 15 with tex vert of 0.497963, 0.999500
+|  |  |  |  Vertex 16 with tex vert of 0.497963, 0.999500
+|  |  |  |  Vertex 17 with tex vert of 0.497963, 0.000500
+|  |  |  |  Vertex 18 with tex vert of 0.497963, 0.999500
+|  |  |  |  Vertex 19 with tex vert of 0.497963, 0.000500
+|  |  |  |  Vertex 20 with tex vert of 0.497963, 0.999500
+|  |  |  |  Vertex 21 with tex vert of 0.497963, 0.999500
+
+|  |  |  |  Chunk MESH_MATRIX (4160H) 
+|  |  |  |  Length is 54 (36H) 
+|  |  |  |  [0] -1.339541 [1] -0.000000 [2] 0.035077
+|  |  |  |  [3] 0.000000 [4] 1.107438 [5] 0.000000
+|  |  |  |  [6] -0.035077 [7] 0.000000 [8] -1.339541
+|  |  |  |  [9] 57.634895 [10] 41.980526 [11] -0.299568
+
+|  |  |  |  Chunk FACE_ARRAY (4120H) 
+|  |  |  |  Length is 258 (102H) 
+|  |  |  |  16 Faces
+|  |  |  |  Face 0 vertices 0, 4, 5 and flag 6
+|  |  |  |  Face 1 vertices 5, 2, 0 and flag 6
+|  |  |  |  Face 2 vertices 1, 0, 4 and flag 3
+|  |  |  |  Face 3 vertices 3, 1, 5 and flag 3
+|  |  |  |  Face 4 vertices 4, 5, 1 and flag 3
+|  |  |  |  Face 5 vertices 5, 2, 3 and flag 3
+|  |  |  |  Face 6 vertices 8, 14, 15 and flag 6
+|  |  |  |  Face 7 vertices 16, 9, 8 and flag 6
+|  |  |  |  Face 8 vertices 8, 17, 6 and flag 3
+|  |  |  |  Face 9 vertices 7, 18, 9 and flag 3
+|  |  |  |  Face 10 vertices 6, 7, 8 and flag 3
+|  |  |  |  Face 11 vertices 9, 8, 7 and flag 3
+|  |  |  |  Face 12 vertices 10, 19, 20 and flag 6
+|  |  |  |  Face 13 vertices 21, 11, 10 and flag 6
+|  |  |  |  Face 14 vertices 12, 10, 13 and flag 5
+|  |  |  |  Face 15 vertices 11, 13, 10 and flag 5
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 52 (34H) 
+|  |  |  |  |  Material Name Of White Flare
+|  |  |  |  |  Assigned to 16 faces
+
+|  |  |  |  |  Chunk SMOOTH_GROUP (4150H) 
+|  |  |  |  |  Length is 70 (46H) 
+
+|  |  Chunk NAMED_OBJECT (4000H) 
+|  |  Length is 789 (315H) 
+|  |  Name: LTMasT01
+
+|  |  |  Chunk N_TRI_OBJECT (4100H) 
+|  |  |  Length is 774 (306H) 
+
+|  |  |  |  Chunk POINT_ARRAY (4110H) 
+|  |  |  |  Length is 272 (110H) 
+|  |  |  |  22 Vertices
+|  |  |  |  Vertex 0 at -43.881233, 53.602047, 0.046007
+|  |  |  |  Vertex 1 at -45.561104, 53.602043, -4.338105
+|  |  |  |  Vertex 2 at -43.881233, 64.057297, 0.046007
+|  |  |  |  Vertex 3 at -45.561104, 64.057297, -4.338105
+|  |  |  |  Vertex 4 at -45.561104, 53.602043, -4.338105
+|  |  |  |  Vertex 5 at -45.561104, 64.057297, -4.338105
+|  |  |  |  Vertex 6 at -45.089809, 53.602047, 4.603407
+|  |  |  |  Vertex 7 at -45.089809, 64.057297, 4.603409
+|  |  |  |  Vertex 8 at -45.089809, 53.602047, 4.603407
+|  |  |  |  Vertex 9 at -45.089809, 64.057297, 4.603409
+|  |  |  |  Vertex 10 at -39.174404, 53.602047, 0.034834
+|  |  |  |  Vertex 11 at -39.174404, 64.057297, 0.034833
+|  |  |  |  Vertex 12 at -43.906490, 53.602047, 0.147654
+|  |  |  |  Vertex 13 at -43.906494, 64.057297, 0.147653
+|  |  |  |  Vertex 14 at -43.881233, 53.602047, 0.046007
+|  |  |  |  Vertex 15 at -43.881233, 64.057297, 0.046007
+|  |  |  |  Vertex 16 at -43.881233, 64.057297, 0.046007
+|  |  |  |  Vertex 17 at -43.881233, 53.602047, 0.046007
+|  |  |  |  Vertex 18 at -43.881233, 64.057297, 0.046007
+|  |  |  |  Vertex 19 at -43.881233, 53.602047, 0.046007
+|  |  |  |  Vertex 20 at -43.881233, 64.057297, 0.046007
+|  |  |  |  Vertex 21 at -43.881233, 64.057297, 0.046007
+
+|  |  |  |  Chunk TEX_VERTS (4140H) 
+|  |  |  |  Length is 184 (b8H) 
+|  |  |  |  22 Vertices
+|  |  |  |  Vertex 0 with tex vert of 0.502245, 0.000500
+|  |  |  |  Vertex 1 with tex vert of 0.999500, 0.000500
+|  |  |  |  Vertex 2 with tex vert of 0.502246, 0.999500
+|  |  |  |  Vertex 3 with tex vert of 0.999501, 0.999500
+|  |  |  |  Vertex 4 with tex vert of 0.999500, 0.000500
+|  |  |  |  Vertex 5 with tex vert of 0.999501, 0.999500
+|  |  |  |  Vertex 6 with tex vert of 0.000500, 0.000500
+|  |  |  |  Vertex 7 with tex vert of 0.000500, 0.999501
+|  |  |  |  Vertex 8 with tex vert of 0.000500, 0.000500
+|  |  |  |  Vertex 9 with tex vert of 0.000500, 0.999501
+|  |  |  |  Vertex 10 with tex vert of 0.000500, 0.000500
+|  |  |  |  Vertex 11 with tex vert of 0.000500, 0.999501
+|  |  |  |  Vertex 12 with tex vert of 0.497963, 0.000500
+|  |  |  |  Vertex 13 with tex vert of 0.497963, 0.999500
+|  |  |  |  Vertex 14 with tex vert of 0.497963, 0.000500
+|  |  |  |  Vertex 15 with tex vert of 0.497963, 0.999500
+|  |  |  |  Vertex 16 with tex vert of 0.497963, 0.999500
+|  |  |  |  Vertex 17 with tex vert of 0.497963, 0.000500
+|  |  |  |  Vertex 18 with tex vert of 0.497963, 0.999500
+|  |  |  |  Vertex 19 with tex vert of 0.497963, 0.000500
+|  |  |  |  Vertex 20 with tex vert of 0.497963, 0.999500
+|  |  |  |  Vertex 21 with tex vert of 0.497963, 0.999500
+
+|  |  |  |  Chunk MESH_MATRIX (4160H) 
+|  |  |  |  Length is 54 (36H) 
+|  |  |  |  [0] -1.339541 [1] -0.000000 [2] 0.035077
+|  |  |  |  [3] 0.000000 [4] 1.107438 [5] 0.000000
+|  |  |  |  [6] -0.035077 [7] 0.000000 [8] -1.339541
+|  |  |  |  [9] -43.940899 [10] 58.829674 [11] 0.060625
+
+|  |  |  |  Chunk FACE_ARRAY (4120H) 
+|  |  |  |  Length is 258 (102H) 
+|  |  |  |  16 Faces
+|  |  |  |  Face 0 vertices 0, 4, 5 and flag 6
+|  |  |  |  Face 1 vertices 5, 2, 0 and flag 6
+|  |  |  |  Face 2 vertices 1, 0, 4 and flag 3
+|  |  |  |  Face 3 vertices 3, 1, 5 and flag 3
+|  |  |  |  Face 4 vertices 4, 5, 1 and flag 3
+|  |  |  |  Face 5 vertices 5, 2, 3 and flag 3
+|  |  |  |  Face 6 vertices 8, 14, 15 and flag 6
+|  |  |  |  Face 7 vertices 16, 9, 8 and flag 6
+|  |  |  |  Face 8 vertices 8, 17, 6 and flag 3
+|  |  |  |  Face 9 vertices 7, 18, 9 and flag 3
+|  |  |  |  Face 10 vertices 6, 7, 8 and flag 3
+|  |  |  |  Face 11 vertices 9, 8, 7 and flag 3
+|  |  |  |  Face 12 vertices 10, 19, 20 and flag 6
+|  |  |  |  Face 13 vertices 21, 11, 10 and flag 6
+|  |  |  |  Face 14 vertices 12, 10, 13 and flag 5
+|  |  |  |  Face 15 vertices 11, 13, 10 and flag 5
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 52 (34H) 
+|  |  |  |  |  Material Name Of White Flare
+|  |  |  |  |  Assigned to 16 faces
+
+|  |  |  |  |  Chunk SMOOTH_GROUP (4150H) 
+|  |  |  |  |  Length is 70 (46H) 
+
+|  |  Chunk NAMED_OBJECT (4000H) 
+|  |  Length is 318 (13eH) 
+|  |  Name: LTStern01
+
+|  |  |  Chunk N_TRI_OBJECT (4100H) 
+|  |  |  Length is 302 (12eH) 
+
+|  |  |  |  Chunk POINT_ARRAY (4110H) 
+|  |  |  |  Length is 80 (50H) 
+|  |  |  |  6 Vertices
+|  |  |  |  Vertex 0 at -146.276047, 15.050593, -4.913945
+|  |  |  |  Vertex 1 at -144.332962, 15.050593, 0.415460
+|  |  |  |  Vertex 2 at -146.461411, 15.050592, 4.593427
+|  |  |  |  Vertex 3 at -146.276047, 20.006399, -4.913945
+|  |  |  |  Vertex 4 at -144.332962, 20.006399, 0.415460
+|  |  |  |  Vertex 5 at -146.461411, 20.006399, 4.593428
+
+|  |  |  |  Chunk TEX_VERTS (4140H) 
+|  |  |  |  Length is 56 (38H) 
+|  |  |  |  6 Vertices
+|  |  |  |  Vertex 0 with tex vert of 0.000499, 0.000500
+|  |  |  |  Vertex 1 with tex vert of 0.560494, 0.000500
+|  |  |  |  Vertex 2 with tex vert of 0.999500, 0.000500
+|  |  |  |  Vertex 3 with tex vert of 0.000499, 0.999500
+|  |  |  |  Vertex 4 with tex vert of 0.560494, 0.999500
+|  |  |  |  Vertex 5 with tex vert of 0.999501, 0.999500
+
+|  |  |  |  Chunk MESH_MATRIX (4160H) 
+|  |  |  |  Length is 54 (36H) 
+|  |  |  |  [0] 1.122340 [1] 0.000000 [2] 0.000000
+|  |  |  |  [3] 0.000000 [4] 1.122340 [5] 0.000000
+|  |  |  |  [6] 0.000000 [7] 0.000000 [8] 1.122340
+|  |  |  |  [9] -145.333588 [10] 17.528496 [11] -0.154017
+
+|  |  |  |  Chunk FACE_ARRAY (4120H) 
+|  |  |  |  Length is 106 (6aH) 
+|  |  |  |  4 Faces
+|  |  |  |  Face 0 vertices 0, 1, 4 and flag 6
+|  |  |  |  Face 1 vertices 0, 4, 3 and flag 3
+|  |  |  |  Face 2 vertices 1, 2, 5 and flag 6
+|  |  |  |  Face 3 vertices 1, 5, 4 and flag 3
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 22 (16H) 
+|  |  |  |  |  Material Name Of IndWt
+|  |  |  |  |  Assigned to 4 faces
+
+|  |  |  |  |  Chunk MSH_MAT_GROUP (4130H) 
+|  |  |  |  |  Length is 22 (16H) 
+|  |  |  |  |  Material Name Of Material #114
+|  |  |  |  |  Assigned to 0 faces
+
+|  |  |  |  |  Chunk SMOOTH_GROUP (4150H) 
+|  |  |  |  |  Length is 22 (16H) 
+
+|  Chunk KFDATA (b000H) 
+|  Length is 2780 (adcH) 
+
+|  |  Chunk KFHDR (b00aH) 
+|  |  Length is 21 (15H) 
+|  |  Revision level of 5
+|  |  Filename MAXSCENE
+|  |  Animation length of 101
+
+|  |  Chunk KFSEG (b008H) 
+|  |  Length is 14 (eH) 
+|  |  Segment starts at 0 and ends at 101
+
+|  |  Chunk KFCURTIME (b009H) 
+|  |  Length is 10 (aH) 
+|  |  Current frame is 0
+
+|  |  Chunk OBJECT_NODE_TAG (b002H) 
+|  |  Length is 171 (abH) 
+
+|  |  |  Chunk NODE_ID (b030H) 
+|  |  |  Length is 8 (8H) 
+|  |  |   Node ID: 0 
+
+|  |  |  Chunk NODE_HDR (b010H) 
+|  |  |  Length is 21 (15H) 
+|  |  |  Object name: SQBLCK01
+|  |  |  Flags 1: 4000
+|  |  |  PRIMARY_NODE
+|  |  |  Flags 2: 0
+|  |  |  No Parent
+
+|  |  |  Chunk PIVOT (b013H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Pivot at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk POS_TRACK_TAG (b020H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Object at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk ROT_TRACK_TAG (b021H) 
+|  |  |  Length is 42 (2aH) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Rotation of 0.000000
+|  |  |  Axis of 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk SCL_TRACK_TAG (b022H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Scale of 1.000000, 1.000000, 1.000000
+
+|  |  Chunk OBJECT_NODE_TAG (b002H) 
+|  |  Length is 171 (abH) 
+
+|  |  |  Chunk NODE_ID (b030H) 
+|  |  |  Length is 8 (8H) 
+|  |  |   Node ID: 1 
+
+|  |  |  Chunk NODE_HDR (b010H) 
+|  |  |  Length is 21 (15H) 
+|  |  |  Object name: SQBOAT01
+|  |  |  Flags 1: 4000
+|  |  |  PRIMARY_NODE
+|  |  |  Flags 2: 0
+|  |  |  No Parent
+
+|  |  |  Chunk PIVOT (b013H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Pivot at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk POS_TRACK_TAG (b020H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Object at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk ROT_TRACK_TAG (b021H) 
+|  |  |  Length is 42 (2aH) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Rotation of 0.000000
+|  |  |  Axis of 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk SCL_TRACK_TAG (b022H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Scale of 1.000000, 1.000000, 1.000000
+
+|  |  Chunk OBJECT_NODE_TAG (b002H) 
+|  |  Length is 171 (abH) 
+
+|  |  |  Chunk NODE_ID (b030H) 
+|  |  |  Length is 8 (8H) 
+|  |  |   Node ID: 2 
+
+|  |  |  Chunk NODE_HDR (b010H) 
+|  |  |  Length is 21 (15H) 
+|  |  |  Object name: SQGUNS01
+|  |  |  Flags 1: 4000
+|  |  |  PRIMARY_NODE
+|  |  |  Flags 2: 0
+|  |  |  No Parent
+
+|  |  |  Chunk PIVOT (b013H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Pivot at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk POS_TRACK_TAG (b020H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Object at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk ROT_TRACK_TAG (b021H) 
+|  |  |  Length is 42 (2aH) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Rotation of 0.000000
+|  |  |  Axis of 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk SCL_TRACK_TAG (b022H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Scale of 1.000000, 1.000000, 1.000000
+
+|  |  Chunk OBJECT_NODE_TAG (b002H) 
+|  |  Length is 171 (abH) 
+
+|  |  |  Chunk NODE_ID (b030H) 
+|  |  |  Length is 8 (8H) 
+|  |  |   Node ID: 3 
+
+|  |  |  Chunk NODE_HDR (b010H) 
+|  |  |  Length is 21 (15H) 
+|  |  |  Object name: SQHULL01
+|  |  |  Flags 1: 4000
+|  |  |  PRIMARY_NODE
+|  |  |  Flags 2: 0
+|  |  |  No Parent
+
+|  |  |  Chunk PIVOT (b013H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Pivot at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk POS_TRACK_TAG (b020H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Object at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk ROT_TRACK_TAG (b021H) 
+|  |  |  Length is 42 (2aH) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Rotation of 0.000000
+|  |  |  Axis of 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk SCL_TRACK_TAG (b022H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Scale of 1.000000, 1.000000, 1.000000
+
+|  |  Chunk OBJECT_NODE_TAG (b002H) 
+|  |  Length is 171 (abH) 
+
+|  |  |  Chunk NODE_ID (b030H) 
+|  |  |  Length is 8 (8H) 
+|  |  |   Node ID: 4 
+
+|  |  |  Chunk NODE_HDR (b010H) 
+|  |  |  Length is 21 (15H) 
+|  |  |  Object name: SQHULL02
+|  |  |  Flags 1: 4000
+|  |  |  PRIMARY_NODE
+|  |  |  Flags 2: 0
+|  |  |  No Parent
+
+|  |  |  Chunk PIVOT (b013H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Pivot at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk POS_TRACK_TAG (b020H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Object at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk ROT_TRACK_TAG (b021H) 
+|  |  |  Length is 42 (2aH) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Rotation of 0.000000
+|  |  |  Axis of 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk SCL_TRACK_TAG (b022H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Scale of 1.000000, 1.000000, 1.000000
+
+|  |  Chunk OBJECT_NODE_TAG (b002H) 
+|  |  Length is 170 (aaH) 
+
+|  |  |  Chunk NODE_ID (b030H) 
+|  |  |  Length is 8 (8H) 
+|  |  |   Node ID: 5 
+
+|  |  |  Chunk NODE_HDR (b010H) 
+|  |  |  Length is 20 (14H) 
+|  |  |  Object name: SQRED01
+|  |  |  Flags 1: 4000
+|  |  |  PRIMARY_NODE
+|  |  |  Flags 2: 0
+|  |  |  No Parent
+
+|  |  |  Chunk PIVOT (b013H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Pivot at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk POS_TRACK_TAG (b020H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Object at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk ROT_TRACK_TAG (b021H) 
+|  |  |  Length is 42 (2aH) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Rotation of 0.000000
+|  |  |  Axis of 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk SCL_TRACK_TAG (b022H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Scale of 1.000000, 1.000000, 1.000000
+
+|  |  Chunk OBJECT_NODE_TAG (b002H) 
+|  |  Length is 171 (abH) 
+
+|  |  |  Chunk NODE_ID (b030H) 
+|  |  |  Length is 8 (8H) 
+|  |  |   Node ID: 6 
+
+|  |  |  Chunk NODE_HDR (b010H) 
+|  |  |  Length is 21 (15H) 
+|  |  |  Object name: SQSUPS01
+|  |  |  Flags 1: 4000
+|  |  |  PRIMARY_NODE
+|  |  |  Flags 2: 0
+|  |  |  No Parent
+
+|  |  |  Chunk PIVOT (b013H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Pivot at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk POS_TRACK_TAG (b020H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Object at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk ROT_TRACK_TAG (b021H) 
+|  |  |  Length is 42 (2aH) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Rotation of 0.000000
+|  |  |  Axis of 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk SCL_TRACK_TAG (b022H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Scale of 1.000000, 1.000000, 1.000000
+
+|  |  Chunk OBJECT_NODE_TAG (b002H) 
+|  |  Length is 167 (a7H) 
+
+|  |  |  Chunk NODE_ID (b030H) 
+|  |  |  Length is 8 (8H) 
+|  |  |   Node ID: 7 
+
+|  |  |  Chunk NODE_HDR (b010H) 
+|  |  |  Length is 17 (11H) 
+|  |  |  Object name: deck
+|  |  |  Flags 1: 4000
+|  |  |  PRIMARY_NODE
+|  |  |  Flags 2: 0
+|  |  |  No Parent
+
+|  |  |  Chunk PIVOT (b013H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Pivot at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk POS_TRACK_TAG (b020H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Object at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk ROT_TRACK_TAG (b021H) 
+|  |  |  Length is 42 (2aH) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Rotation of 0.000000
+|  |  |  Axis of 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk SCL_TRACK_TAG (b022H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Scale of 1.000000, 1.000000, 1.000000
+
+|  |  Chunk OBJECT_NODE_TAG (b002H) 
+|  |  Length is 172 (acH) 
+
+|  |  |  Chunk NODE_ID (b030H) 
+|  |  |  Length is 8 (8H) 
+|  |  |   Node ID: 8 
+
+|  |  |  Chunk NODE_HDR (b010H) 
+|  |  |  Length is 22 (16H) 
+|  |  |  Object name: windows01
+|  |  |  Flags 1: 4000
+|  |  |  PRIMARY_NODE
+|  |  |  Flags 2: 0
+|  |  |  No Parent
+
+|  |  |  Chunk PIVOT (b013H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Pivot at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk POS_TRACK_TAG (b020H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Object at -0.000000, -5.429928, -0.000000
+
+|  |  |  Chunk ROT_TRACK_TAG (b021H) 
+|  |  |  Length is 42 (2aH) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Rotation of 0.000000
+|  |  |  Axis of 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk SCL_TRACK_TAG (b022H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Scale of 1.000000, 1.000000, 1.000000
+
+|  |  Chunk OBJECT_NODE_TAG (b002H) 
+|  |  Length is 169 (a9H) 
+
+|  |  |  Chunk NODE_ID (b030H) 
+|  |  |  Length is 8 (8H) 
+|  |  |   Node ID: 9 
+
+|  |  |  Chunk NODE_HDR (b010H) 
+|  |  |  Length is 19 (13H) 
+|  |  |  Object name: LTStar
+|  |  |  Flags 1: 4000
+|  |  |  PRIMARY_NODE
+|  |  |  Flags 2: 0
+|  |  |  No Parent
+
+|  |  |  Chunk PIVOT (b013H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Pivot at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk POS_TRACK_TAG (b020H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Object at 64.059135, 31.869686, 15.603522
+
+|  |  |  Chunk ROT_TRACK_TAG (b021H) 
+|  |  |  Length is 42 (2aH) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Rotation of 0.000000
+|  |  |  Axis of 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk SCL_TRACK_TAG (b022H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Scale of 0.540541, 0.540541, 0.540541
+
+|  |  Chunk OBJECT_NODE_TAG (b002H) 
+|  |  Length is 169 (a9H) 
+
+|  |  |  Chunk NODE_ID (b030H) 
+|  |  |  Length is 8 (8H) 
+|  |  |   Node ID: 10 
+
+|  |  |  Chunk NODE_HDR (b010H) 
+|  |  |  Length is 19 (13H) 
+|  |  |  Object name: LTPort
+|  |  |  Flags 1: 4000
+|  |  |  PRIMARY_NODE
+|  |  |  Flags 2: 0
+|  |  |  No Parent
+
+|  |  |  Chunk PIVOT (b013H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Pivot at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk POS_TRACK_TAG (b020H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Object at 63.995239, 31.997118, -16.448414
+
+|  |  |  Chunk ROT_TRACK_TAG (b021H) 
+|  |  |  Length is 42 (2aH) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Rotation of 0.000000
+|  |  |  Axis of 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk SCL_TRACK_TAG (b022H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Scale of 0.512821, 0.512821, 0.512821
+
+|  |  Chunk OBJECT_NODE_TAG (b002H) 
+|  |  Length is 172 (acH) 
+
+|  |  |  Chunk NODE_ID (b030H) 
+|  |  |  Length is 8 (8H) 
+|  |  |   Node ID: 11 
+
+|  |  |  Chunk NODE_HDR (b010H) 
+|  |  |  Length is 22 (16H) 
+|  |  |  Object name: windows02
+|  |  |  Flags 1: 4000
+|  |  |  PRIMARY_NODE
+|  |  |  Flags 2: 0
+|  |  |  No Parent
+
+|  |  |  Chunk PIVOT (b013H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Pivot at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk POS_TRACK_TAG (b020H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Object at 44.200615, 26.839914, 11.045761
+
+|  |  |  Chunk ROT_TRACK_TAG (b021H) 
+|  |  |  Length is 42 (2aH) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Rotation of 0.000000
+|  |  |  Axis of 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk SCL_TRACK_TAG (b022H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Scale of 1.000000, 1.000000, 1.000000
+
+|  |  Chunk OBJECT_NODE_TAG (b002H) 
+|  |  Length is 172 (acH) 
+
+|  |  |  Chunk NODE_ID (b030H) 
+|  |  |  Length is 8 (8H) 
+|  |  |   Node ID: 12 
+
+|  |  |  Chunk NODE_HDR (b010H) 
+|  |  |  Length is 22 (16H) 
+|  |  |  Object name: windows03
+|  |  |  Flags 1: 4000
+|  |  |  PRIMARY_NODE
+|  |  |  Flags 2: 0
+|  |  |  No Parent
+
+|  |  |  Chunk PIVOT (b013H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Pivot at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk POS_TRACK_TAG (b020H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Object at 44.200615, 26.839916, -12.449650
+
+|  |  |  Chunk ROT_TRACK_TAG (b021H) 
+|  |  |  Length is 42 (2aH) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Rotation of 0.000000
+|  |  |  Axis of 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk SCL_TRACK_TAG (b022H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Scale of 1.000000, 1.000000, 1.000000
+
+|  |  Chunk OBJECT_NODE_TAG (b002H) 
+|  |  Length is 169 (a9H) 
+
+|  |  |  Chunk NODE_ID (b030H) 
+|  |  |  Length is 8 (8H) 
+|  |  |   Node ID: 13 
+
+|  |  |  Chunk NODE_HDR (b010H) 
+|  |  |  Length is 19 (13H) 
+|  |  |  Object name: LTMasT
+|  |  |  Flags 1: 4000
+|  |  |  PRIMARY_NODE
+|  |  |  Flags 2: 0
+|  |  |  No Parent
+
+|  |  |  Chunk PIVOT (b013H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Pivot at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk POS_TRACK_TAG (b020H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Object at 57.634895, 41.980526, -0.299568
+
+|  |  |  Chunk ROT_TRACK_TAG (b021H) 
+|  |  |  Length is 42 (2aH) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Rotation of 3.167773
+|  |  |  Axis of 0.000000, -1.000000, -0.000000
+
+|  |  |  Chunk SCL_TRACK_TAG (b022H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Scale of 1.340000, 1.107438, 1.340000
+
+|  |  Chunk OBJECT_NODE_TAG (b002H) 
+|  |  Length is 171 (abH) 
+
+|  |  |  Chunk NODE_ID (b030H) 
+|  |  |  Length is 8 (8H) 
+|  |  |   Node ID: 14 
+
+|  |  |  Chunk NODE_HDR (b010H) 
+|  |  |  Length is 21 (15H) 
+|  |  |  Object name: LTMasT01
+|  |  |  Flags 1: 4000
+|  |  |  PRIMARY_NODE
+|  |  |  Flags 2: 0
+|  |  |  No Parent
+
+|  |  |  Chunk PIVOT (b013H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Pivot at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk POS_TRACK_TAG (b020H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Object at -43.940899, 58.829674, 0.060625
+
+|  |  |  Chunk ROT_TRACK_TAG (b021H) 
+|  |  |  Length is 42 (2aH) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Rotation of 3.167773
+|  |  |  Axis of 0.000000, -1.000000, -0.000000
+
+|  |  |  Chunk SCL_TRACK_TAG (b022H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Scale of 1.340000, 1.107438, 1.340000
+
+|  |  Chunk OBJECT_NODE_TAG (b002H) 
+|  |  Length is 172 (acH) 
+
+|  |  |  Chunk NODE_ID (b030H) 
+|  |  |  Length is 8 (8H) 
+|  |  |   Node ID: 15 
+
+|  |  |  Chunk NODE_HDR (b010H) 
+|  |  |  Length is 22 (16H) 
+|  |  |  Object name: LTStern01
+|  |  |  Flags 1: 4000
+|  |  |  PRIMARY_NODE
+|  |  |  Flags 2: 0
+|  |  |  No Parent
+
+|  |  |  Chunk PIVOT (b013H) 
+|  |  |  Length is 18 (12H) 
+|  |  |  Pivot at 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk POS_TRACK_TAG (b020H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Object at -145.333588, 17.528496, -0.154017
+
+|  |  |  Chunk ROT_TRACK_TAG (b021H) 
+|  |  |  Length is 42 (2aH) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Rotation of 0.000000
+|  |  |  Axis of 0.000000, 0.000000, 0.000000
+
+|  |  |  Chunk SCL_TRACK_TAG (b022H) 
+|  |  |  Length is 38 (26H) 
+|  |  |  1 Keys, 0 Flags.
+|  |  |  Frame 0
+|  |  |  Scale of 1.122340, 1.122340, 1.122340
