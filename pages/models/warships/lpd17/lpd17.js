@@ -22,7 +22,7 @@
 "colorSpecular"  : [0.0000, 0.0000, 0.0000],
 "transparency"  : 1.0,
 "specularCoef"  : 1.5,
-"mapDiffuse"    : "lpd17_1.rgb",
+"mapDiffuse"    : "lpd17_1.jpg",
 "vertexColors" : true
 }
 
