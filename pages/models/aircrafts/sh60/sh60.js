@@ -32,9 +32,10 @@
 "colorDiffuse"  : [0.5882, 0.5882, 0.5882],
 "colorAmbient"  : [0.5882, 0.5882, 0.5882],
 "colorSpecular"  : [0.8980, 0.8980, 0.8980],
-"transparency"  : 0.5,
+"transparency"  : 1.0,
+"transparent"   : true,
 "specularCoef"  : 10.0,
-"mapDiffuse"    : "SH60Blades.tga",
+"mapDiffuse"    : "SH60Blades.jpg",
 "vertexColors" : false
 }
 
